@@ -1,11 +1,13 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
-setup(name='containers',
-      version='0.1',
-      description='Example container data structures for DS 5010',
-      url='http://github.com/kuwisdelu/containers',
-      author='Kylie A. Bemis',
-      author_email='k.bemis@northeastern.edu',
-      license='Artistic 2.0',
-      packages=['containers'],
-      zip_safe=False)
+setup(
+    name='intelliprocess',
+    version='1.0.0',
+    author='Jayesh Katade,Aditi Thakur,Shane Hussey,Tay Goodwin',
+    author_email='jkatade@gmail.com',
+    description='A Python package for basic preprocessing of data',
+    install_requires=[
+        'numpy>=1.24.1',
+        'pandas>=2.0.0',
+        'matplotlib>=3.7.1'
+    ])
