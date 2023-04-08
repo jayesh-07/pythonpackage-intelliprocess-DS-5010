@@ -4,7 +4,7 @@ df_housing=pd.read_csv('housing.csv')
 df_toy=pd.read_csv('toy.csv')
 df_iris=pd.read_csv('iris.csv')
 
-def Datatype_frequency(df):
+def datatype_frequency(df):
     """
     Finds the frequency of data types in the data set features
     INPUT: Pandas DataFrame Object
@@ -15,6 +15,27 @@ def Datatype_frequency(df):
     result = dtypes_counts.values.tolist()
     print(result)
  
-Datatype_frequency(df_housing)
-Datatype_frequency(df_toy)
-Datatype_frequency(df_iris)
+datatype_frequency(df_housing)
+datatype_frequency(df_toy)
+datatype_frequency(df_iris)
+
+print("\n")
+
+def feature_type_frequency(df):
+    """
+    Finds the frequency of categorical or numerical features.
+    INPUT:Data Frame
+    Return:CHECK AGAIN IF GRAPHICALLY PLOTTING ASK TEAM
+    """
+    categorical_count = 0
+    numerical_count = 0
+    for column in df.columns:
+        if df[column].dtype == 'object' or pd.api.types.is_categorical_dtype(df[column].dtype):
+            categorical_count += 1
+        elif pd.api.types.is_numeric_dtype(df[column].dtype):
+            numerical_count += 1
+    print("Categorical features: ",categorical_count,"Numerical features: ",numerical_count)
+
+feature_type_frequency(df_housing)
+feature_type_frequency(df_toy)
+feature_type_frequency(df_iris)
