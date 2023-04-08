@@ -1,4 +1,5 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
 df_housing=pd.read_csv('housing.csv')
 df_toy=pd.read_csv('toy.csv')
@@ -25,7 +26,7 @@ def feature_type_frequency(df):
     """
     Finds the frequency of categorical or numerical features.
     INPUT:Data Frame
-    Return:CHECK AGAIN IF GRAPHICALLY PLOTTING ASK TEAM
+    Return:A bar plot of categorical and numerical features.
     """
     categorical_count = 0
     numerical_count = 0
@@ -34,7 +35,11 @@ def feature_type_frequency(df):
             categorical_count += 1
         elif pd.api.types.is_numeric_dtype(df[column].dtype):
             numerical_count += 1
-    print("Categorical features: ",categorical_count,"Numerical features: ",numerical_count)
+    features=["Categorical","Numerical"]
+    values=[categorical_count,numerical_count]
+    plt.bar(features,values)
+    plt.title("Feature Type Frequency Plot")
+    plt.show()
 
 feature_type_frequency(df_housing)
 feature_type_frequency(df_toy)
