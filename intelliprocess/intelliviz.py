@@ -1,5 +1,3 @@
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -7,81 +5,113 @@ import seaborn as sns
 import statsmodels.api as sm
 
 
-class DataError(TypeError):
+class IntelliVizError(TypeError):
     pass
 
 
 class IntelliViz():
     '''
-
+    class for data visualization methods
+    :param df: pandas dataframe
     '''
-    def __init__(self, df=None):
-        self.df = df
+    def __init__(self, df):
+        '''
+        The constructor for IntelliViz class.
+        :param df: pandas dataframe
+        :return: instance of IntelliViz object
+        '''
+
+        if df is not None:
+            self.df = df
+        else:
+            raise IntelliVizError("No pandas dataframe has been provided.")
+
+    def __str__(self):
+        '''
+        string method which returns self.df as a string using pandas to_string() function
+        :return: string
+        '''
+        df_string = self.df.to_string()
+        return df_string
+
 
     def get_columns(self):
         '''
-
-        :return:
+        This function returns the column names of the dataframe.
+        :return: list of column names
         '''
-        return self.df.columns
+
+        columns = self.df.columns
+        return columns
+
 
     def get_df(self):
         '''
-
-        :return:
+        This function returns the dataframe itself (self.df).
+        :return: pandas dataframe (self.df)
         '''
-        return self.df
+        df = self.df
+        return df
+
 
     def set_df(self, df=None):
         '''
-
-        :param df:
-        :return:
+        This function updates the self.df attribute
+        :param df: pandas dataframe
+        :raises IntelliVizError: If df is None.
+        :return: None
         '''
-        if df is None:
-            pass # raise custome error
-        else:
+        if df is not None:
             self.df = df
+        else:
+            raise IntelliVizError("No pandas dataframe provided.")
+
 
     def correlation_matrix(self):
         '''
-        returns the correlation matrix of the self.df
-        :return: correlation matrix of the self.df
+        This function computes the correlation matrix using the corr() function from pandas
+        :return: pandas dataframe
         '''
-        return self.df.corr()
+        corr_matrix = self.df.corr()
+        return corr_matrix
 
-    def correlation_matrix_heatmap(self,df=None, colors='coolwarm'):
+    def correlation_matrix_heatmap(self, colors='coolwarm'):
         '''
-        This code creates a sample dataset using pandas DataFrame, calculates the
-        correlation matrix, and then uses matplotlib to create a heatmap.
-        :param df:
-        :return:
+        This code creates a heatmap dataset using pandas DataFrame, calculates the
+        correlation matrix, and then uses matplotlib to create .
+        :param colors:
+        :raises: IntelliVizError if no pandas dataframe has been provided
+        :return: None
         '''
+        if self.df is not None:
+            # Compute the correlation matrix
+            corr_matrix = self.correlation_matrix()
 
-        # Compute the correlation matrix
-        corr_matrix = self._compute_corr_matrix()
+            # Create a heatmap of the correlation matrix
+            fig, ax = plt.subplots()
+            cax = ax.matshow(corr_matrix, cmap=colors)
 
-        # Create a heatmap of the correlation matrix
-        fig, ax = plt.subplots()
-        cax = ax.matshow(corr_matrix, cmap=colors)
+            # Add colorbar and axis labels
+            fig.colorbar(cax)
+            ax.set_xticks(np.arange(len(corr_matrix.columns)))
+            ax.set_yticks(np.arange(len(corr_matrix.columns)))
+            ax.set_xticklabels(corr_matrix.columns)
+            ax.set_yticklabels(corr_matrix.columns)
 
-        # Add colorbar and axis labels
-        fig.colorbar(cax)
-        ax.set_xticks(np.arange(len(corr_matrix.columns)))
-        ax.set_yticks(np.arange(len(corr_matrix.columns)))
-        ax.set_xticklabels(corr_matrix.columns)
-        ax.set_yticklabels(corr_matrix.columns)
+            # Rotate the x-axis labels
+            plt.xticks(rotation=45)
 
-        # Rotate the x-axis labels
-        plt.xticks(rotation=45)
+            # Add correlation values to each square in the heatmap
+            for i in range(len(corr_matrix.columns)):
+                for j in range(len(corr_matrix.columns)):
+                    text = ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
+                                   ha="center", va="center", color="black", fontsize=12)
 
-        # Add correlation values to each square in the heatmap
-        for i in range(len(corr_matrix.columns)):
-            for j in range(len(corr_matrix.columns)):
-                text = ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
-                               ha="center", va="center", color="black", fontsize=12)
+            plt.show()
 
-        plt.show()
+        else:
+            raise IntelliVizError("No pandas dataframe has been provided.")
+
 
     def find_multicollinear_pairs(self, threshold=0.8) -> list:
         '''
@@ -111,8 +141,8 @@ class IntelliViz():
 
     def columns_scatter(self,target_var=None):
         '''
-
-        :param target_var:
+        This function creates scatter plots of each variable against the target variable.
+        :param target_var: A string representing the target variable.
         :return:
         '''
 
@@ -177,13 +207,19 @@ class IntelliViz():
         if show is True:
             plt.show()
 
-    def qqplot(self,array=None,line='45',show=True):
+    def qqplot(self,array=None, line='45',show=True):
         '''
-
+        This function creates a QQ plot of the data using statsmodels.
         further documentation = https://www.statsmodels.org/stable/api.html
-        :param array:
-        :return:
+        :param array: An array-like object representing the data to be plotted.
+        :param line: A string representing the line to be plotted on the QQ plot.
+        :param show: A boolean representing whether or not to display the plot.
+        :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
         '''
+        if array is None:
+            print("Please provide an array-like object to be plotted.")
+            return
+
         fig = sm.qqplot(array,line=line)
         if show is True:
             plt.show()
