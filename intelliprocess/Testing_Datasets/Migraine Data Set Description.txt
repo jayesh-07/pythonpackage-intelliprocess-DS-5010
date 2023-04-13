@@ -1,0 +1,41 @@
+Migraine Classification Data Set
+
+	
+
+Data Set Characteristics:	Multivariate
+Number of Instances:	400	
+Area:	Health
+Attribute Characteristics:	Real	
+Number of Attributes:	24		
+Associated Tasks:	Classification	
+Missing Values:	No		
+
+
+Data Set Information:
+Database comprising 400 medical records of users diagnosed with various pathologies associated with migraines. Data were recorded by trained medical personnel at the Centro Materno Infantil de Soledad during the first quarter of 2013. The compiled database contains information regarding symptoms or variable of interest required for the classification of migraines.
+
+Attribute Information:
+1) Age: Patient's age
+2) Duration: duration of symptoms in last episode in days
+3) Frequency: Frequency of episodes per month
+4) Location: Unilateral or bilateral pain location (None - 0, Unilateral - 1, Bilateral - 2)
+5) Character: Throbbing or constant pain (None - 0, Thobbing - 1, Constant - 2)
+6) Intensity: Pain intensity, i.e., mild, medium, or severe (None - 0, Mild - 1, Medium - 2, Severe - 3)
+7) Nausea: Nauseous feeling (Not - 0, Yes - 1)
+8) Vomit: Vomiting (Not - 0, Yes - 1)
+9) Phonophobia: Noise sensitivity (Not - 0, Yes - 1)
+10) Photophobia: Light sensitivity (Not - 0, Yes - 1)
+11) Visual: Number of reversible visual symptoms
+12) Sensory: Number of reversible sensory symptoms
+13) Dysphasia: Lack of speech coordination (Not - 0, Yes - 1)
+14) Dysarthria: Disarticulated sounds and words (Not - 0, Yes - 1)
+15) Vertigo: Dizziness (Not - 0, Yes - 1)
+16) Tinnitus: Ringing in the ears (Not - 0, Yes - 1)
+17) Hypoacusis: Hearing loss (Not - 0, Yes - 1)
+18) Diplopia: Double vision (Not - 0, Yes - 1)
+19) Visual defect: Simultaneous frontal eye field and nasal field defect and in both eyes (Not - 0, Yes - 1)
+20) Ataxia: Lack of muscle control (Not - 0, Yes - 1)
+21) Conscience: Jeopardized conscience (Not - 0, Yes - 1)
+22) Paresthesia: Simultaneous bilateral paresthesia (Not - 0, Yes - 1)
+23) DPF: Family background (Not - 0, Yes - 1)
+24) Type: Diagnosis of migraine type (Typical aura with migraine, Migraine without aura, Typical aura without migraine, Familial hemiplegic migraine, Sporadic hemiplegic migraine, Basilar-type aura, Other) [247, 60, 20, 24, 14, 18, 17]

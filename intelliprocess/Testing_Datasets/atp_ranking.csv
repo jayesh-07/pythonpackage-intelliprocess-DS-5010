@@ -1,0 +1,1995 @@
+rank,player,country,total_points,grand_slam_points,masters_points,other_points,tournaments
+1,"Alcaraz, Carlos",ESP,6820,2450,2740,1630,17
+2,"Nadal, Rafael",ESP,6020,4180,890,950,14
+3,"Ruud, Casper",NOR,5820,2400,1565,1855,23
+4,"Tsitsipas, Stefanos",GRE,5550,910,3065,1575,23
+5,"Djokovic, Novak",SRB,4820,360,1970,2490,14
+6,"Auger-Aliassime, Felix",CAN,4195,585,1100,2510,26
+7,"Medvedev, Daniil",RUS,4065,1560,605,1900,21
+8,"Rublev, Andrey",RUS,3930,810,840,2280,23
+9,"Fritz, Taylor",USA,3355,235,1585,1535,22
+10,"Hurkacz, Hubert",POL,2905,270,1475,1160,21
+11,"Rune, Holger",DEN,2888,460,1166,1262,27
+12,"Zverev, Alexander",GER,2700,900,1510,290,18
+13,"Carreno Busta, Pablo",ESP,2495,370,1300,825,24
+14,"Norrie, Cameron",GBR,2445,280,900,1265,23
+15,"Sinner, Jannik",ITA,2410,900,910,600,18
+16,"Berrettini, Matteo",ITA,2375,1080,110,1185,19
+17,"Cilic, Marin",CRO,2105,1080,425,600,20
+18,"Shapovalov, Denis",CAN,2075,460,425,1190,23
+19,"Tiafoe, Frances",USA,2000,810,425,765,22
+20,"Khachanov, Karen",RUS,1990,990,265,735,25
+21,"Bautista Agut, Roberto",ESP,1940,100,325,1515,23
+22,"Kyrgios, Nick",AUS,1870,405,495,970,14
+23,"Musetti, Lorenzo",ITA,1865,110,455,1300,28
+24,"de Minaur, Alex",AUS,1790,280,540,970,24
+25,"Schwartzman, Diego",ARG,1700,315,470,915,23
+26,"Coric, Borna",CRO,1685,90,1085,510,19
+27,"Evans, Daniel",GBR,1585,225,615,745,27
+28,"Dimitrov, Grigor",BUL,1460,180,830,450,21
+29,"Kecmanovic, Miomir",SRB,1420,315,480,625,23
+30,"Cerundolo, Francisco",ARG,1395,20,425,950,23
+31,"Davidovich Fokina, Alejandro",ESP,1280,235,755,290,25
+32,"Paul, Tommy",USA,1210,145,550,515,25
+33,"Korda, Sebastian",USA,1175,225,315,635,22
+34,"Cressy, Maxime",USA,1163,200,181,782,30
+35,"van de Zandschulp, Botic",NED,1160,225,245,690,27
+36,"Nishioka, Yoshihito",JPN,1134,30,151,953,23
+37,"Bublik, Alexander",KAZ,1130,135,175,820,26
+38,"Opelka, Reilly",USA,1095,100,120,875,22
+39,"Ramos-Vinolas, Albert",ESP,1075,100,230,745,28
+40,"Ruusuvuori, Emil",FIN,1011,65,236,710,28
+41,"Isner, John",USA,1005,145,415,445,19
+42,"Draper, Jack",GBR,990,90,320,580,20
+43,"Baez, Sebastian",ARG,987,100,155,732,28
+44,"Rinderknech, Arthur",FRA,952,100,70,782,22
+45,"Sonego, Lorenzo",ITA,950,190,155,605,28
+46,"Mannarino, Adrian",FRA,946,200,90,656,27
+47,"Nakashima, Brandon",USA,927,190,115,622,25
+48,"Brooksby, Jenson",USA,920,100,335,485,24
+49,"Murray, Andy",GBR,920,135,195,590,20
+50,"Molcan, Alex",SVK,895,100,65,730,22
+51,"Moutet, Corentin",FRA,892,286,115,491,21
+52,"Monfils, Gael",FRA,880,360,270,250,14
+53,"Goffin, David",BEL,870,110,320,440,26
+54,"Krajinovic, Filip",SRB,845,110,190,545,16
+55,"Fognini, Fabio",ITA,843,100,327,416,23
+56,"Huesler, Marc-Andrea",SUI,818,10,70,738,26
+57,"Cachin, Pedro",ARG,813,151,0,662,23
+58,"Munar, Jaume",ESP,802,65,157,580,29
+59,"Karatsev, Aslan",RUS,795,110,185,500,30
+60,"Bonzi, Benjamin",FRA,781,100,101,580,26
+61,"Giron, Marcos",USA,776,30,241,505,27
+62,"Martinez, Pedro",ESP,776,65,145,566,27
+63,"McDonald, Mackenzie",USA,775,145,125,505,28
+64,"Halys, Quentin",FRA,767,20,35,712,28
+65,"Lestienne, Constant",FRA,760,0,0,760,27
+66,"Wolf, J.J.",USA,746,90,82,574,26
+67,"Galan, Daniel Elahi",COL,741,115,41,585,24
+68,"Gasquet, Richard",FRA,740,180,65,495,24
+69,"Ymer, Mikael",SWE,739,110,70,559,22
+70,"Djere, Laslo",SRB,738,65,195,478,25
+71,"Monteiro, Thiago",BRA,738,55,0,683,28
+72,"Zapata Miralles, Bernabe",ESP,712,215,35,462,25
+73,"Ivashka, Ilya",BLR,705,225,20,460,25
+74,"Carballes Baena, Roberto",ESP,695,100,20,575,32
+75,"Coria, Federico",ARG,695,65,35,595,31
+76,"Otte, Oscar",GER,691,65,111,515,25
+77,"Majchrzak, Kamil",POL,653,65,50,538,21
+78,"O'Connell, Christopher",AUS,652,100,0,552,27
+79,"Etcheverry, Tomas Martin",ARG,649,55,0,594,30
+80,"Lajovic, Dusan",SRB,646,65,215,366,27
+81,"Lehecka, Jiri",CZE,646,55,35,556,26
+82,"Sousa, Joao",POR,638,116,18,504,24
+83,"Kwon, Soonwoo",KOR,630,100,55,475,24
+84,"Thompson, Jordan",AUS,626,65,50,511,28
+85,"Garin, Cristian",CHI,615,225,235,155,22
+86,"Humbert, Ugo",FRA,613,20,71,522,25
+87,"Tseng, Chun-Hsin",TPE,611,45,0,566,25
+88,"Fucsovics, Marton",HUN,607,100,80,427,24
+89,"Safiullin, Roman",RUS,606,26,0,580,17
+90,"Bagnis, Facundo",ARG,603,55,35,513,28
+91,"Barrere, Gregoire",FRA,603,45,0,558,29
+92,"Basilashvili, Nikoloz",GEO,595,65,210,320,28
+93,"Daniel, Taro",JPN,594,135,67,392,24
+94,"Kokkinakis, Thanasi",AUS,592,20,167,405,15
+95,"Altmaier, Daniel",GER,590,30,20,540,31
+96,"Griekspoor, Tallon",NED,584,100,65,419,25
+97,"Shelton, Ben",USA,584,0,90,494,14
+98,"Machac, Tomas",CZE,580,105,41,434,20
+99,"Borges, Nuno",POR,573,105,0,468,27
+100,"Pospisil, Vasek",CAN,570,0,0,570,20
+101,"Zhang, Zhizhen",CHN,569,35,0,534,25
+102,"Tabilo, Alejandro",CHI,567,80,0,487,17
+103,"Kotov, Pavel",RUS,563,70,0,493,21
+104,"Cecchinato, Marco",ITA,562,55,0,507,30
+105,"Thiem, Dominic",AUT,561,10,20,531,23
+106,"Albot, Radu",MDA,559,115,0,444,23
+107,"Gomez, Emilio",ECU,553,35,26,492,22
+108,"Varillas, Juan Pablo",PER,552,35,0,517,25
+109,"Kudla, Denis",USA,548,30,61,457,25
+110,"Kubler, Jason",AUS,538,115,0,423,21
+111,"Gaston, Hugo",FRA,526,110,90,326,25
+112,"Vesely, Jiri",CZE,524,30,0,494,18
+113,"Johnson, Steve",USA,517,100,45,372,25
+114,"van Rijthoven, Tim",NED,516,45,0,471,23
+115,"Mmoh, Michael",USA,507,0,0,507,26
+116,"Gombos, Norbert",SVK,496,140,0,356,22
+117,"Wu, Yibing",CHN,488,115,0,373,11
+118,"Stricker, Dominic",SUI,483,0,0,483,23
+119,"Dellien, Hugo",BOL,473,45,70,358,19
+120,"Passaro, Francesco",ITA,473,0,0,473,26
+121,"Popyrin, Alexei",AUS,469,65,35,369,25
+122,"Andujar, Pablo",ESP,467,100,10,357,21
+123,"Rodionov, Jurij",AUT,465,0,0,465,28
+124,"Eubanks, Christopher",USA,462,70,41,351,23
+125,"Verdasco, Fernando",ESP,460,26,26,408,30
+126,"Delbonis, Federico",ARG,456,90,85,281,26
+127,"Ugo Carabelli, Camilo",ARG,449,70,0,379,22
+128,"Ymer, Elias",SWE,444,0,0,444,22
+129,"Nardi, Luca",ITA,437,0,0,437,22
+130,"Hanfmann, Yannick",GER,435,70,0,365,22
+131,"Bergs, Zizou",BEL,435,0,0,435,23
+132,"Vukic, Aleksandar",AUS,429,45,0,384,24
+133,"Sock, Jack",USA,428,10,51,367,19
+134,"Sels, Jelle",NED,421,0,0,421,30
+135,"Arnaldi, Matteo",ITA,419,0,0,419,30
+136,"Blancaneaux, Geoffrey",FRA,412,35,0,377,34
+137,"Klein, Lukas",SVK,405,0,0,405,20
+138,"Van Assche, Luca",FRA,405,0,0,405,29
+139,"Kovalik, Jozef",SVK,404,0,0,404,18
+140,"Agamenone, Franco",ITA,403,26,0,377,30
+141,"Kopriva, Vit",CZE,391,0,0,391,26
+142,"Grenier, Hugo",FRA,388,61,0,327,28
+143,"Skatov, Timofey",KAZ,387,35,0,352,31
+144,"Simon, Gilles",FRA,385,90,100,195,25
+145,"Gojo, Borna",CRO,381,70,0,311,23
+146,"Watanuki, Yosuke",JPN,381,0,0,381,20
+147,"Guinard, Manuel",FRA,380,0,0,380,29
+148,"Millman, John",AUS,378,65,43,270,24
+149,"Wawrinka, Stan",SUI,377,20,120,237,15
+150,"Misolic, Filip",AUT,376,0,0,376,18
+151,"Struff, Jan-Lennard",GER,375,10,20,345,19
+152,"Cerundolo, Juan Manuel",ARG,370,10,55,305,18
+153,"Jarry, Nicolas",CHI,370,35,0,335,20
+154,"Bellucci, Mattia",ITA,370,0,0,370,29
+155,"Shevchenko, Alexander",RUS,369,0,0,369,33
+156,"Brouwer, Gijs",NED,363,70,0,293,25
+157,"Duckworth, James",AUS,363,65,0,298,25
+158,"Uchida, Kaichi",JPN,362,0,0,362,34
+159,"Riedi, Leandro",SUI,360,0,0,360,20
+160,"Kovacevic, Aleksandar",USA,360,0,0,360,27
+161,"Marterer, Maximilian",GER,354,70,0,284,25
+162,"Muller, Alexandre",FRA,351,0,0,351,29
+163,"Zeppieri, Giulio",ITA,350,35,35,280,27
+164,"Piros, Zsombor",HUN,349,0,0,349,20
+165,"Broady, Liam",GBR,348,35,26,287,23
+166,"Peniston, Ryan",GBR,344,0,0,344,23
+167,"Hijikata, Rinky",AUS,344,0,0,344,31
+168,"Taberner, Carlos",ESP,343,20,0,323,27
+169,"Meligeni Alves, Felipe",BRA,343,0,0,343,26
+170,"Berankis, Ricardas",LTU,339,55,0,284,12
+171,"Ritschard, Alexander",SUI,335,35,0,300,24
+172,"Marozsan, Fabian",HUN,335,0,0,335,23
+173,"Cobolli, Flavio",ITA,335,0,0,335,30
+174,"Laaksonen, Henri",SUI,334,55,70,209,23
+175,"Couacaud, Enzo",FRA,327,35,0,292,26
+176,"Virtanen, Otto",FIN,321,0,0,321,23
+177,"Mena, Facundo",ARG,321,0,0,321,27
+178,"Ficovich, Juan Pablo",ARG,321,0,0,321,33
+179,"Nava, Emilio",USA,320,45,0,275,25
+180,"Kicker, Nicolas",ARG,318,0,0,318,25
+181,"Paire, Benoit",FRA,317,110,100,107,28
+182,"Rodriguez Taverna, Santiago",ARG,317,35,0,282,28
+183,"Novak, Dennis",AUT,316,0,0,316,24
+184,"Pellegrino, Andrea",ITA,316,0,0,316,25
+185,"Olivo, Renzo",ARG,315,0,0,315,26
+186,"Bellier, Antoine",SUI,309,0,0,309,28
+187,"Wu, Tung-Lin",TPE,307,0,0,307,21
+188,"Krutykh, Oleksii",UKR,307,0,0,307,29
+189,"Dzumhur, Damir",BIH,304,26,0,278,23
+190,"Bonadio, Riccardo",ITA,301,0,0,301,33
+191,"Kukushkin, Mikhail",KAZ,300,35,67,198,22
+192,"Diaz Acosta, Facundo",ARG,298,0,0,298,22
+193,"Andreev, Adrian",BUL,296,0,0,296,24
+194,"Shang, Juncheng",CHN,289,0,26,263,22
+195,"Ofner, Sebastian",AUT,288,35,0,253,18
+196,"Brancaccio, Raul",ITA,287,0,0,287,25
+197,"Kuzmanov, Dimitar",BUL,282,0,0,282,24
+198,"Olivieri, Genaro Alberto",ARG,282,0,0,282,30
+199,"Maestrelli, Francesco",ITA,281,0,0,281,25
+200,"Kozlov, Stefan",USA,280,55,0,225,24
+201,"Koepfer, Dominik",GER,279,45,35,199,14
+202,"Coppejans, Kimmer",BEL,276,0,0,276,28
+203,"Ferreira Silva, Frederico",POR,275,0,0,275,24
+204,"Darderi, Luciano",ITA,273,0,0,273,26
+205,"Stebe, Cedrik-Marcel",GER,270,0,0,270,22
+206,"Pucinelli De Almeida, Matheus",BRA,270,0,0,270,25
+207,"Lokoli, Laurent",FRA,269,0,0,269,25
+208,"Hardt, Nick",DOM,268,0,0,268,25
+209,"Escoffier, Antoine",FRA,268,0,0,268,29
+210,"Galarneau, Alexis",CAN,265,0,0,265,24
+211,"Noguchi, Rio",JPN,265,0,0,265,25
+212,"Furness, Evan",FRA,265,0,0,265,26
+213,"Tu, Li",AUS,264,0,0,264,25
+214,"Mager, Gianluca",ITA,262,10,0,252,25
+215,"Vavassori, Andrea",ITA,262,0,0,262,19
+216,"Elias, Gastao",POR,261,0,0,261,27
+217,"Krueger, Mitchell",USA,258,0,26,232,24
+218,"Moreno De Alboran, Nicolas",USA,257,0,0,257,20
+219,"Rosol, Lukas",CZE,256,0,0,256,29
+220,"Holt, Brandon",USA,255,70,0,185,24
+221,"Jubb, Paul",GBR,253,0,0,253,26
+222,"Hsu, Yu Hsiou",TPE,253,0,0,253,31
+223,"Purcell, Max",AUS,252,0,0,252,19
+224,"Svrcina, Dalibor",CZE,249,0,0,249,22
+225,"Trungelliti, Marco",ARG,247,35,0,212,15
+226,"Tirante, Thiago Agustin",ARG,244,0,0,244,27
+227,"Ionel, Nicholas David",ROU,244,0,0,244,35
+228,"Escobedo, Ernesto",USA,243,26,0,217,25
+229,"Diallo, Gabriel",CAN,242,0,0,242,11
+230,"Jasika, Omar",AUS,242,0,0,242,27
+231,"Fatic, Nerman",BIH,241,0,0,241,27
+232,"Barrios Vera, Tomas",CHI,239,35,0,204,14
+233,"Milojevic, Nikola",SRB,239,35,0,204,26
+234,"Zekic, Miljan",SRB,238,0,0,238,26
+235,"Serdarusic, Nino",CRO,238,0,0,238,28
+236,"Gojowczyk, Peter",GER,236,30,0,206,19
+237,"Celikbilek, Altug",TUR,236,0,0,236,26
+238,"Ly, Nam Hoang",VIE,231,0,0,231,23
+239,"Harris, Lloyd",RSA,230,20,165,45,14
+240,"Alvarez Varona, Nicolas",ESP,229,0,0,229,31
+241,"Torres, Juan Bautista",ARG,228,0,0,228,27
+242,"Clarke, Jay",GBR,226,0,0,226,22
+243,"Navone, Mariano",ARG,226,0,0,226,24
+244,"Mansouri, Skander",TUN,225,0,0,225,37
+245,"Gakhov, Ivan",RUS,224,0,0,224,33
+246,"Gigante, Matteo",ITA,221,0,0,221,22
+247,"Zuk, Kacper",POL,220,0,0,220,25
+248,"Collarini, Andrea",ARG,220,0,0,220,28
+249,"Fils, Arthur",FRA,219,0,35,184,26
+250,"Kolar, Zdenek",CZE,218,70,0,148,30
+251,"Sweeny, Dane",AUS,217,0,0,217,31
+252,"Comesana, Francisco",ARG,216,0,0,216,22
+253,"Londero, Juan Ignacio",ARG,215,26,0,189,9
+254,"Choinski, Jan",GBR,215,0,0,215,22
+255,"Casanova, Hernan",ARG,215,0,0,215,26
+256,"Hong, Seong-chan",KOR,212,0,0,212,17
+257,"Medjedovic, Hamad",SRB,212,0,0,212,25
+258,"Geerts, Michael",BEL,212,0,0,212,33
+259,"Mayot, Harold",FRA,211,0,0,211,31
+260,"Sanchez Izquierdo, Nikolas",ESP,209,0,0,209,27
+261,"Cuevas, Pablo",URU,208,45,10,153,13
+262,"Haase, Robin",NED,207,0,0,207,23
+263,"Mejia, Nicolas",COL,207,0,0,207,31
+264,"Michalski, Daniel",POL,204,0,0,204,26
+265,"Burruchaga, Roman Andres",ARG,204,0,0,204,29
+266,"Dutra da Silva, Daniel",BRA,202,0,0,202,34
+267,"Giannessi, Alessandro",ITA,201,26,0,175,23
+268,"Forejtek, Jonas",CZE,200,0,0,200,20
+269,"Roca Batalla, Oriol",ESP,200,0,0,200,26
+270,"Shimabukuro, Sho",JPN,199,0,0,199,21
+271,"Lama, Gonzalo",CHI,199,0,0,199,28
+272,"Sandgren, Tennys",USA,198,0,26,172,22
+273,"Gray, Alastair",GBR,198,0,0,198,26
+274,"Arnaboldi, Andrea",ITA,192,0,0,192,23
+275,"Moriya, Hiroki",JPN,191,0,0,191,26
+276,"Diez, Steven",CAN,190,0,0,190,24
+277,"Neuchrist, Maximilian",AUT,189,0,0,189,22
+278,"Dougaz, Aziz",TUN,189,0,0,189,29
+279,"Valkusz, Mate",HUN,188,0,0,188,13
+280,"Domingues, Joao",POR,186,0,0,186,28
+281,"Decamps, Gabriel",BRA,186,0,0,186,28
+282,"Gerasimov, Egor",BLR,185,10,0,175,12
+283,"Stodder, Timo",GER,185,0,0,185,26
+284,"Collignon, Raphael",BEL,184,0,0,184,24
+285,"Giustino, Lorenzo",ITA,184,0,0,184,31
+286,"Gerch, Lucas",GER,183,0,0,183,27
+287,"Added, Dan",FRA,181,0,0,181,29
+288,"Lazarov, Alexandar",BUL,180,0,0,180,21
+289,"Blanchet, Ugo",FRA,180,0,0,180,24
+290,"Droguet, Titouan",FRA,180,0,0,180,26
+291,"de Jong, Jesper",NED,179,0,0,179,26
+292,"Zhu, Evan",USA,179,0,0,179,30
+293,"Masur, Daniel",GER,178,0,0,178,22
+294,"Vacherot, Valentin",MON,178,0,0,178,24
+295,"Sachko, Vitaliy",UKR,178,0,0,178,28
+296,"Wessels, Louis",GER,178,0,0,178,32
+297,"Barranco Cosano, Javier",ESP,177,0,0,177,23
+298,"Yevseyev, Denis",KAZ,177,0,0,177,26
+299,"Martin Tiffon, Pol",ESP,176,0,0,176,22
+300,"Caruso, Salvatore",ITA,175,26,0,149,21
+301,"Neumayer, Lukas",AUT,175,0,0,175,25
+302,"Ejupovic, Elmar",GER,174,0,0,174,24
+303,"Atmane, Terence",FRA,173,0,0,173,33
+304,"Svajda, Zachary",USA,171,0,0,171,18
+305,"Villanueva, Gonzalo",ARG,171,0,0,171,32
+306,"Yunchaokete, Bu",CHN,171,0,0,171,32
+307,"Moraing, Mats",GER,170,0,0,170,21
+308,"Hassan, Benjamin",LIB,170,0,0,170,21
+309,"Herbert, Pierre-Hugues",FRA,166,0,0,166,13
+310,"Quiroz, Roberto",ECU,166,0,0,166,28
+311,"Gulbis, Ernests",LAT,165,0,0,165,16
+312,"Zhukayev, Beibit",KAZ,165,0,0,165,25
+313,"Vatutin, Alexey",RUS,165,0,0,165,30
+314,"Travaglia, Stefano",ITA,164,10,0,154,22
+315,"Madaras, Dragos Nicolae",SWE,164,0,0,164,29
+316,"Moroni, Gian Marco",ITA,162,0,0,162,23
+317,"Karlovskiy, Evgeny",RUS,162,0,0,162,25
+318,"Reis Da Silva, Joao Lucas",BRA,161,0,0,161,22
+319,"Jianu, Filip Cristian",ROU,161,0,0,161,31
+320,"Fratangelo, Bjorn",USA,160,35,0,125,12
+321,"Moro Canas, Alejandro",ESP,160,0,0,160,17
+322,"Fabbiano, Thomas",ITA,159,0,0,159,18
+323,"Blanch, Ulises",USA,159,0,0,159,22
+324,"Mochizuki, Shintaro",JPN,159,0,0,159,25
+325,"Uchiyama, Yasutaka",JPN,158,0,0,158,21
+326,"Tabur, Clement",FRA,158,0,0,158,23
+327,"Gengel, Marek",CZE,158,0,0,158,24
+328,"Crawford, Oliver",USA,158,0,0,158,26
+329,"Alvarez, Nicolas",PER,157,0,0,157,21
+330,"Dellien, Murkel",BOL,157,0,0,157,27
+331,"Harris, Billy",GBR,153,0,0,153,34
+332,"Querrey, Sam",USA,152,10,25,117,10
+333,"Popko, Dmitry",KAZ,152,0,0,152,25
+334,"Martin, Andrej",SVK,150,0,0,150,18
+335,"Royer, Valentin",FRA,150,0,0,150,25
+336,"Polmans, Marc",AUS,149,0,0,149,11
+337,"Chung, Yunseong",KOR,149,0,0,149,21
+338,"Kachmazov, Alibek",RUS,149,0,0,149,24
+339,"Lopez Montagud, Carlos",ESP,148,0,0,148,23
+340,"Onclin, Gauthier",BEL,148,0,0,148,30
+341,"De Loore, Joris",BEL,145,0,0,145,21
+342,"Houkes, Max",NED,144,0,0,144,21
+343,"Sasikumar, Mukund",IND,144,0,0,144,29
+344,"Durasovic, Viktor",NOR,143,0,0,143,23
+345,"Janvier, Maxime",FRA,143,0,0,143,26
+346,"Marcondes, Igor",BRA,141,0,0,141,3
+347,"Harrison, Christian",USA,141,0,0,141,12
+348,"Horansky, Filip",SVK,141,0,0,141,22
+349,"Boscardin Dias, Pedro",BRA,141,0,0,141,25
+350,"Bedene, Aljaz",SLO,140,100,20,20,9
+351,"Gunneswaran, Prajnesh",IND,140,0,0,140,24
+352,"De Schepper, Kenny",FRA,139,0,0,139,26
+353,"Weis, Alexander",ITA,139,0,0,139,27
+354,"Lavagno, Edoardo",ITA,139,0,0,139,27
+355,"Llamas Ruiz, Pablo",ESP,137,0,0,137,21
+356,"Echargui, Moez",TUN,137,0,0,137,26
+357,"Oradini, Giovanni",ITA,136,0,0,136,29
+358,"Seppi, Andreas",ITA,135,10,0,125,14
+359,"Parker, Stuart",GBR,135,0,0,135,24
+360,"Cukierman, Daniel",ISR,135,0,0,135,25
+361,"Molleker, Rudolf",GER,135,0,0,135,26
+362,"Broom, Charles",GBR,135,0,0,135,27
+363,"Squire, Henri",GER,133,0,0,133,25
+364,"Chepelev, Andrey",RUS,132,0,0,132,36
+365,"Ilkel, Cem",TUR,131,0,0,131,10
+366,"Fomin, Sergey",UZB,131,0,0,131,20
+367,"Hoang, Antoine",FRA,131,0,0,131,25
+368,"Erhard, Mathys",FRA,131,0,0,131,25
+369,"Paulson, Andrew",CZE,131,0,0,131,28
+370,"Peliwo, Filip",POL,130,0,0,130,28
+371,"Fonio, Giovanni",ITA,130,0,0,130,28
+372,"Vrbensky, Michael",CZE,129,0,0,129,25
+373,"Fanselow, Sebastian",GER,129,0,0,129,26
+374,"Mpetshi Perricard, Giovanni",FRA,128,0,0,128,19
+375,"Nikles, Johan",SUI,128,0,0,128,19
+376,"Schoolkate, Tristan",AUS,128,0,0,128,26
+377,"Palan, Dominik",CZE,128,0,0,128,27
+378,"Lock, Benjamin",ZIM,128,0,0,128,31
+379,"Rybakov, Alex",USA,127,0,0,127,22
+380,"McHugh, Aidan",GBR,127,0,0,127,26
+381,"Melzer, Gerald",AUT,126,0,0,126,17
+382,"Bertola, Remy",SUI,126,0,0,126,23
+383,"Copil, Marius",ROU,125,0,0,125,23
+384,"Basic, Mirza",BIH,125,0,0,125,24
+385,"Ovcharenko, Oleksandr",UKR,125,0,0,125,28
+386,"Leshem, Edan",ISR,124,0,0,124,24
+387,"Prihodko, Oleg",UKR,124,0,0,124,28
+388,"Pouille, Lucas",FRA,122,0,45,77,14
+389,"Smith, Keegan",USA,122,0,0,122,21
+390,"Ajdukovic, Duje",CRO,122,0,0,122,24
+391,"Cazaux, Arthur",FRA,121,0,0,121,12
+392,"Seyboth Wild, Thiago",BRA,121,0,0,121,20
+393,"Kasnikowski, Maks",POL,121,0,0,121,21
+394,"Jung, Jason",TPE,121,0,0,121,21
+395,"Orlov, Vladyslav",UKR,121,0,0,121,23
+396,"Kirkin, Ergi",TUR,121,0,0,121,25
+397,"Lopez San Martin, Alvaro",ESP,120,0,0,120,23
+398,"Andreozzi, Guido",ARG,119,0,0,119,4
+399,"Donskoy, Evgeny",RUS,119,0,0,119,18
+400,"Barroso Campos, Alberto",ESP,119,0,0,119,21
+401,"Santillan, Akira",AUS,119,0,0,119,25
+402,"Nanda, Govind",USA,118,0,0,118,21
+403,"Juarez, Facundo",ITA,118,0,0,118,23
+404,"Cretu, Cezar",ROU,118,0,0,118,26
+405,"Seelig, Kyle",USA,117,0,0,117,26
+406,"Cox, Daniel",GBR,115,0,0,115,20
+407,"Otegui, Juan Bautista",ARG,115,0,0,115,27
+408,"Paz, Juan Pablo",ARG,115,0,0,115,29
+409,"Shimizu, Yuta",JPN,114,0,0,114,24
+410,"Pereira, Jose",BRA,113,0,0,113,19
+411,"Wenger, Damien",SUI,113,0,0,113,25
+412,"McCabe, James",AUS,111,0,0,111,24
+413,"Patael, Ben",ISR,111,0,0,111,24
+414,"Benchetrit, Elliot",MAR,110,0,0,110,20
+415,"Bourgue, Mathias",FRA,109,0,0,109,19
+416,"Briand, Jurgen",FRA,109,0,0,109,20
+417,"Marchenko, Illya",UKR,108,0,0,108,20
+418,"Ferrari, Gianmarco",ITA,108,0,0,108,22
+419,"Martineau, Matteo",FRA,107,0,0,107,22
+420,"Kohlschreiber, Philipp",GER,106,45,26,35,5
+421,"Habib, Hady",LIB,106,0,0,106,21
+422,"Sanchez Jover, Carlos",ESP,106,0,0,106,23
+423,"Gueymard Wayenburg, Sascha",FRA,105,0,0,105,21
+424,"Descotte, Matias Franco",ARG,105,0,0,105,24
+425,"Rehberg, Max Hans",GER,104,0,0,104,22
+426,"Gaio, Federico",ITA,104,0,0,104,25
+427,"Kym, Jerome",SUI,102,0,0,102,18
+428,"Menendez-Maceiras, Adrian",ESP,100,0,0,100,11
+429,"Leite, Wilson",BRA,100,0,0,100,27
+430,"Vincent Ruggeri, Samuel",ITA,100,0,0,100,27
+431,"Heide, Gustavo",BRA,99,0,0,99,12
+432,"Walton, Adam",AUS,99,0,0,99,15
+433,"Ayeni, Alafia",USA,99,0,0,99,17
+434,"Miedler, Lucas",AUT,99,0,0,99,17
+435,"Jaziri, Malek",TUN,99,0,0,99,23
+436,"Ribeiro, Eduardo",BRA,98,0,0,98,22
+437,"Marti Pujolras, Alex",ESP,98,0,0,98,23
+438,"Ramanathan, Ramkumar",IND,98,0,0,98,23
+439,"Gutierrez, Oscar Jose",BRA,97,0,0,97,21
+440,"Kirchheimer, Strong",USA,97,0,0,97,25
+441,"Alves, Mateus",BRA,96,0,0,96,13
+442,"Hemery, Calvin",FRA,96,0,0,96,20
+443,"Krumich, Martin",CZE,96,0,0,96,23
+444,"Friberg, Karl",SWE,96,0,0,96,26
+445,"Kumar, Omni",USA,96,0,0,96,30
+446,"Tiurnev, Evgenii",RUS,95,0,0,95,14
+447,"Kuznetsov, Andrey",RUS,94,35,0,59,14
+448,"Gimeno Valero, Carlos",ESP,94,0,0,94,13
+449,"Mensik, Jakub",CZE,94,0,0,94,17
+450,"Panta, Jorge",PER,93,0,0,93,24
+451,"Jacquet, Kyrian",FRA,92,0,0,92,18
+452,"Aboian, Valerio",ARG,92,0,0,92,27
+453,"Barrientos, Nicolas",COL,91,0,0,91,13
+454,"Chappell, Nick",USA,91,0,0,91,23
+455,"Rosenkranz, Mats",GER,90,0,0,90,25
+456,"Potenza, Luca",ITA,89,0,0,89,21
+457,"Topo, Marko",GER,88,0,0,88,22
+458,"Setkic, Aldin",BIH,88,0,0,88,25
+459,"Quinn, Ethan",USA,87,0,0,87,16
+460,"Esteve Lobato, Eduard",ESP,87,0,0,87,18
+461,"Damm, Martin",USA,87,0,0,87,19
+462,"Gill, Felix",GBR,87,0,0,87,22
+463,"Poljak, David",CZE,87,0,0,87,23
+464,"Kelly, Dayne",AUS,87,0,0,87,23
+465,"Lajal, Mark",EST,87,0,0,87,23
+466,"Cuevas, Martin",URU,86,0,0,86,15
+467,"Forti, Francesco",ITA,86,0,0,86,20
+468,"Kopp, Sandro",AUT,86,0,0,86,26
+469,"Pervolarakis, Michail",GRE,85,0,0,85,22
+470,"Bertrand, Robin",FRA,85,0,0,85,33
+471,"Tomic, Bernard",AUS,84,0,0,84,13
+472,"Fery, Arthur",GBR,84,0,0,84,14
+473,"Nakagawa, Naoki",JPN,84,0,0,84,20
+474,"Zukas, Matias",ARG,84,0,0,84,21
+475,"Oliveira, Goncalo",POR,84,0,0,84,28
+476,"Kawakami, Rimpei",JPN,83,0,0,83,17
+477,"Denolly, Corentin",FRA,83,0,0,83,20
+478,"Aboian, Leonardo",ARG,83,0,0,83,24
+479,"Imai, Shintaro",JPN,82,0,0,82,14
+480,"Istomin, Denis",UZB,82,0,0,82,16
+481,"Rincon, Daniel",ESP,82,0,0,82,24
+482,"Sinclair, Colin",NMI,80,0,0,80,22
+483,"Nam, JiSung",KOR,79,0,0,79,16
+484,"Oliel, Yshai",ISR,79,0,0,79,22
+485,"Arnaboldi, Federico",ITA,78,0,0,78,23
+486,"Holmgren, August",DEN,77,0,0,77,12
+487,"Clark, Ezekiel",USA,77,0,0,77,31
+488,"Coulibaly, Eliakim",CIV,76,0,0,76,21
+489,"Huertas Del Pino Cordova, Arklon",PER,76,0,0,76,24
+490,"Pichler, David",AUT,75,0,0,75,25
+491,"Monzon, Ignacio",ARG,75,0,0,75,32
+492,"Lingua Lavallen, Alejo Lorenzo",ARG,74,0,0,74,17
+493,"Vidal Azorin, Jose Fco.",ESP,74,0,0,74,20
+494,"Langmo, Christian",USA,74,0,0,74,21
+495,"Marie, Jules",FRA,74,0,0,74,21
+496,"Bobrov, Bogdan",RUS,74,0,0,74,26
+497,"Sultanov, Khumoyun",UZB,73,0,0,73,20
+498,"Perez, Alfredo",USA,73,0,0,73,23
+499,"Riffice, Sam",USA,72,0,0,72,10
+500,"Kravchuk, Konstantin",RUS,72,0,0,72,14
+501,"Sousa, Pedro",POR,72,0,0,72,14
+502,"Erel, Yanki",TUR,72,0,0,72,19
+503,"Napolitano, Stefano",ITA,72,0,0,72,22
+504,"Gima, Sebastian",ROU,72,0,0,72,30
+505,"Brymer, Gage",USA,72,0,0,72,33
+506,"Lenz, Julian",GER,71,0,0,71,18
+507,"Nagal, Sumit",IND,70,0,0,70,15
+508,"Kuhn, Nicola",GER,70,0,0,70,17
+509,"Capecchi, Daniele",ITA,70,0,0,70,19
+510,"Statham, Rubin",NZL,70,0,0,70,26
+511,"Strombachs, Robert",LAT,70,0,0,70,29
+512,"Gautier, Alexis",FRA,69,0,0,69,19
+513,"Borg, Leo",SWE,69,0,0,69,29
+514,"Montes-De La Torre, Inaki",ESP,68,0,0,68,11
+515,"Poljicak, Mili",CRO,68,0,0,68,16
+516,"Madarasz, Gergely",HUN,68,0,0,68,16
+517,"Vanshelboim, Eric",UKR,68,0,0,68,24
+518,"Soriano Barrera, Adria",ESP,67,0,0,67,20
+519,"Rai, Ajeet",NZL,67,0,0,67,20
+520,"Palosi, Stefan",ROU,67,0,0,67,22
+521,"Merida, Daniel",ESP,67,0,0,67,22
+522,"Serafini, Marcello",ITA,67,0,0,67,24
+523,"Beaupain, Simon",BEL,67,0,0,67,24
+524,"Shelbayh, Abedallah",JOR,66,0,0,66,8
+525,"Kypson, Patrick",USA,66,0,0,66,14
+526,"Draxl, Liam",CAN,66,0,0,66,16
+527,"Cassone, Murphy",USA,65,0,0,65,8
+528,"Wendelken, Harry",GBR,65,0,0,65,21
+529,"Ochi, Makoto",JPN,65,0,0,65,23
+530,"Mayo, Aidan",USA,64,0,0,64,19
+531,"Bangoura, Sekou",USA,64,0,0,64,19
+532,"Hussey, Giles",GBR,64,0,0,64,26
+533,"Fancutt, Thomas",AUS,63,0,0,63,18
+534,"Cozbinov, Alexandr",MDA,63,0,0,63,20
+535,"Lopez Morillo, Imanol",ESP,63,0,0,63,22
+536,"Hazawa, Shinji",JPN,63,0,0,63,23
+537,"Samuel, Toby",GBR,62,0,0,62,7
+538,"Soto, Matias",CHI,62,0,0,62,9
+539,"Legout, Timo",FRA,62,0,0,62,17
+540,"Mochizuki, Yuki",JPN,62,0,0,62,19
+541,"Piraino, Gabriele",ITA,61,0,0,61,18
+542,"Sekulic, Philip",AUS,61,0,0,61,22
+543,"Snitari, Ilya",MDA,61,0,0,61,22
+544,"Bueno, Gonzalo",PER,60,0,0,60,12
+545,"Kingsley, Cannon",USA,60,0,0,60,12
+546,"Alcala Gurri, Max",ESP,60,0,0,60,28
+547,"Deckers, Alec",NED,59,0,0,59,15
+548,"Ponwith, Nathan",USA,59,0,0,59,23
+549,"Aragone, JC",USA,58,0,0,58,9
+550,"Sekiguchi, Shuichi",JPN,58,0,0,58,15
+551,"Paul, Jakub",SUI,58,0,0,58,22
+552,"Huang, Tsung-Hao",TPE,58,0,0,58,26
+553,"Bhambri, Yuki",IND,57,0,0,57,5
+554,"Monday, Johannus",GBR,57,0,0,57,8
+555,"Boulais, Justin",CAN,57,0,0,57,10
+556,"Singh, Digvijaypratap",IND,57,0,0,57,19
+557,"Lamasine, Tristan",FRA,57,0,0,57,19
+558,"Bertran, Peter",DOM,57,0,0,57,20
+559,"Kravchenko, Georgii",UKR,57,0,0,57,20
+560,"Whitehouse, Mark",GBR,57,0,0,57,27
+561,"Purtseladze, Saba",GEO,57,0,0,57,31
+562,"Saville, Luke",AUS,56,0,0,56,9
+563,"McCormick, Tristan",USA,56,0,0,56,11
+564,"Andrade, Andres",ECU,56,0,0,56,13
+565,"Cuenin, Sean",FRA,56,0,0,56,16
+566,"Angele, Jaimee Floyd",FRA,56,0,0,56,16
+567,"Te, Rigele",CHN,56,0,0,56,17
+568,"Vale, Duarte",POR,56,0,0,56,18
+569,"Huertas del Pino, Conner",PER,56,0,0,56,24
+570,"Mu, Tao",CHN,56,0,0,56,30
+571,"Weber, Arthur",FRA,55,0,0,55,7
+572,"Rubin, Noah",USA,55,0,0,55,13
+573,"Chazal, Maxime",FRA,55,0,0,55,24
+574,"Dellavedova, Matthew",AUS,55,0,0,55,36
+575,"Luz, Orlando",BRA,54,0,0,54,18
+576,"Martinez, Mirko",SUI,54,0,0,54,22
+577,"Bittoun Kouzmine, Constantin",FRA,54,0,0,54,31
+578,"Martin, Andres",USA,53,0,0,53,5
+579,"Pinnington Jones, Jack",GBR,53,0,0,53,11
+580,"Young, Donald",USA,53,0,0,53,16
+581,"Heller, Peter",GER,53,0,0,53,20
+582,"Farjat, Tomas",ARG,53,0,0,53,21
+583,"Edmund, Kyle",GBR,52,10,0,42,5
+584,"Moeller, Marvin",GER,52,0,0,52,10
+585,"Patten, Henry",GBR,52,0,0,52,15
+586,"Bernard, Alexander",USA,52,0,0,52,22
+587,"Catarina, Lucas",MON,52,0,0,52,22
+588,"Martinez Martinez, Jorge",ESP,52,0,0,52,24
+589,"Rawat, Sidharth",IND,51,0,0,51,12
+590,"Park, Uisung",KOR,51,0,0,51,18
+591,"Faria, Jaime",POR,51,0,0,51,19
+592,"Sun, Fajing",CHN,51,0,0,51,21
+593,"Prechtel, Sebastian",GER,51,0,0,51,24
+594,"Harrison, Ryan",USA,50,0,0,50,10
+595,"Trotter, James",JPN,50,0,0,50,11
+596,"Mridha, Jonathan",SWE,50,0,0,50,17
+597,"Jorda Sanchis, David",ESP,50,0,0,50,18
+598,"Balzerani, Riccardo",ITA,50,0,0,50,19
+599,"Hernandez, Alex",MEX,50,0,0,50,21
+600,"Kadhe, Arjun",IND,49,0,0,49,8
+601,"Michelsen, Alex",USA,49,0,0,49,10
+602,"Samrej, Kasidit",THA,49,0,0,49,17
+603,"Tenti, Fermin",ARG,49,0,0,49,30
+604,"Cid Subervi, Roberto",DOM,48,0,0,48,10
+605,"Tanuma, Ryota",JPN,48,0,0,48,16
+606,"Soeda, Go",JPN,47,0,0,47,5
+607,"Klier Junior, Gilbert",BRA,47,0,0,47,12
+608,"Fuele, Matyas",HUN,47,0,0,47,17
+609,"Baker, Blu",GBR,47,0,0,47,17
+610,"Ivanovski, Kalin",MKD,47,0,0,47,21
+611,"Knaff, Alex",LUX,47,0,0,47,21
+612,"Metreveli, Aleksandre",GEO,47,0,0,47,23
+613,"Tabacco, Fausto",ITA,47,0,0,47,24
+614,"Markes, Colin",USA,47,0,0,47,30
+615,"Corwin, Felix",USA,46,0,0,46,14
+616,"Van Wyk, Kris",RSA,46,0,0,46,14
+617,"Bielinskyi, Viacheslav",UKR,46,0,0,46,18
+618,"Lee, Duckhee",KOR,46,0,0,46,18
+619,"Tabacco, Giorgio",ITA,46,0,0,46,19
+620,"Fajta, Peter",HUN,46,0,0,46,20
+621,"Kirci, Koray",TUR,46,0,0,46,25
+622,"Reymond, Arthur",FRA,46,0,0,46,26
+623,"Li, Hanwen",CHN,46,0,0,46,27
+624,"Rodriguez, Cristian",COL,45,0,0,45,12
+625,"Nouza, Petr",CZE,45,0,0,45,13
+626,"Heyman, Christopher",BEL,45,0,0,45,13
+627,"Debru, Gabriel",FRA,45,0,0,45,16
+628,"Donski, Alexander",BUL,45,0,0,45,20
+629,"Roncalli, Simone",ITA,45,0,0,45,20
+630,"Krstin, Pedja",SRB,45,0,0,45,23
+631,"Folliot, Quentin",FRA,45,0,0,45,27
+632,"Janowicz, Jerzy",POL,44,0,0,44,7
+633,"Kuzuhara, Bruno",USA,44,0,0,44,19
+634,"Handel, Tim",GER,44,0,0,44,24
+635,"Wehnelt, Kai",GER,44,0,0,44,27
+636,"Bolt, Alex",AUS,43,0,0,43,9
+637,"Chidekh, Clement",FRA,43,0,0,43,10
+638,"Kim, Cheong-Eui",KOR,43,0,0,43,11
+639,"Frunza, Nicolae",ROU,43,0,0,43,12
+640,"Smith, Roy",USA,43,0,0,43,14
+641,"Tomasetto, Luca",ITA,43,0,0,43,14
+642,"Wallart, Enzo",FRA,43,0,0,43,16
+643,"Elsayed, Amr",EGY,43,0,0,43,20
+644,"Zanellato, Nicolas",BRA,43,0,0,43,23
+645,"Carou, Ignacio",URU,43,0,0,43,23
+646,"Winter Lopez, Benjamin",ESP,43,0,0,43,25
+647,"Bemelmans, Ruben",BEL,42,0,0,42,11
+648,"Jahn, Jeremy",GER,42,0,0,42,16
+649,"Atlangeriev, Bekkhan",RUS,42,0,0,42,16
+650,"Popovic, Stefan",SRB,42,0,0,42,22
+651,"Araujo, Pedro",POR,42,0,0,42,23
+652,"Dostanic, Stefan",USA,41,0,0,41,7
+653,"Naw, Hazem",SYR,41,0,0,41,18
+654,"Pannu, Kiranpal",NZL,41,0,0,41,18
+655,"Haerteis, Johannes",GER,41,0,0,41,18
+656,"Gomez, Federico Agustin",ARG,41,0,0,41,20
+657,"Egea, Franco Emanuel",ARG,41,0,0,41,21
+658,"Iannaccone, Federico",ITA,41,0,0,41,24
+659,"Weightman, Oscar",GBR,40,0,0,40,17
+660,"Boehler, Dominik",GER,40,0,0,40,17
+661,"Sureshkumar, Manish",IND,40,0,0,40,18
+662,"Simon, Sahar",ISR,40,0,0,40,21
+663,"Torpegaard, Mikael",DEN,38,0,0,38,12
+664,"Cungu, Rrezart",MNE,38,0,0,38,16
+665,"Safwat, Mohamed",EGY,38,0,0,38,17
+666,"Compagnucci, Tommaso",ITA,38,0,0,38,20
+667,"Krainer, Lukas",AUT,38,0,0,38,22
+668,"Sorrentino, Luigi",ITA,38,0,0,38,24
+669,"Galoppini, Davide",ITA,38,0,0,38,28
+670,"Winter, Edward",AUS,37,0,0,37,8
+671,"Kamke, Tobias",GER,37,0,0,37,9
+672,"Johns, Garrett",USA,37,0,0,37,9
+673,"Damas, Miguel",ESP,37,0,0,37,12
+674,"Li, Zhe",CHN,37,0,0,37,14
+675,"Barrena, Alex",ARG,37,0,0,37,18
+676,"Lipovsek Puches, Tomas",ARG,37,0,0,37,18
+677,"Pokorny, Lukas",SVK,37,0,0,37,20
+678,"Pontjodikromo, Sidane",NED,37,0,0,37,20
+679,"Mitsui, Shunsuke",JPN,36,0,0,36,7
+680,"Harris, Andrew",AUS,36,0,0,36,11
+681,"Voisin, Emilien",FRA,36,0,0,36,14
+682,"Kivattsev, Kirill",RUS,36,0,0,36,23
+683,"Miceli, Marco",ITA,36,0,0,36,26
+684,"Picchione, Andrea",ITA,36,0,0,36,29
+685,"Marcora, Roberto",ITA,35,0,0,35,3
+686,"Ito, Tatsuma",JPN,35,0,0,35,6
+687,"Wallin, Olle",SWE,35,0,0,35,6
+688,"Bouquier, Arthur",FRA,35,0,0,35,26
+689,"Polukhin, Savva",RUS,34,0,0,34,9
+690,"Artnak, Bor",SLO,34,0,0,34,9
+691,"Donati, Matteo",ITA,34,0,0,34,10
+692,"Prizmic, Dino",CRO,34,0,0,34,10
+693,"Cias, Pawel",POL,34,0,0,34,10
+694,"Kekez, Duje",CRO,34,0,0,34,14
+695,"Beckley, Alec",RSA,34,0,0,34,17
+696,"Moundir, Adam",MAR,34,0,0,34,17
+697,"Negritu, Christoph",GER,34,0,0,34,17
+698,"Ivanov, Simon Anthony",BUL,34,0,0,34,17
+699,"Saitoh, Keisuke",JPN,34,0,0,34,17
+700,"Tkemaladze, Zura",GEO,34,0,0,34,20
+701,"Bocchi, Lorenzo",ITA,34,0,0,34,20
+702,"Danilov, Savriyan",RUS,34,0,0,34,21
+703,"Perchicot, Matthieu",FRA,34,0,0,34,27
+704,"Blumberg, William",USA,33,0,0,33,3
+705,"Vandermeersch, Cyril",FRA,33,0,0,33,14
+706,"Galarza, Juan Ignacio",ARG,33,0,0,33,14
+707,"Wang, Xiaofei",CHN,33,0,0,33,17
+708,"Kielan, Szymon",POL,33,0,0,33,18
+709,"Matusevich, Anton",GBR,33,0,0,33,18
+710,"Colson, Tibo",BEL,33,0,0,33,21
+711,"Ingildsen, Johannes",DEN,33,0,0,33,22
+712,"Takahashi, Yusuke",JPN,32,0,0,32,18
+713,"Yamacita, Fernando",BRA,32,0,0,32,19
+714,"Schell, Niklas",GER,32,0,0,32,19
+715,"Matsuda, Ryuki",JPN,32,0,0,32,20
+716,"Veldheer, Mick",NED,32,0,0,32,21
+717,"Brugnerotto, Marco",ITA,32,0,0,32,22
+718,"Sakamoto, Pedro",BRA,31,0,0,31,5
+719,"Mazza, Manuel",ITA,31,0,0,31,14
+720,"Nedelko, Ivan",RUS,31,0,0,31,14
+721,"Lilov, Victor",USA,31,0,0,31,20
+722,"Kimhi, Orel",ISR,31,0,0,31,20
+723,"Balazs, Attila",HUN,30,10,0,20,4
+724,"Rodesch, Chris",LUX,30,0,0,30,5
+725,"Buse, Ignacio",PER,30,0,0,30,8
+726,"Erler, Alexander",AUT,30,0,0,30,10
+727,"Moller, Elmer",DEN,30,0,0,30,13
+728,"Kovapitukted, Palaphoom",THA,30,0,0,30,13
+729,"Reinberg, Emil",USA,30,0,0,30,15
+730,"Guillen Meza, Alvaro",ECU,30,0,0,30,19
+731,"Deschamps, Thomas",FRA,30,0,0,30,21
+732,"Kaliyanda Poonacha, Niki",IND,30,0,0,30,22
+733,"Pujol Navarro, Bruno",ESP,30,0,0,30,24
+734,"Bax, Florent",FRA,30,0,0,30,25
+735,"Beauge, Maxence",FRA,30,0,0,30,26
+736,"Barton, Hynek",CZE,29,0,0,29,5
+737,"Paroulek, Tadeas",CZE,29,0,0,29,8
+738,"Tokuda, Renta",JPN,29,0,0,29,9
+739,"Zormann, Marcelo",BRA,29,0,0,29,12
+740,"Carr, Simon",IRL,29,0,0,29,14
+741,"Bondarevskiy, Yan",RUS,29,0,0,29,17
+742,"Dev, S D Prajwal",IND,29,0,0,29,18
+743,"Apostol, Bogdan Ionut",ROU,29,0,0,29,25
+744,"Ebden, Matthew",AUS,28,0,0,28,2
+745,"Rikl, Patrik",CZE,28,0,0,28,7
+746,"Kikuchi, Yuta",JPN,28,0,0,28,9
+747,"Mora, Maxime",FRA,28,0,0,28,10
+748,"Rodrigues, Daniel",POR,28,0,0,28,11
+749,"Wong, Chak Lam Coleman",HKG,28,0,0,28,12
+750,"Baldi, Filippo",ITA,28,0,0,28,12
+751,"Montsi, Khololwam",RSA,28,0,0,28,13
+752,"Zeballos, Federico",BOL,28,0,0,28,13
+753,"Vallejo, Adolfo Daniel",PAR,28,0,0,28,15
+754,"Perez Contri, Sergi",ESP,28,0,0,28,16
+755,"Gomez, Juan Sebastian",COL,28,0,0,28,20
+756,"Horvat, Roko",CRO,27,0,0,27,6
+757,"De Krom, Michiel",NED,27,0,0,27,6
+758,"Rodenas, Pedro",ESP,27,0,0,27,8
+759,"De La Fuente, Santiago",ARG,27,0,0,27,15
+760,"Gaubas, Vilius",LTU,27,0,0,27,16
+761,"Basso, Andrea",ITA,27,0,0,27,16
+762,"Bicknell, Blaise",JAM,27,0,0,27,18
+763,"Scaglia, Mathieu",FRA,27,0,0,27,20
+764,"Manda, Calin",ROU,27,0,0,27,22
+765,"O'Hoisin, Osgar",IRL,27,0,0,27,23
+766,"Rottoli, Lorenzo",ITA,27,0,0,27,26
+767,"Klok, Denis",RUS,27,0,0,27,28
+768,"Lee, Jea Moon",KOR,26,0,0,26,7
+769,"Hidalgo, Gabriel Alejandro",ARG,26,0,0,26,13
+770,"Dalla Valle, Enrico",ITA,26,0,0,26,14
+771,"Kestelboim, Mariano",ARG,26,0,0,26,14
+772,"Dancu, Vlad Andrei",ROU,26,0,0,26,14
+773,"Barnat, Jiri",CZE,26,0,0,26,18
+774,"Nejedly, Pavel",CZE,26,0,0,26,22
+775,"Glinka, Daniil",EST,26,0,0,26,26
+776,"Ho, Ray",TPE,26,0,0,26,31
+777,"Braswell, Micah",USA,25,0,0,25,2
+778,"Sigsgaard, Christian",DEN,25,0,0,25,12
+779,"Sumizawa, Daisuke",JPN,25,0,0,25,15
+780,"Bakshi, Aleksandre",GEO,25,0,0,25,17
+781,"Zima, Leopold",GER,25,0,0,25,18
+782,"Nijboer, Ryan",NED,25,0,0,25,19
+783,"Addison, Aaron",AUS,25,0,0,25,22
+784,"Guerrieri, Andrea",ITA,25,0,0,25,22
+785,"Tamm, Kristjan",EST,25,0,0,25,26
+786,"Prado Angelo, Juan Carlos",BOL,24,0,0,24,7
+787,"Den Ouden, Guy",NED,24,0,0,24,12
+788,"Rajski, Maciej",POL,24,0,0,24,12
+789,"Echeverria, John",ESP,24,0,0,24,18
+790,"Buitrago, Nicolas",COL,24,0,0,24,19
+791,"Liutarevich, Ivan",BLR,24,0,0,24,20
+792,"March, Cayetano",ECU,24,0,0,24,22
+793,"Martinez, Alex",ESP,23,0,0,23,9
+794,"Ellis, Blake",AUS,23,0,0,23,9
+795,"Patino, Luis",MEX,23,0,0,23,11
+796,"Wassermann, Deney",NED,23,0,0,23,11
+797,"McNally, John",USA,23,0,0,23,11
+798,"Pieczkowski, Olaf",POL,23,0,0,23,12
+799,"Simakin, Ilia",RUS,23,0,0,23,14
+800,"Ambrogi, Luciano Emanuel",ARG,23,0,0,23,15
+801,"Al Allaf, Kareem",USA,23,0,0,23,17
+802,"Roncadelli, Franco",URU,23,0,0,23,19
+803,"Manzanera Pertusa, Alejandro",ESP,23,0,0,23,23
+804,"Blanch, Dali",USA,23,0,0,23,25
+805,"Gonzalez Fernandez, Mario",ESP,22,0,0,22,12
+806,"Jans, Jarno",NED,22,0,0,22,12
+807,"Harper, Mitchell",AUS,22,0,0,22,14
+808,"Jecan, Alexandru",ROU,22,0,0,22,14
+809,"Gentzsch, Tom",GER,22,0,0,22,15
+810,"Hoyos, Alejandro",COL,22,0,0,22,18
+811,"Gulin, Svyatoslav",RUS,22,0,0,22,19
+812,"Imamura, Masamichi",JPN,22,0,0,22,22
+813,"Gonzalez, Alejandro",COL,21,0,0,21,7
+814,"Bachinger, Matthias",GER,21,0,0,21,7
+815,"Pontoglio, Davide",ITA,21,0,0,21,8
+816,"Boitan, Gabi Adrian",ROU,21,0,0,21,9
+817,"Philippov, Evgeny",RUS,21,0,0,21,11
+818,"Nesterov, Petr",BUL,21,0,0,21,13
+819,"Rodriguez, Lorenzo Joaquin",ARG,21,0,0,21,13
+820,"Gadamauri, Buvaysar",BEL,21,0,0,21,15
+821,"Bergevi, Filip",SWE,21,0,0,21,16
+822,"Vilardo, Francesco",ITA,21,0,0,21,17
+823,"Breysach, Martin",FRA,21,0,0,21,19
+824,"Bovy, Arnaud",BEL,21,0,0,21,20
+825,"Kawachi, Kazuma",JPN,21,0,0,21,20
+826,"Strode, Isaiah",USA,21,0,0,21,20
+827,"Rodriguez - Pace, Ricardo",VEN,21,0,0,21,22
+828,"Battaglino, Stefano",ITA,21,0,0,21,22
+829,"Little, Daniel",GBR,21,0,0,21,23
+830,"Jovic, Viktor",SRB,21,0,0,21,26
+831,"Lopez, Feliciano",ESP,20,10,0,10,12
+832,"Pecotic, Matija",CRO,20,0,0,20,2
+833,"Fonseca, Joao",BRA,20,0,0,20,4
+834,"Basing, Max",GBR,20,0,0,20,6
+835,"Zink, Tyler",USA,20,0,0,20,11
+836,"Sharipov, Marat",RUS,20,0,0,20,17
+837,"Bielinskyi, Oleksandr",UKR,20,0,0,20,17
+838,"Beloborodko, Illya",UKR,20,0,0,20,17
+839,"Tomescu, Dan Alexandru",ROU,20,0,0,20,20
+840,"Haliak, Mikalai",BLR,20,0,0,20,21
+841,"Puttergill, Calum",AUS,20,0,0,20,22
+842,"Ilhan, Marsel",TUR,20,0,0,20,25
+843,"Justo, Guido Ivan",ARG,19,0,0,19,3
+844,"Kodat, Toby Alex",USA,19,0,0,19,11
+845,"Tepmahc, Nicolas",FRA,19,0,0,19,22
+846,"Sinha, Nitin Kumar",IND,19,0,0,19,22
+847,"Ehrenschneider, Nino",GER,18,0,0,18,2
+848,"Baadi, Taha",CAN,18,0,0,18,11
+849,"Aubriot, Alexandre",FRA,18,0,0,18,12
+850,"Rocha, Henrique",POR,18,0,0,18,14
+851,"Parizzia, Nicolas",SUI,18,0,0,18,16
+852,"Marmousez, Lilian",FRA,18,0,0,18,17
+853,"Farren, Connor",USA,18,0,0,18,18
+854,"Obradovic, Dusan",SRB,18,0,0,18,19
+855,"Florig, Philip",GER,18,0,0,18,20
+856,"Loureiro, Joao Victor Couto",BRA,18,0,0,18,20
+857,"Eysseric, Jonathan",FRA,17,0,0,17,4
+858,"Efstathiou, Menelaos",CYP,17,0,0,17,6
+859,"Cervantes, Inigo",ESP,17,0,0,17,8
+860,"Maloney, Patrick",USA,17,0,0,17,8
+861,"Tien, Learner",USA,17,0,0,17,11
+862,"Maamoun, Karim-Mohamed",EGY,17,0,0,17,12
+863,"Giacalone, Omar",ITA,17,0,0,17,12
+864,"Kumasaka, Takuya",JPN,17,0,0,17,12
+865,"Reitano, Stefano",ITA,17,0,0,17,14
+866,"Delage, Pierre",FRA,17,0,0,17,16
+867,"Niki, Takuto",JPN,17,0,0,17,16
+868,"Donev, Gabriel",BUL,17,0,0,17,16
+869,"Ogura, Kosuke",JPN,17,0,0,17,21
+870,"Raynel, Amaury",FRA,17,0,0,17,21
+871,"Butulija, Boris",SRB,17,0,0,17,38
+872,"T Klahn, Bradley",USA,16,0,0,16,2
+872,"T Vocel, Matej",CZE,16,0,0,16,2
+874,"Kobelt, Nicolas",SUI,16,0,0,16,3
+875,"Matsuda, Koki",JPN,16,0,0,16,3
+876,"Yamasaki, Jumpei",JPN,16,0,0,16,10
+877,"Garcian, Axel",FRA,16,0,0,16,14
+878,"Seateun, Nathan",FRA,16,0,0,16,15
+879,"Musialek, Alexis",FRA,16,0,0,16,16
+880,"Ichikawa, Taisei",JPN,16,0,0,16,17
+881,"Bouzige, Moerani",AUS,16,0,0,16,18
+882,"Biljesko, Domagoj",CRO,16,0,0,16,18
+883,"Barreto Sanchez, Diego Augusto",ESP,16,0,0,16,20
+884,"Ivanov, Vladislav",RUS,16,0,0,16,20
+885,"Palovic, Lukas",SVK,16,0,0,16,20
+886,"Moraing, Oscar",GER,16,0,0,16,24
+887,"Sakellaridis, Stefanos",GRE,16,0,0,16,30
+888,"Goodger, Joshua",GBR,15,0,0,15,2
+889,"Benitez Chavarriaga, Juan Manuel",COL,15,0,0,15,7
+890,"Berrettini, Jacopo",ITA,15,0,0,15,9
+891,"Rubio Fierros, Alan Fernando",MEX,15,0,0,15,12
+892,"Lambling, Raphael",FRA,15,0,0,15,13
+893,"Kang, Kyle",USA,15,0,0,15,15
+894,"Nishiwaki, Kazuki",JPN,15,0,0,15,15
+895,"Cigarran, Thiago",ARG,15,0,0,15,16
+896,"Sheyngezikht, Leonid",BUL,15,0,0,15,17
+897,"Mbithi, Mwendwa",USA,15,0,0,15,17
+898,"Bouquet, Lucas",FRA,15,0,0,15,20
+899,"Mansilla Diez, Mario",ESP,15,0,0,15,21
+900,"Steiner, Maik",GER,15,0,0,15,22
+901,"Woerner, Paul",GER,15,0,0,15,23
+902,"Dambrosi, Giacomo",ITA,14,0,0,14,4
+903,"Gomez-Herrera, Carlos",ESP,14,0,0,14,5
+904,"Huang, Haoyuan",CHN,14,0,0,14,5
+905,"Bellucci, Thomaz",BRA,14,0,0,14,5
+906,"Brunold, Mika",SUI,14,0,0,14,7
+907,"T Andaloro, Fabrizio",ITA,14,0,0,14,7
+907,"T King, Darian",BAR,14,0,0,14,7
+909,"Midon, Lautaro",ARG,14,0,0,14,7
+910,"Schnur, Brayden",CAN,14,0,0,14,8
+911,"Papoe, Radu Mihai",ROU,14,0,0,14,8
+912,"Kijametovic, Aziz",BIH,14,0,0,14,9
+913,"Sugita, Yuichi",JPN,14,0,0,14,9
+914,"Cui, Jie",CHN,14,0,0,14,10
+915,"Juhas, Kristijan",SRB,14,0,0,14,11
+916,"Nordquist, Arvid",SWE,14,0,0,14,13
+917,"Singh, Karan",IND,14,0,0,14,14
+918,"Privara, Peter Benjamin",SVK,14,0,0,14,15
+919,"Lofman, Aleksi",FIN,14,0,0,14,15
+920,"Cavrak, Ken",AUS,14,0,0,14,16
+921,"Speziali, Filippo",ITA,14,0,0,14,16
+922,"Yamanaka, Taiyo",JPN,14,0,0,14,17
+923,"Martinez, Louroi",SUI,14,0,0,14,17
+924,"Fernandez Flores, Diego",CHI,14,0,0,14,21
+925,"Lopez, Noah",SUI,14,0,0,14,22
+926,"Matos, Rafael",BRA,13,0,0,13,2
+927,"Jeong, Yeong-Seok",KOR,13,0,0,13,4
+928,"Zheng, Michael",USA,13,0,0,13,5
+929,"Jong, Sander",NED,13,0,0,13,5
+930,"Tonejc, Vito",CRO,13,0,0,13,6
+931,"Viola, Matteo",ITA,13,0,0,13,6
+932,"Hanzlik, Cash",USA,13,0,0,13,8
+933,"T Giacomini, Luca",ITA,13,0,0,13,8
+933,"T Hasson, Jordan",ISR,13,0,0,13,8
+935,"Lalami Laaroussi, Younes",MAR,13,0,0,13,9
+936,"Dominko, Sebastian",SLO,13,0,0,13,9
+937,"Inui, Yuichiro",JPN,13,0,0,13,10
+938,"Catanzariti, A.J.",USA,13,0,0,13,10
+939,"Cabrera Bello, Inaki",ESP,13,0,0,13,11
+940,"Toledo Bague, Pol",ESP,13,0,0,13,11
+941,"Zgirovsky, Alexander",BLR,13,0,0,13,12
+942,"Welte, Milan",GER,13,0,0,13,14
+943,"Castelnuovo, Luca",SUI,13,0,0,13,15
+944,"Pennaforti, Gabriele",ITA,13,0,0,13,15
+945,"Broville, Maxence",FRA,13,0,0,13,16
+946,"Gagliardo, Lorenzo",ARG,13,0,0,13,17
+947,"Gimenez, Igor",BRA,13,0,0,13,18
+948,"Noce, Gabriele Maria",ITA,13,0,0,13,19
+949,"T Stevenson, Kelsey",CAN,13,0,0,13,19
+949,"T Zhu, Michael",USA,13,0,0,13,19
+951,"Agarwal, Rishab",IND,13,0,0,13,21
+952,"Oberleitner, Neil",AUT,13,0,0,13,22
+953,"Crnokrak, Alexander",AUS,13,0,0,13,22
+954,"Skorilas, Alexandros",GRE,13,0,0,13,23
+955,"Ouakaa, Aziz",TUN,13,0,0,13,36
+956,"Fassbender, Boris",FRA,12,0,0,12,2
+957,"Grant, William",USA,12,0,0,12,3
+958,"Menezes, Joao",BRA,12,0,0,12,4
+959,"Ocleppo, Julian",ITA,12,0,0,12,6
+960,"Bodmer, Adrian",SUI,12,0,0,12,6
+961,"Feldbausch, Kilian",SUI,12,0,0,12,8
+962,"Anthrop, Jack",USA,12,0,0,12,11
+963,"Sheehy, Joshua",USA,12,0,0,12,12
+964,"Catini, Niccolo",ITA,12,0,0,12,13
+965,"Franco, Tobias",ARG,12,0,0,12,13
+966,"Cacao, Tiago",POR,12,0,0,12,14
+967,"Mertens, Yannick",BEL,12,0,0,12,14
+968,"Charoenphon, Yuttana",THA,12,0,0,12,14
+969,"Duda, Filip",CZE,12,0,0,12,14
+970,"Matas Ortega, Xavi",ESP,12,0,0,12,14
+971,"Trongcharoenchaikul, Wishaya",THA,12,0,0,12,15
+972,"Walkin, Brandon",AUS,12,0,0,12,16
+973,"Vankan, Marlon",GER,12,0,0,12,18
+974,"Watanabe, Seita",JPN,12,0,0,12,18
+975,"Jones, Maximus",THA,12,0,0,12,33
+976,"Kalovelonis, Markos",GRE,11,0,0,11,2
+977,"Olivetti, Albano",FRA,11,0,0,11,4
+978,"Zahraj, Patrick",GER,11,0,0,11,5
+979,"Mott, Blake",AUS,11,0,0,11,5
+980,"Dlimi, Yassine",MAR,11,0,0,11,6
+981,"T Cesar Porras, Julio",ARG,11,0,0,11,6
+981,"T Kotzen, Alexander",USA,11,0,0,11,6
+981,"T Loffhagen, George",GBR,11,0,0,11,6
+984,"Tracy, James",USA,11,0,0,11,6
+985,"Roumane, Rayane",ALG,11,0,0,11,7
+986,"Vishwakarma, Siddharth",IND,11,0,0,11,7
+987,"Broska, Florian",GER,11,0,0,11,7
+988,"Kuhar, Matt",USA,11,0,0,11,8
+989,"Martinez, Mateo Nicolas",ARG,11,0,0,11,8
+990,"Jin, Jeremy",AUS,11,0,0,11,9
+991,"Lacko, Lukas",SVK,11,0,0,11,11
+992,"Bresciani, Lorenzo",ITA,11,0,0,11,12
+993,"Isomura, Kokoro",JPN,11,0,0,11,13
+994,"Cash, Julian",GBR,11,0,0,11,13
+995,"Son, Ji Hoon",KOR,11,0,0,11,14
+996,"Claverie, Lorenzo",ITA,11,0,0,11,15
+997,"Iradukunda, Guy Orly",BDI,11,0,0,11,15
+998,"Coelho, Fabio",POR,11,0,0,11,15
+999,"Sorger, Sebastian",AUT,11,0,0,11,15
+1000,"Zhukov, Maxim",RUS,11,0,0,11,15
+1001,"Lomakin, Grigoriy",KAZ,11,0,0,11,16
+1002,"Sandkaulen, Tim",GER,11,0,0,11,17
+1003,"Siniakov, Daniel",CZE,11,0,0,11,18
+1004,"Mendoza, Alejandro",BOL,11,0,0,11,18
+1005,"Jones, Ben",GBR,11,0,0,11,19
+1006,"Castagnola, Luca",ITA,11,0,0,11,19
+1007,"Nedovyesov, Aleksandr",KAZ,10,0,0,10,1
+1008,"T Bai, Yan",CHN,10,0,0,10,4
+1008,"T Bun, Kenny",CAM,10,0,0,10,4
+1010,"Chung, Hong",KOR,10,0,0,10,5
+1011,"Sibanda, Mehluli Don Ayanda",ZIM,10,0,0,10,5
+1012,"Ignatik, Uladzimir",BLR,10,0,0,10,5
+1013,"T Shiraishi, Hikaru",JPN,10,0,0,10,5
+1013,"T Wiedenmann, Luca",GER,10,0,0,10,5
+1015,"T Bulitski, Aliaksandr",BLR,10,0,0,10,6
+1015,"T Pini, Francisco",ARG,10,0,0,10,6
+1017,"Zhang, Ze",CHN,10,0,0,10,6
+1018,"Bailly, Gilles Arnaud",BEL,10,0,0,10,6
+1019,"Rocha, Francisco",POR,10,0,0,10,6
+1020,"Renard, Lucas",SWE,10,0,0,10,7
+1021,"Jang, Yunseok",KOR,10,0,0,10,8
+1022,"Ross, Gianni",USA,10,0,0,10,8
+1023,"Aguilar, Juan Carlos",CAN,10,0,0,10,8
+1024,"Kalender, Admir",CRO,10,0,0,10,9
+1025,"Matsumura, Ryotero",JPN,10,0,0,10,9
+1026,"Szajrych, Jasza",POL,10,0,0,10,10
+1027,"Nidunjianzan, Fnu",CHN,10,0,0,10,11
+1028,"Donders, Dax",NED,10,0,0,10,11
+1029,"Ortenzi, Gian Marco",ITA,10,0,0,10,12
+1030,"Eqbal, Ishaque",IND,10,0,0,10,12
+1031,"Bradshaw, Jacob",AUS,10,0,0,10,14
+1032,"Falabella, Lautaro Agustin",ARG,10,0,0,10,15
+1033,"De Rueda De Genover, Ignasi",ESP,10,0,0,10,16
+1034,"Bruna, Nicolas",CHI,10,0,0,10,16
+1035,"Gomez, Mateo",COL,10,0,0,10,16
+1036,"Evans, Gabriel",USA,10,0,0,10,16
+1037,"Kalyanpur, Adil",IND,10,0,0,10,17
+1038,"Nunez, Daniel Antonio",CHI,10,0,0,10,18
+1039,"Reddy, Rishi",IND,10,0,0,10,19
+1040,"Vasiliauskas, Matas",LTU,10,0,0,10,25
+1041,"Srbljak, Gorazd",MKD,10,0,0,10,26
+1042,"Robredo, Tommy",ESP,9,0,0,9,2
+1043,"Gomez, Alejandro",COL,9,0,0,9,2
+1044,"Reynolds, Finn",NZL,9,0,0,9,3
+1045,"Ratti, Lucio",ARG,9,0,0,9,4
+1046,"T Bacaloni, Andrea",ITA,9,0,0,9,5
+1046,"T Fukuda, Sora",JPN,9,0,0,9,5
+1046,"T Opitz, Jannik",GER,9,0,0,9,5
+1046,"T Shin, Woobin",KOR,9,0,0,9,5
+1050,"Ilagan, Andre",USA,9,0,0,9,5
+1051,"Becroft, Isaac",NZL,9,0,0,9,5
+1052,"Chrysochos, Petros",CYP,9,0,0,9,6
+1053,"Brady, Patrick",GBR,9,0,0,9,6
+1054,"Chin, John",JAM,9,0,0,9,7
+1055,"Butvilas, Edas",LTU,9,0,0,9,7
+1056,"Martin, Dan",CAN,9,0,0,9,7
+1057,"Salton, Dylan",RSA,9,0,0,9,8
+1058,"T Jansen, William",GBR,9,0,0,9,8
+1058,"T Zielinski, Marcel",GER,9,0,0,9,8
+1060,"T Arribage, Theo",FRA,9,0,0,9,8
+1060,"T Roveri Sidney, Gabriel",BRA,9,0,0,9,8
+1062,"Vanta, Valentin",ROU,9,0,0,9,8
+1063,"Esquici, Lorenzo",BRA,9,0,0,9,9
+1064,"Lemstra, Kai",GER,9,0,0,9,9
+1065,"T Pearson, Kody",AUS,9,0,0,9,10
+1065,"T Suksumrarn, Thantub",THA,9,0,0,9,10
+1067,"Campana, Federico",ITA,9,0,0,9,10
+1068,"T Doria, Luciano",ARG,9,0,0,9,11
+1068,"T Jose Ribeiro Lago, Elio",BRA,9,0,0,9,11
+1070,"Simonit, Ezequiel",ARG,9,0,0,9,11
+1071,"Tresca, Giuseppe",ITA,9,0,0,9,12
+1072,"Becerra Otarola, Ignacio Antonio",CHI,9,0,0,9,12
+1073,"Vasa, Eero",FIN,9,0,0,9,12
+1074,"T Boureau, Alexis",FRA,9,0,0,9,12
+1074,"T Petrov, Alexander",USA,9,0,0,9,12
+1076,"Bagnolini, Daniel",ITA,9,0,0,9,12
+1077,"Ricca, Giorgio",ITA,9,0,0,9,12
+1078,"Lo, Chien-hsun",TPE,9,0,0,9,13
+1079,"Mikula, Michal",POL,9,0,0,9,14
+1080,"Romios, Matthew Christopher",AUS,9,0,0,9,14
+1081,"Pavlovic, Luka",FRA,9,0,0,9,14
+1082,"Wojcik, Yann",POL,9,0,0,9,14
+1083,"Vylegzhanin, Nikolay",RUS,9,0,0,9,15
+1084,"Agabigun, Sarp",TUR,9,0,0,9,16
+1085,"Brumm, Jacob",USA,9,0,0,9,16
+1086,"Abderrahman, Wissam",TUN,9,0,0,9,19
+1087,"Takeuchi, Kento",JPN,9,0,0,9,19
+1088,"Vilella Martinez, Mario",ESP,8,0,0,8,2
+1089,"Pospisil, Jaroslav",CZE,8,0,0,8,2
+1090,"Bickersteth, Jacob",USA,8,0,0,8,3
+1091,"Sakharov, Gleb",FRA,8,0,0,8,4
+1092,"Harper, Cleeve",CAN,8,0,0,8,5
+1093,"Shane, Ryan",USA,8,0,0,8,5
+1094,"Ghibaudo, Antoine",FRA,8,0,0,8,5
+1095,"Slump, Stijn",NED,8,0,0,8,6
+1096,"Kuperstein, Alex",USA,8,0,0,8,6
+1097,"T Aksu, Cengiz",TUR,8,0,0,8,7
+1097,"T Kim, Aidan",USA,8,0,0,8,7
+1099,"Poullain, Lucas",FRA,8,0,0,8,7
+1100,"Bourgois, Cesar",FRA,8,0,0,8,8
+1101,"Nava, Eduardo",USA,8,0,0,8,8
+1102,"T Sabanin, Yan",RUS,8,0,0,8,8
+1102,"T Schnaitter, Jakob",GER,8,0,0,8,8
+1104,"Freund, Simon",SWE,8,0,0,8,9
+1105,"Cekirge, Kuzey",TUR,8,0,0,8,10
+1106,"Ginat, Roi",ISR,8,0,0,8,10
+1107,"Paris, Joshua",GBR,8,0,0,8,11
+1108,"Wojcik, Jakub",USA,8,0,0,8,11
+1109,"Minin, Matvey",RUS,8,0,0,8,12
+1110,"Trinker, Jonas",AUT,8,0,0,8,12
+1111,"Sadaoui, Mehdi",FRA,8,0,0,8,14
+1112,"Scott, Fletcher",USA,8,0,0,8,14
+1113,"Yunis, Facundo",GER,8,0,0,8,15
+1114,"T Cloes, Loic",BEL,8,0,0,8,16
+1114,"T Evans, Tom",AUS,8,0,0,8,16
+1116,"Brigida, Omar",ITA,8,0,0,8,17
+1117,"Arutiunian, Erik",BLR,8,0,0,8,18
+1118,"Bosio, Gabriele",ITA,8,0,0,8,21
+1119,"Flores, Jesse",CRC,8,0,0,8,22
+1120,"Rola, Blaz",SLO,7,0,0,7,3
+1121,"T Djuric, Branko",SRB,7,0,0,7,4
+1121,"T Kawahashi, Yuta",JPN,7,0,0,7,4
+1121,"T Vincent, Antoine",FRA,7,0,0,7,4
+1124,"Lapadat, Joshua",CAN,7,0,0,7,5
+1125,"Bass, Finn",GBR,7,0,0,7,5
+1126,"Banerjee, Samir",USA,7,0,0,7,5
+1127,"Safranek, Vaclav",CZE,7,0,0,7,6
+1128,"Kim, Jae Hwan",KOR,7,0,0,7,6
+1129,"Bolardt, Antonin",CZE,7,0,0,7,6
+1130,"T Castro, Cristobal",CHI,7,0,0,7,7
+1130,"T Perez Sanz, David",ESP,7,0,0,7,7
+1132,"Antonescu, Vasile",ROU,7,0,0,7,7
+1133,"Liaonenka, Aliaksandr",BLR,7,0,0,7,7
+1134,"Azoides, Demetris",GRE,7,0,0,7,7
+1135,"Heck, Hunter",USA,7,0,0,7,8
+1136,"Vardhan, Vishnu",IND,7,0,0,7,8
+1137,"Moghini, Gabriele",SUI,7,0,0,7,10
+1138,"Williams, Cooper",USA,7,0,0,7,10
+1139,"Pawelski, Martyn",POL,7,0,0,7,12
+1140,"Markovski, Obrad",MKD,7,0,0,7,12
+1141,"Roberts, Justin",BAH,7,0,0,7,12
+1142,"T Bar Biryukov, Petr",RUS,7,0,0,7,12
+1142,"T Hamza Reguig, Samir",ALG,7,0,0,7,12
+1142,"T Masabayashi, Tomohiro",JPN,7,0,0,7,12
+1145,"T Boyd, Kalman L.",USA,7,0,0,7,13
+1145,"T Gimenez, Julián",ARG,7,0,0,7,13
+1147,"De Rossi, Marco",SMR,7,0,0,7,13
+1148,"Tumasonis, Gabriel",BRA,7,0,0,7,16
+1149,"Ragazzi, Alessandro",ITA,7,0,0,7,16
+1150,"Nusdeo, Joao Marcos",BRA,7,0,0,7,17
+1151,"Brown, Preston",USA,7,0,0,7,23
+1152,"T Heliovaara, Harri",FIN,6,0,0,6,1
+1152,"T Nys, Hugo",MON,6,0,0,6,1
+1154,"T King, Evan",USA,6,0,0,6,2
+1154,"T Balaji, N.Sriram",IND,6,0,0,6,2
+1154,"T Nunez, Victor",CHI,6,0,0,6,2
+1157,"Hidalgo, Diego",ECU,6,0,0,6,3
+1158,"Uesugi, Kaito",JPN,6,0,0,6,3
+1159,"T Christodoulou, Stylianos",CYP,6,0,0,6,4
+1159,"T Rivera, Hudson",USA,6,0,0,6,4
+1161,"T Catry, Robin",FRA,6,0,0,6,4
+1161,"T Planinsek, Filip Jeff",SLO,6,0,0,6,4
+1161,"T Rogers, Andrew",USA,6,0,0,6,4
+1164,"Harazaki, Asahi",JPN,6,0,0,6,4
+1165,"T Takamisawa, Taketo",JPN,6,0,0,6,5
+1165,"T Von Der Schulenburg, Jeffrey",SUI,6,0,0,6,5
+1167,"Sakamoto, Rei",JPN,6,0,0,6,6
+1168,"Swenson, Bjorn",USA,6,0,0,6,6
+1169,"Singh, Dalwinder",IND,6,0,0,6,6
+1170,"T Khoeblal, Elgin",NED,6,0,0,6,6
+1170,"T Sueoka, Yamato",JPN,6,0,0,6,6
+1172,"Shin, Sanhui",KOR,6,0,0,6,6
+1173,"T Kiger, Mac",USA,6,0,0,6,7
+1173,"T Fitriadi, M Rifki",INA,6,0,0,6,7
+1175,"Inchauspe, Paul",FRA,6,0,0,6,7
+1176,"Gobat, Adrien",FRA,6,0,0,6,7
+1177,"Qamar, Faisal",IND,6,0,0,6,7
+1178,"T Ellouck, Ron",ISR,6,0,0,6,7
+1178,"T Leal, Vitor",BRA,6,0,0,6,7
+1180,"Trinh, Linh Giang",VIE,6,0,0,6,7
+1181,"Beale, Jeremy",AUS,6,0,0,6,8
+1182,"T Faria, Luis",POR,6,0,0,6,8
+1182,"T Nincevic, Frane",CRO,6,0,0,6,8
+1184,"T Camus, Charlie",AUS,6,0,0,6,8
+1184,"T Hurrion, Millen",GBR,6,0,0,6,8
+1184,"T Navasirisomboon, Jirat",THA,6,0,0,6,8
+1187,"Smith, Jordan",AUS,6,0,0,6,9
+1188,"Milev, Yanaki",BUL,6,0,0,6,9
+1189,"Shin, Maxim",UZB,6,0,0,6,10
+1190,"T Chanta, Thanapet",THA,6,0,0,6,10
+1190,"T Murphy, Brandon",GBR,6,0,0,6,10
+1192,"Suzuki, Ko",JPN,6,0,0,6,10
+1193,"Rossi, Leonardo",ITA,6,0,0,6,10
+1194,"Ostapenkov, Daniil",BLR,6,0,0,6,11
+1195,"T Bybel, Nicholas",USA,6,0,0,6,11
+1195,"T Molino, Javier",ESP,6,0,0,6,11
+1197,"Calvano, Giovanni",ITA,6,0,0,6,12
+1198,"T Novansky, Michal",SVK,6,0,0,6,12
+1198,"T Stakusic, Marko",CAN,6,0,0,6,12
+1200,"Oetzbach, Adrian",GER,6,0,0,6,13
+1201,"T Llanes, Francisco",URU,6,0,0,6,13
+1201,"T Pontico, Hugo",FRA,6,0,0,6,13
+1203,"T Fantini, Luca",ITA,6,0,0,6,13
+1203,"T Niklas-Salminen, Patrik",FIN,6,0,0,6,13
+1205,"Misasi, Giannicola",ITA,6,0,0,6,13
+1206,"Gola, Andrea",ITA,6,0,0,6,15
+1207,"T Pampanin, Pietro",ITA,6,0,0,6,17
+1207,"T Tashbulatov, Dostanbek",KAZ,6,0,0,6,17
+1209,"Tajima, Naoki",JPN,6,0,0,6,20
+1210,"Sabanov, Matej",SRB,5,0,0,5,1
+1211,"Matuszewski, Piotr",POL,5,0,0,5,2
+1212,"T Cornea, Victor Vlad",ROU,5,0,0,5,3
+1212,"T Dima, Dragos",ROU,5,0,0,5,3
+1214,"Story, James",GBR,5,0,0,5,4
+1215,"T Alvarez, Luis Carlos",MEX,5,0,0,5,4
+1215,"T Nicod, Jakub",CZE,5,0,0,5,4
+1217,"Loutit, Jack",NZL,5,0,0,5,5
+1218,"Fayziev, Sanjar",UZB,5,0,0,5,5
+1219,"T Geschwind, Francisco Tomas",ARG,5,0,0,5,5
+1219,"T Lorusso, Lorenzo",ITA,5,0,0,5,5
+1219,"T Ozolins, Karlis",LAT,5,0,0,5,5
+1222,"Villalon, Nicolas",CHI,5,0,0,5,5
+1223,"Jachuck, Ronan",USA,5,0,0,5,5
+1224,"Hadigian, Eric",USA,5,0,0,5,6
+1225,"Cook, Ethan",AUS,5,0,0,5,6
+1226,"T Agwi, Michael",IRL,5,0,0,5,6
+1226,"T Lock, Courtney John",ZIM,5,0,0,5,6
+1226,"T Spec, Matic",SLO,5,0,0,5,6
+1229,"T Kim, Geun Jun",KOR,5,0,0,5,6
+1229,"T Lapalu, Valentin",FRA,5,0,0,5,6
+1229,"T Noskin, Egor",RUS,5,0,0,5,6
+1229,"T Ramirez, Cesar",MEX,5,0,0,5,6
+1229,"T Wood, Warren",USA,5,0,0,5,6
+1234,"T Elia, Alon",ISR,5,0,0,5,7
+1234,"T De Lima, Matheus Amorim",BRA,5,0,0,5,7
+1236,"T Hamou, Maxime",FRA,5,0,0,5,7
+1236,"T Orlikowski, Aleksander",POL,5,0,0,5,7
+1238,"T Gregg, Perry",USA,5,0,0,5,7
+1238,"T Nedic, Andrej",BIH,5,0,0,5,7
+1238,"T Turker, Mert Naci",TUR,5,0,0,5,7
+1241,"T Bramajo, Santiago",ARG,5,0,0,5,7
+1241,"T Shyovitz, Eyal",ISR,5,0,0,5,7
+1243,"T Barreiros Reyes, Mateo",BRA,5,0,0,5,8
+1243,"T Baron, Jonathan",ISR,5,0,0,5,8
+1243,"T Bertuccioli, Federico",ITA,5,0,0,5,8
+1243,"T Pietri, Benjamin",FRA,5,0,0,5,8
+1247,"T Hoogmartens, Alexander",BEL,5,0,0,5,8
+1247,"T Sebesta, Jan",SUI,5,0,0,5,8
+1249,"Tsitsipas, Petros",GRE,5,0,0,5,8
+1250,"T Frantzen, Constantin",GER,5,0,0,5,8
+1250,"T Lane, Lewie",GER,5,0,0,5,8
+1250,"T Leong, Mitsuki Wei Kang",MAS,5,0,0,5,8
+1250,"T Stuurman, Roland",NED,5,0,0,5,8
+1250,"T Weintraub, Ben",ISR,5,0,0,5,8
+1255,"Schachter, Noah",USA,5,0,0,5,8
+1256,"Andrejic, Marko",AUT,5,0,0,5,9
+1257,"T Boros, Attila",HUN,5,0,0,5,9
+1257,"T Sigouin, Benjamin",CAN,5,0,0,5,9
+1259,"T Dembek, Michal",POL,5,0,0,5,10
+1259,"T Hornitschek, Nico",GER,5,0,0,5,10
+1259,"T Temirhanov, Arslanbek",SWE,5,0,0,5,10
+1262,"T Marinescu, Mihai Razvan",ROU,5,0,0,5,10
+1262,"T Wong, Hong Kit",HKG,5,0,0,5,10
+1264,"T Baris, Ozan",USA,5,0,0,5,11
+1264,"T Okamura, Issei",JPN,5,0,0,5,11
+1264,"T Planelles Ripoll, Gerard",ESP,5,0,0,5,11
+1267,"T Ilkel, Berk",TUR,5,0,0,5,11
+1267,"T Tang, Sheng",CHN,5,0,0,5,11
+1267,"T Villoslada, Edouard",FRA,5,0,0,5,11
+1270,"T Garcia, Miguel",ESP,5,0,0,5,12
+1270,"T Nakashima, Bryce",USA,5,0,0,5,12
+1272,"Del Pino, Mateo",ARG,5,0,0,5,13
+1273,"Saraiva Dos Santos, Paulo Andre",BRA,5,0,0,5,13
+1274,"Koenig, Luc",RSA,5,0,0,5,13
+1275,"Osorio, Juan Sebastian",COL,5,0,0,5,14
+1276,"Uzhylovskyi, Volodoymyr",UKR,5,0,0,5,15
+1277,"Denisov, Ivan",RUS,5,0,0,5,15
+1278,"Shanmugam, Abhinav Sanjeev",IND,5,0,0,5,15
+1279,"T Cash, Robert",USA,4,0,0,4,1
+1279,"T Drzewiecki, Karol",POL,4,0,0,4,1
+1279,"T Merino, Alexander",PER,4,0,0,4,1
+1279,"T Petrovic, Andreja",NOR,4,0,0,4,1
+1279,"T Reyes-Varela, Miguel Angel",MEX,4,0,0,4,1
+1279,"T Vasilenko, Alexander",RUS,4,0,0,4,1
+1279,"T Wang, Tak Khunn",FRA,4,0,0,4,1
+1286,"T Babelis, Tadas",LTU,4,0,0,4,2
+1286,"T Henning, Philip",RSA,4,0,0,4,2
+1288,"T Reboul, Fabien",FRA,4,0,0,4,2
+1288,"T Salvestre, Damien",FRA,4,0,0,4,2
+1290,"T Di Nicola, Gianluca",ITA,4,0,0,4,3
+1290,"T Seggerman, Ryan",USA,4,0,0,4,3
+1292,"Cornut-Chauvinc, Antoine",FRA,4,0,0,4,3
+1293,"T De Maio, Mauro",ITA,4,0,0,4,3
+1293,"T Giunta, Massimo",ITA,4,0,0,4,3
+1293,"T Storrie, Ryan James",GBR,4,0,0,4,3
+1296,"T Boika, Leanid",USA,4,0,0,4,4
+1296,"T Hernandez, Felipe",CHI,4,0,0,4,4
+1298,"Gaillard, Marc Antoine",FRA,4,0,0,4,4
+1299,"Fossati, Carlo Alberto",ITA,4,0,0,4,4
+1300,"T Delaney, Jake",AUS,4,0,0,4,4
+1300,"T Hietaranta, Roni Mikael",FIN,4,0,0,4,4
+1300,"T Miyoshi, Kenta",JPN,4,0,0,4,4
+1300,"T Vasa, Iiro",FIN,4,0,0,4,4
+1300,"T Vasquez Gehrke, Alessio",GER,4,0,0,4,4
+1300,"T Woldeab, Siem",USA,4,0,0,4,4
+1306,"T Hohmann, Ronald",USA,4,0,0,4,5
+1306,"T Terziev, Simeon",BUL,4,0,0,4,5
+1308,"Leote Prata, Martim",POR,4,0,0,4,5
+1309,"Johnson, Luke",GBR,4,0,0,4,5
+1310,"T Bondioli, Federico",ITA,4,0,0,4,5
+1310,"T Novikov, Egor",RUS,4,0,0,4,5
+1310,"T Talic, Zaharije-Zak",AUS,4,0,0,4,5
+1313,"Jones, Miles",USA,4,0,0,4,5
+1314,"Versier, Vivien",FRA,4,0,0,4,6
+1315,"T Banthia, Siddhant",IND,4,0,0,4,6
+1315,"T Chikami, Shohei",JPN,4,0,0,4,6
+1315,"T Malla, Bastian",CHI,4,0,0,4,6
+1315,"T Turriziani Alvarez, Alejandro",ESP,4,0,0,4,6
+1319,"T De Dios, Felipe",ARG,4,0,0,4,6
+1319,"T Kroslak, Jakub",SVK,4,0,0,4,6
+1321,"Pena, Enrique",COL,4,0,0,4,7
+1322,"T Braynin, Aleksandr",UKR,4,0,0,4,7
+1322,"T Nefve, Axel",USA,4,0,0,4,7
+1322,"T Phillips, Rowland",JAM,4,0,0,4,7
+1322,"T Paty, Daniel",CZE,4,0,0,4,7
+1322,"T Velcz, Zsombor",HUN,4,0,0,4,7
+1327,"T Amoros Ramos, Pol",ESP,4,0,0,4,7
+1327,"T Javia, Dev",IND,4,0,0,4,7
+1327,"T Kamath, Madhwin",IND,4,0,0,4,7
+1327,"T Netuschil, Marvin",GER,4,0,0,4,7
+1327,"T Pecci, Alessandro",ITA,4,0,0,4,7
+1327,"T Takada, Mao",JPN,4,0,0,4,7
+1333,"Pacheco Mendez, Rodrigo",MEX,4,0,0,4,8
+1334,"T Gavrielides, Liam",GER,4,0,0,4,8
+1334,"T Henning, Benedikt",GER,4,0,0,4,8
+1334,"T Mo, Ye Cong",CHN,4,0,0,4,8
+1334,"T Nedelchev, Nikolay",BUL,4,0,0,4,8
+1334,"T Sun, Qian",CHN,4,0,0,4,8
+1334,"T Vernier, Michel",CHI,4,0,0,4,8
+1340,"T Duran, Tuncay",TUR,4,0,0,4,8
+1340,"T Recek, Dominik",CZE,4,0,0,4,8
+1340,"T Shumeiko, Pavel",UKR,4,0,0,4,8
+1343,"T Bejenaru, Mateo",ROU,4,0,0,4,9
+1343,"T Giotis, Rafael",GER,4,0,0,4,9
+1343,"T Lee, Kuan-Yi",TPE,4,0,0,4,9
+1343,"T Maginley, Jody",ANT,4,0,0,4,9
+1347,"T Andre, Seydina",SEN,4,0,0,4,9
+1347,"T La Vela, Giuseppe",ITA,4,0,0,4,9
+1347,"T Marchetti, Federico",ITA,4,0,0,4,9
+1350,"Bar Menahem, Shay",ISR,4,0,0,4,10
+1351,"T Binda, Alexandr",RUS,4,0,0,4,10
+1351,"T Mikrut, Luka",CRO,4,0,0,4,10
+1351,"T Sperle, John",GER,4,0,0,4,10
+1354,"Hellum-Lilleengen, Lukas",NOR,4,0,0,4,10
+1355,"T Britto, Luis",BRA,4,0,0,4,11
+1355,"T De Jager, Jesse",NED,4,0,0,4,11
+1355,"T Goldsteiner, Peter",AUT,4,0,0,4,11
+1358,"T Isaro, Pruchya",THA,4,0,0,4,11
+1358,"T Pavlekovich Smith, Thomas",AUS,4,0,0,4,11
+1360,"Gomes, Miguel",POR,4,0,0,4,12
+1361,"Frances Tessari, Enzo",FRA,4,0,0,4,12
+1362,"T Hess, Sean",ARG,4,0,0,4,12
+1362,"T Jones, Adam",GBR,4,0,0,4,12
+1362,"T Minakov, Mikhail",RUS,4,0,0,4,12
+1365,"Faucon, Romain",BEL,4,0,0,4,14
+1366,"Hodkin, Sean",GBR,4,0,0,4,15
+1367,"Jurajda, Adam",CZE,4,0,0,4,15
+1368,"T Martin, Toby",GBR,4,0,0,4,15
+1368,"T Rojas, Olivier",BEL,4,0,0,4,15
+1370,"Sookton-eng, Chanchai",THA,4,0,0,4,18
+1371,"Zakaryia, Faris",EGY,4,0,0,4,18
+1372,"T Bouchelaghem, Cesar",FRA,3,0,0,3,2
+1372,"T Couto Loureiro, Joao Victor",BRA,3,0,0,3,2
+1372,"T Sorbo, Jonathan",CAN,3,0,0,3,2
+1375,"T Borisiouk, Martin",BLR,3,0,0,3,2
+1375,"T Crepatte, Baptiste",FRA,3,0,0,3,2
+1375,"T Jebens, Hendrik",GER,3,0,0,3,2
+1375,"T Sciahbasi, Lorenzo",ITA,3,0,0,3,2
+1379,"T Clezar, Guilherme",BRA,3,0,0,3,3
+1379,"T Horiuchi, Ryusuke",JPN,3,0,0,3,3
+1379,"T Minasyan, Michael",SWE,3,0,0,3,3
+1379,"T Tarvet, Oliver",GBR,3,0,0,3,3
+1383,"T Bennani, Reda",MAR,3,0,0,3,3
+1383,"T Ravichander, Ishaan",USA,3,0,0,3,3
+1383,"T Suresh, Dhakshineswar",IND,3,0,0,3,3
+1383,"T Salazar, Daniel",COL,3,0,0,3,3
+1383,"T Van Rensburg, Sean",AUS,3,0,0,3,3
+1383,"T Vishal Balsekar, Aditya",IND,3,0,0,3,3
+1389,"T Deschamps, Allan",FRA,3,0,0,3,3
+1389,"T Dubrivnyy, Artem",RUS,3,0,0,3,3
+1389,"T Sarouk, Yair",ISR,3,0,0,3,3
+1392,"T Hernandez, Carles",ESP,3,0,0,3,4
+1392,"T Novikov, Dennis",USA,3,0,0,3,4
+1392,"T Yuzuki, Takeru",JPN,3,0,0,3,4
+1395,"T Ehara, Hiroyasu",JPN,3,0,0,3,4
+1395,"T Lyeons, Jaycer",USA,3,0,0,3,4
+1395,"T Lee, Tae-Woo",KOR,3,0,0,3,4
+1395,"T Nirundorn, Tanapatt",THA,3,0,0,3,4
+1395,"T Ouahab, Lamine",MAR,3,0,0,3,4
+1395,"T Panak, Yvo",CZE,3,0,0,3,4
+1395,"T Qamar, Fardeen",IND,3,0,0,3,4
+1402,"T Braithwaite, Thomas",AUS,3,0,0,3,4
+1402,"T Ferrari, Francesco",ITA,3,0,0,3,4
+1402,"T Hopp, Michel",GER,3,0,0,3,4
+1402,"T Jones, Hayden",AUS,3,0,0,3,4
+1402,"T Terczynski, Mateusz",POL,3,0,0,3,4
+1402,"T Wunderlich, Yannick",GER,3,0,0,3,4
+1408,"Bueres, Matheus",BRA,3,0,0,3,5
+1409,"T Miceli, Roberto",ITA,3,0,0,3,5
+1409,"T Tsivadze, George",GEO,3,0,0,3,5
+1409,"T Vanneste, Jeroen",BEL,3,0,0,3,5
+1409,"T Weekes, Jaden",CAN,3,0,0,3,5
+1413,"T Charlton, Joshua",AUS,3,0,0,3,5
+1413,"T Cortegiani, Alessandro",ITA,3,0,0,3,5
+1413,"T Horak, Ondrej",CZE,3,0,0,3,5
+1413,"T Neuhaus, Arthur",SUI,3,0,0,3,5
+1413,"T Papamalamis, Theo",FRA,3,0,0,3,5
+1413,"T Ujvary, Matthias",AUT,3,0,0,3,5
+1419,"T Lanik, Tomas",SVK,3,0,0,3,6
+1419,"T Salazar, Amador",CHI,3,0,0,3,6
+1419,"T Vu, Ha Minh Duc",VIE,3,0,0,3,6
+1422,"T Musitelli, François",FRA,3,0,0,3,6
+1422,"T Oliveira, Christian",BRA,3,0,0,3,6
+1422,"T Oliver Moratalla, Vicente",ESP,3,0,0,3,6
+1422,"T Pereira, Tiago",POR,3,0,0,3,6
+1422,"T Revelli, Giacomo",GBR,3,0,0,3,6
+1422,"T Sahtali, Toufik",ALG,3,0,0,3,6
+1422,"T Tyler, Joe",GBR,3,0,0,3,6
+1422,"T Xiao, Linang",CHN,3,0,0,3,6
+1430,"T Borza, Bogdan",ROU,3,0,0,3,7
+1430,"T Di Natale, Gian Matias",ARG,3,0,0,3,7
+1430,"T Dickerson, Ryan",USA,3,0,0,3,7
+1430,"T Gaal, Corey",AUS,3,0,0,3,7
+1430,"T Pozzani, Nicolo",ITA,3,0,0,3,7
+1435,"T Bachmaier, Philip",AUT,3,0,0,3,7
+1435,"T Catani, Leonardo",ITA,3,0,0,3,7
+1435,"T Ciurletti, Andres Gabriel",ITA,3,0,0,3,7
+1435,"T Kumaran, Bharath Nishok",IND,3,0,0,3,7
+1435,"T Pereira, Miguel Fernando",CHI,3,0,0,3,7
+1435,"T Stewart, Hamish",GBR,3,0,0,3,7
+1435,"T Vatteroni, Lorenzo",ITA,3,0,0,3,7
+1442,"Agafonov, Egor",RUS,3,0,0,3,8
+1443,"T Agostini, Simone",ITA,3,0,0,3,8
+1443,"T Donald, Matthew William",CZE,3,0,0,3,8
+1443,"T Li, Majun",CHN,3,0,0,3,8
+1443,"T Misrahi, Joe",FRA,3,0,0,3,8
+1443,"T Thanos, Aristotelis",GRE,3,0,0,3,8
+1448,"La Serna, Juan Manuel",ARG,3,0,0,3,9
+1449,"T Alvarado Berrospi, Alberto Odiseo",PER,3,0,0,3,9
+1449,"T Ansari, Austin Ansari",USA,3,0,0,3,9
+1449,"T Blaydes, Billy",GBR,3,0,0,3,9
+1449,"T Congcar, Congsup",THA,3,0,0,3,9
+1449,"T Dabas, Nishant",IND,3,0,0,3,9
+1449,"T Escurra Isnardi, Hernando Jose",PAR,3,0,0,3,9
+1449,"T Jotovski, Tomislav",MKD,3,0,0,3,9
+1449,"T Liu, Hanyi",CHN,3,0,0,3,9
+1449,"T Schaer, Jonas",SUI,3,0,0,3,9
+1458,"Lakoseljac, Christian",CAN,3,0,0,3,10
+1459,"T Barun, Bozo",CRO,3,0,0,3,10
+1459,"T D'Agostino, Stefano",ITA,3,0,0,3,10
+1459,"T Joncour, Ronan",FRA,3,0,0,3,10
+1459,"T Volonski, Nikita",AUS,3,0,0,3,10
+1459,"T Wang, Chukang",CHN,3,0,0,3,10
+1459,"T Yang, Jimmy",GER,3,0,0,3,10
+1465,"T Abibsi, Mohamed Ali",ALG,3,0,0,3,11
+1465,"T Jirousek, Tomas",CZE,3,0,0,3,11
+1465,"T Marrero Curbelo, Ivan",ESP,3,0,0,3,11
+1465,"T Ward IV, Emmett",USA,3,0,0,3,11
+1469,"Koaykul, Krittin",THA,3,0,0,3,12
+1470,"T Kissell, Chad",USA,3,0,0,3,13
+1470,"T Rodriguez, Johan Alexander",COL,3,0,0,3,13
+1472,"Valsecchi, Paul",FRA,3,0,0,3,18
+1473,"T Biro, Andre",HUN,2,0,0,2,1
+1473,"T cherie Ligniere, Edoardo",ITA,2,0,0,2,1
+1473,"T Cabral, Francisco",POR,2,0,0,2,1
+1473,"T Dubrouski, Mikhail",BLR,2,0,0,2,1
+1473,"T Drover-Mattinen, Liam",CAN,2,0,0,2,1
+1473,"T Doumbia, Sadio",FRA,2,0,0,2,1
+1473,"T Galloway, Robert",USA,2,0,0,2,1
+1473,"T Galdos, Sergio",PER,2,0,0,2,1
+1473,"T Gomez, Lucas",MEX,2,0,0,2,1
+1473,"T Huang, Chih Chi",CAN,2,0,0,2,1
+1473,"T Kirkov, Vasil",USA,2,0,0,2,1
+1473,"T Laurent, Thomas",FRA,2,0,0,2,1
+1473,"T Raja, Purav",IND,2,0,0,2,1
+1473,"T Shirafuji, Naru",JPN,2,0,0,2,1
+1473,"T Saye, David",USA,2,0,0,2,1
+1473,"T Sharan, Divij",IND,2,0,0,2,1
+1473,"T Sanchez, Rodrigo",PER,2,0,0,2,1
+1473,"T Verbeek, Sem",NED,2,0,0,2,1
+1491,"T Breut, Lilian",FRA,2,0,0,2,2
+1491,"T Bigun, Meecah",USA,2,0,0,2,2
+1491,"T Dhoe, Benjamin",BEL,2,0,0,2,2
+1491,"T Estevez, Maximiliano",ARG,2,0,0,2,2
+1491,"T Kudriashov, Igor",RUS,2,0,0,2,2
+1491,"T Katz, Martin",BEL,2,0,0,2,2
+1491,"T Kwiatkowski, Thai-Son",USA,2,0,0,2,2
+1491,"T Malesevic, Nemanja",BIH,2,0,0,2,2
+1491,"T Myneni, Saketh",IND,2,0,0,2,2
+1491,"T Maden, Yannick",GER,2,0,0,2,2
+1491,"T Polansky, Peter",CAN,2,0,0,2,2
+1491,"T Sanghera, Tiran",GBR,2,0,0,2,2
+1491,"T Virali-Murugesan, Ranjeet",IND,2,0,0,2,2
+1504,"T Amiri, Farzin Danny",USA,2,0,0,2,2
+1504,"T Chahoud, Kevin",SWE,2,0,0,2,2
+1504,"T Han, Seon Yong",KOR,2,0,0,2,2
+1504,"T Liucci, Francesco",ITA,2,0,0,2,2
+1504,"T Moroni, Filippo",ITA,2,0,0,2,2
+1504,"T Morais, Diogo",POR,2,0,0,2,2
+1504,"T Pourroy, Loris",FRA,2,0,0,2,2
+1504,"T Ramskogler, Gregor",AUT,2,0,0,2,2
+1504,"T Reveniau, Simon",FRA,2,0,0,2,2
+1504,"T Rollins, Pierce",USA,2,0,0,2,2
+1504,"T Strom, Gustaf",SWE,2,0,0,2,2
+1504,"T Sornlaksup, Pawit",THA,2,0,0,2,2
+1516,"T Alvarado, Patricio",ECU,2,0,0,2,3
+1516,"T Carraro, Luciano",ITA,2,0,0,2,3
+1516,"T Caldes, Jaime",ESP,2,0,0,2,3
+1516,"T Manafov, Vladyslav",UKR,2,0,0,2,3
+1516,"T Shick, Braden",USA,2,0,0,2,3
+1521,"T Acquaroli, Gianluca",ITA,2,0,0,2,3
+1521,"T Blanch, Darwin",USA,2,0,0,2,3
+1521,"T Chopra, Keshav",USA,2,0,0,2,3
+1521,"T Corbinais, Sven",FRA,2,0,0,2,3
+1521,"T Cosnet, Charlelie",FRA,2,0,0,2,3
+1521,"T Dietrich, Dylan",SUI,2,0,0,2,3
+1521,"T Dustov, Mustafa",UZB,2,0,0,2,3
+1521,"T Eriksson Ziverts, Jonas",SWE,2,0,0,2,3
+1521,"T Giannella, Joao",BRA,2,0,0,2,3
+1521,"T Gray, Jonathan",GBR,2,0,0,2,3
+1521,"T Houghton, George",GBR,2,0,0,2,3
+1521,"T Hartenstein, Jonas Pelle",GER,2,0,0,2,3
+1521,"T Ignat, Dragos Constantin",ROU,2,0,0,2,3
+1521,"T Langmajer, Dominik",CZE,2,0,0,2,3
+1521,"T Lee, Haesun",KOR,2,0,0,2,3
+1521,"T Loge, Jack",BEL,2,0,0,2,3
+1521,"T Milanovic, Dusan",SRB,2,0,0,2,3
+1521,"T Masjuan Ginel, Pablo",ESP,2,0,0,2,3
+1521,"T Minarik, Kristof",SVK,2,0,0,2,3
+1521,"T Matsui, Toshihide",JPN,2,0,0,2,3
+1521,"T Puskar, Samuel",SVK,2,0,0,2,3
+1521,"T Pieri, Samuele",ITA,2,0,0,2,3
+1521,"T Sanchez Martinez, Benito",GER,2,0,0,2,3
+1521,"T Tailleu, Pierre Antoine",FRA,2,0,0,2,3
+1521,"T Zverev, Mischa",GER,2,0,0,2,3
+1546,"T Borba, Juan",PAR,2,0,0,2,4
+1546,"T Nguyen, Phuong Van",VIE,2,0,0,2,4
+1546,"T Stoica, Vlad",ROU,2,0,0,2,4
+1549,"T Bazilevskiy, Vladimir",ISR,2,0,0,2,4
+1549,"T Blockx, Alexander",BEL,2,0,0,2,4
+1549,"T Cengiz, Baran",TUR,2,0,0,2,4
+1549,"T Cundom, Julian",ARG,2,0,0,2,4
+1549,"T Chirita, Ioan Alexandru",ROU,2,0,0,2,4
+1549,"T Colby, Ryan",USA,2,0,0,2,4
+1549,"T Curras Abasolo, Tomas",ESP,2,0,0,2,4
+1549,"T Da Silva, Gabriel Ciro",BRA,2,0,0,2,4
+1549,"T Deviatiarov, Marat",UKR,2,0,0,2,4
+1549,"T Dahiya, Paras",IND,2,0,0,2,4
+1549,"T Jaisinghani, Raghav",IND,2,0,0,2,4
+1549,"T Kim, Dong Ju",KOR,2,0,0,2,4
+1549,"T Le Khanh Duy, Tu",VIE,2,0,0,2,4
+1549,"T Martini, Ottaviano",ITA,2,0,0,2,4
+1549,"T Moore, Ewan",GBR,2,0,0,2,4
+1549,"T Perruzza, Valerio",ITA,2,0,0,2,4
+1549,"T Pavel, Bogdan",ROU,2,0,0,2,4
+1549,"T Rieder, Horst",ITA,2,0,0,2,4
+1549,"T Rahman, Yannik",USA,2,0,0,2,4
+1549,"T Troost, Siim",EST,2,0,0,2,4
+1569,"T Aramburu Contreras, Ivar Jose",MEX,2,0,0,2,5
+1569,"T Gea, Arthur",FRA,2,0,0,2,5
+1569,"T Kupcic, Jan",SLO,2,0,0,2,5
+1569,"T Maulenov, Timur",KAZ,2,0,0,2,5
+1569,"T Papac, Tomislav Edward",AUS,2,0,0,2,5
+1569,"T Sharma, Aman",USA,2,0,0,2,5
+1569,"T Zanotti, Alessio",ITA,2,0,0,2,5
+1576,"T Ahti, Vesa",FIN,2,0,0,2,5
+1576,"T Bigun, Kaylan",USA,2,0,0,2,5
+1576,"T Cohen, Aaron",ISR,2,0,0,2,5
+1576,"T Cazacu, Dragos Nicolae",ROU,2,0,0,2,5
+1576,"T Cayre, Paul",FRA,2,0,0,2,5
+1576,"T Den Heijer, Guy",NED,2,0,0,2,5
+1576,"T Eala, Michael Francis",PHI,2,0,0,2,5
+1576,"T Freire Da Silva, Adan",FRA,2,0,0,2,5
+1576,"T Fufygin, Mikhail",RUS,2,0,0,2,5
+1576,"T Herman, Louis",BEL,2,0,0,2,5
+1576,"T Hilderbrand, Trey",USA,2,0,0,2,5
+1576,"T Hulme, Matt",AUS,2,0,0,2,5
+1576,"T Jacq, Gregoire",FRA,2,0,0,2,5
+1576,"T Karlsson Wistrand, Jack",SWE,2,0,0,2,5
+1576,"T Korolev, Vladimir",RUS,2,0,0,2,5
+1576,"T Mouilleron Salvo, Manuel",ARG,2,0,0,2,5
+1576,"T Novo, Ignacio",ARG,2,0,0,2,5
+1576,"T Rousseau, Hillel",HAI,2,0,0,2,5
+1576,"T Staeheli, Luca",SUI,2,0,0,2,5
+1576,"T Stepanov, Timofey",SUI,2,0,0,2,5
+1576,"T Weng, Jing Long",NED,2,0,0,2,5
+1576,"T Yu, Cheng-Yu",TPE,2,0,0,2,5
+1598,"T Alkotop, Mousa",JOR,2,0,0,2,6
+1598,"T Strode, Elijah",USA,2,0,0,2,6
+1598,"T Simon, Tobias",GER,2,0,0,2,6
+1601,"T Alarcon, Benjamin Denis",ARG,2,0,0,2,6
+1601,"T Boyer, Toby D.",USA,2,0,0,2,6
+1601,"T Ktiri, Marc Othman",ESP,2,0,0,2,6
+1601,"T Lobanov, Aleksandr",RUS,2,0,0,2,6
+1601,"T Oplustil, Patrik",CZE,2,0,0,2,6
+1601,"T Pham, Minhtuan",VIE,2,0,0,2,6
+1601,"T Ryan Ziegann, Sam",AUS,2,0,0,2,6
+1601,"T Silva, Tiago",POR,2,0,0,2,6
+1601,"T Tomas, Aleksandar",AUT,2,0,0,2,6
+1601,"T Trochu, Pablo",FRA,2,0,0,2,6
+1601,"T Wiskandt, Max",GER,2,0,0,2,6
+1601,"T Wattanakul, Pol",THA,2,0,0,2,6
+1613,"T Cubelic, Karlo",GER,2,0,0,2,7
+1613,"T Carretero, Pablo",ESP,2,0,0,2,7
+1613,"T Dubouch, Maxime",FRA,2,0,0,2,7
+1613,"T Garcia, Alejandro",ESP,2,0,0,2,7
+1613,"T Heinonen, Adam",SWE,2,0,0,2,7
+1613,"T Ibrahim, Karim",EGY,2,0,0,2,7
+1613,"T Massara, Antonio",ITA,2,0,0,2,7
+1613,"T Rivera, Leyton",NOR,2,0,0,2,7
+1613,"T Shaw, Michael",GBR,2,0,0,2,7
+1613,"T Schlagenhauf, Noah",GER,2,0,0,2,7
+1613,"T Waldner, Niklas",AUT,2,0,0,2,7
+1624,"Goldenberg, Lior",ISR,2,0,0,2,8
+1625,"T Al Azmeh, Taym",GER,2,0,0,2,8
+1625,"T Bynoe, Evan",USA,2,0,0,2,8
+1625,"T Dimic, Matic",SLO,2,0,0,2,8
+1625,"T Darras, Mayeul",FRA,2,0,0,2,8
+1625,"T Emesz, Benedikt",AUT,2,0,0,2,8
+1625,"T Gloeckler, Michael",AUT,2,0,0,2,8
+1625,"T Genov, Anthony",BUL,2,0,0,2,8
+1625,"T Larwig, Noel",GER,2,0,0,2,8
+1625,"T Southcombe, Mattias",GBR,2,0,0,2,8
+1625,"T Schiessl, Joao Eduardo",BRA,2,0,0,2,8
+1625,"T Wang, Chuhan",CHN,2,0,0,2,8
+1636,"T Benzal Alia, Ignacio",ESP,2,0,0,2,9
+1636,"T Benchakroun, Mehdi",MAR,2,0,0,2,9
+1636,"T Bathrinath, Lohithaksha",IND,2,0,0,2,9
+1636,"T Bogo, Enrique",BRA,2,0,0,2,9
+1636,"T Ciavarella, Niccolò",ITA,2,0,0,2,9
+1641,"T Bassem Sobhy, Michael",EGY,2,0,0,2,10
+1641,"T Kellovsky, Dominik",CZE,2,0,0,2,10
+1641,"T Perez, Brandon",VEN,2,0,0,2,10
+1644,"T Ahouda, Walid",MAR,2,0,0,2,11
+1644,"T Vojinovic, Lazar",SRB,2,0,0,2,11
+1646,"T Canter, Alexis",GBR,2,0,0,2,12
+1646,"T Del Federico, Andrea",ITA,2,0,0,2,12
+1646,"T Niedner, Neo",GER,2,0,0,2,12
+1649,"T Andic, Aleksandar",GBR,1,0,0,1,1
+1649,"T Arevalo, Isaac Arturo",MEX,1,0,0,1,1
+1649,"T Amar, Ran",ISR,1,0,0,1,1
+1649,"T Basic, Nikola",CRO,1,0,0,1,1
+1649,"T Bernard, John",USA,1,0,0,1,1
+1649,"T Berkieta, Tomasz",POL,1,0,0,1,1
+1649,"T Byers, Loren Thomas",USA,1,0,0,1,1
+1649,"T Batista, Ricardo",POR,1,0,0,1,1
+1649,"T Cina, Federico",ITA,1,0,0,1,1
+1649,"T Chen, Tin",TPE,1,0,0,1,1
+1649,"T Del Castillo, Pol",ESP,1,0,0,1,1
+1649,"T Dattatray Kurale, Sandesh",IND,1,0,0,1,1
+1649,"T Eli, Nicolas",ARG,1,0,0,1,1
+1649,"T Favero, Lorenzo",ITA,1,0,0,1,1
+1649,"T Field, Jeremy",FRA,1,0,0,1,1
+1649,"T Fletchall, Patrick",USA,1,0,0,1,1
+1649,"T Fondriest, Matteo",ITA,1,0,0,1,1
+1649,"T Fernandez Canovas, Andres",ESP,1,0,0,1,1
+1649,"T Graziani, Edoardo",ITA,1,0,0,1,1
+1649,"T Grandinetti, Tobia",ARG,1,0,0,1,1
+1649,"T Gervail, Gregoire",FRA,1,0,0,1,1
+1649,"T Grinderslev, Anders",DEN,1,0,0,1,1
+1649,"T Hubner, Edward",GBR,1,0,0,1,1
+1649,"T Hoole, Casey",AUS,1,0,0,1,1
+1649,"T Hesselmann, Luca",GER,1,0,0,1,1
+1649,"T Ibrahim, Hasan",GER,1,0,0,1,1
+1649,"T Iturbe, Matias",ARG,1,0,0,1,1
+1649,"T Ibrakhimov, Rakhimbek",UZB,1,0,0,1,1
+1649,"T Ivanov, Mihail",BUL,1,0,0,1,1
+1649,"T Jordan, Phillip",USA,1,0,0,1,1
+1649,"T Kang, Ku Keon",KOR,1,0,0,1,1
+1649,"T Lagaev, Nick",CAN,1,0,0,1,1
+1649,"T Lee, Junhyun",KOR,1,0,0,1,1
+1649,"T Leote Prata, Vasco",POR,1,0,0,1,1
+1649,"T Lis, Mikolaj",POL,1,0,0,1,1
+1649,"T Mascarini, Riccardo",ITA,1,0,0,1,1
+1649,"T Marques, Diogo",POR,1,0,0,1,1
+1649,"T Muniz Hidalgo, Antonio",ESP,1,0,0,1,1
+1649,"T Mckennon, Maxwell",USA,1,0,0,1,1
+1649,"T McDaniel, Marcus",USA,1,0,0,1,1
+1649,"T Matsiush, Aliaksey",BLR,1,0,0,1,1
+1649,"T Markov, Viktor",BUL,1,0,0,1,1
+1649,"T Mitjana, Leny",FRA,1,0,0,1,1
+1649,"T Nakagawa, Shunsuke",JPN,1,0,0,1,1
+1649,"T Nilaweera, Chathurya",SRI,1,0,0,1,1
+1649,"T Nakanishi, Seiya",JPN,1,0,0,1,1
+1649,"T Orynbasar, Islam",KAZ,1,0,0,1,1
+1649,"T Procopio, Alessandro",ITA,1,0,0,1,1
+1649,"T Parts, Robin Erik",EST,1,0,0,1,1
+1649,"T Pavlovic, Marko",SRB,1,0,0,1,1
+1649,"T Popeanga, Dragos Petre",ROU,1,0,0,1,1
+1649,"T Pawlak, Piotr",POL,1,0,0,1,1
+1649,"T Pascual De Zulueta, Asier",ESP,1,0,0,1,1
+1649,"T Pavlenko, Philipp",GER,1,0,0,1,1
+1649,"T Perera, Masato",USA,1,0,0,1,1
+1649,"T Paganetti, Victor",FRA,1,0,0,1,1
+1649,"T Peiro Serrano, Alvaro",ESP,1,0,0,1,1
+1649,"T Rodriguez, Lisandru",FRA,1,0,0,1,1
+1649,"T Rodriguez, Sebastian",PER,1,0,0,1,1
+1649,"T Rodeia, Andre",POR,1,0,0,1,1
+1649,"T Rihane, Youcef",ALG,1,0,0,1,1
+1649,"T Romano, Gino",ARG,1,0,0,1,1
+1649,"T Suntic, Sabit",SRB,1,0,0,1,1
+1649,"T Sutekin, Emir",TUR,1,0,0,1,1
+1649,"T Schoen, Patrick",SUI,1,0,0,1,1
+1649,"T Sharygin, Evan",USA,1,0,0,1,1
+1649,"T Tiukaev, Ruslan",RUS,1,0,0,1,1
+1649,"T Ushizima, Henrique Hamamoto",BRA,1,0,0,1,1
+1649,"T Vergara Del Puerto, Martin Antonio",PAR,1,0,0,1,1
+1649,"T Viiala, Zack",AUS,1,0,0,1,1
+1649,"T Vallebuona, Duilio",PER,1,0,0,1,1
+1649,"T Voljacques, Hugo",FRA,1,0,0,1,1
+1649,"T Zeljenka, Martin",HUN,1,0,0,1,1
+1649,"T Zhou, Xian Yao",CHN,1,0,0,1,1
+1649,"T Zapp, Logan",USA,1,0,0,1,1
+1649,"T Zhzhenov, Konstantin",RUS,1,0,0,1,1
+1725,"T Alves, Victor",BRA,1,0,0,1,2
+1725,"T Augusto Dos Santos, Ryan",BRA,1,0,0,1,2
+1725,"T Ali Moussa, Aymen Abderrahmene",ALG,1,0,0,1,2
+1725,"T Almasi, Alfred",SVK,1,0,0,1,2
+1725,"T Arias, Boris",BOL,1,0,0,1,2
+1725,"T Bryde, Trent",USA,1,0,0,1,2
+1725,"T Baiant, Razvan",CAN,1,0,0,1,2
+1725,"T Barr, Elbert",GBR,1,0,0,1,2
+1725,"T Bennani, Karim",MAR,1,0,0,1,2
+1725,"T Butler, Samm",GBR,1,0,0,1,2
+1725,"T Choo, Suk Hyun",KOR,1,0,0,1,2
+1725,"T Chepik, Alexander",RUS,1,0,0,1,2
+1725,"T Campana Lee, Gerard",KOR,1,0,0,1,2
+1725,"T Czaplinski, Tommy",USA,1,0,0,1,2
+1725,"T Cutting, Oscar",GBR,1,0,0,1,2
+1725,"T Chessari, Riccardo",ITA,1,0,0,1,2
+1725,"T Davis, James",GBR,1,0,0,1,2
+1725,"T Deleersnyder, Clement",FRA,1,0,0,1,2
+1725,"T Dong, Chen",AUS,1,0,0,1,2
+1725,"T Demichelis, Alessio",ITA,1,0,0,1,2
+1725,"T Einig, Felix",GER,1,0,0,1,2
+1725,"T El Amine, Hamza",MAR,1,0,0,1,2
+1725,"T Elicha Navas, Gabriel",ESP,1,0,0,1,2
+1725,"T Errey, Cooper",AUS,1,0,0,1,2
+1725,"T El Mihdawy, Adam",USA,1,0,0,1,2
+1725,"T Ferguson, Chase",AUS,1,0,0,1,2
+1725,"T Hsu, Jeffrey Chuan En",TPE,1,0,0,1,2
+1725,"T Hudd, Emile",GBR,1,0,0,1,2
+1725,"T Homberg, Maximilian",GER,1,0,0,1,2
+1725,"T Hough, David",AUS,1,0,0,1,2
+1725,"T Heger, Tim",GER,1,0,0,1,2
+1725,"T Ivanov, Saveliy",RUS,1,0,0,1,2
+1725,"T Jurina, Patrik",CRO,1,0,0,1,2
+1725,"T Konov, Samuil",BUL,1,0,0,1,2
+1725,"T Kulakowski, Mateusz",POL,1,0,0,1,2
+1725,"T Kalinin, Aleksandr",BLR,1,0,0,1,2
+1725,"T Kadiri Hassani, Youssef",MAR,1,0,0,1,2
+1725,"T Khabibulin, Timur",KAZ,1,0,0,1,2
+1725,"T Lerby, Christian",NED,1,0,0,1,2
+1725,"T Lucini, Federico",ITA,1,0,0,1,2
+1725,"T Liokossis, Stefano",CAN,1,0,0,1,2
+1725,"T Lin, Ping Chen",TPE,1,0,0,1,2
+1725,"T Luncanu, Petru-Alexandru",ROU,1,0,0,1,2
+1725,"T Militi Ribaldi, Andrea",ITA,1,0,0,1,2
+1725,"T Maia, Hugo",POR,1,0,0,1,2
+1725,"T Murgett, Finn",GBR,1,0,0,1,2
+1725,"T Malik, Ajay",IND,1,0,0,1,2
+1725,"T Mora Clement, Rodrigo",ESP,1,0,0,1,2
+1725,"T Marinkov, Pavle",AUS,1,0,0,1,2
+1725,"T Milicevic, Stefan",SRB,1,0,0,1,2
+1725,"T Neyelov, Mark",ISR,1,0,0,1,2
+1725,"T Orlita, Daniel",CZE,1,0,0,1,2
+1725,"T Putter, Victor",RSA,1,0,0,1,2
+1725,"T Poritzky, Elijah",USA,1,0,0,1,2
+1725,"T Pel, Stijn",NED,1,0,0,1,2
+1725,"T Poulsen, Oskar Brostrom",DEN,1,0,0,1,2
+1725,"T Pinto, Lucca",BRA,1,0,0,1,2
+1725,"T Papagno, Stefano",ITA,1,0,0,1,2
+1725,"T Pavlasek, Adam",CZE,1,0,0,1,2
+1725,"T Prinoth, Patric",ITA,1,0,0,1,2
+1725,"T Papounidis, Ioannis",GRE,1,0,0,1,2
+1725,"T Redondo Pereira, Sergio",ESP,1,0,0,1,2
+1725,"T Rodrigues, Laelson",BRA,1,0,0,1,2
+1725,"T Rudiukov, Ilya",RUS,1,0,0,1,2
+1725,"T Rehman, Huzaifa Abdul",PAK,1,0,0,1,2
+1725,"T Reid, Josh",AUS,1,0,0,1,2
+1725,"T Rudan, Zelimir",USA,1,0,0,1,2
+1725,"T Rankin, Matthew",GBR,1,0,0,1,2
+1725,"T Ricklis, Nitzan",ISR,1,0,0,1,2
+1725,"T Rodrigues, Pedro",BRA,1,0,0,1,2
+1725,"T Romero De Avila Senise, Alberto",ESP,1,0,0,1,2
+1725,"T Raisma, Kenneth",EST,1,0,0,1,2
+1725,"T Stable, Rayane",FRA,1,0,0,1,2
+1725,"T Sarkar, Sumit",USA,1,0,0,1,2
+1725,"T Spencer, Paul",USA,1,0,0,1,2
+1725,"T Sinha, Adit",USA,1,0,0,1,2
+1725,"T Sheldon, Max",USA,1,0,0,1,2
+1725,"T Sood, Lakshit",IND,1,0,0,1,2
+1725,"T Trakhtenberg, Gur",ISR,1,0,0,1,2
+1725,"T Tatlot, Johan",FRA,1,0,0,1,2
+1725,"T Tessa, Louis",FRA,1,0,0,1,2
+1725,"T Visker, Niels",NED,1,0,0,1,2
+1725,"T Vilicich, Bautista",ARG,1,0,0,1,2
+1725,"T Valent, Daniel",SUI,1,0,0,1,2
+1725,"T Weir, Phoenix",GBR,1,0,0,1,2
+1725,"T Wibowo, Tegar Abdi Satrio",INA,1,0,0,1,2
+1725,"T Zheng, Baoluo",CHN,1,0,0,1,2
+1812,"T Alabdullah, Bader",KUW,1,0,0,1,3
+1812,"T Andreescu, Stefan Adrian",ROU,1,0,0,1,3
+1812,"T Bugarikj, Berk",MKD,1,0,0,1,3
+1812,"T Basavareddy, Nishesh",USA,1,0,0,1,3
+1812,"T Basile, Alessio",BEL,1,0,0,1,3
+1812,"T Casanova, Andrin",SUI,1,0,0,1,3
+1812,"T Cabrera, Miguel Angel",CHI,1,0,0,1,3
+1812,"T Dadabaev, Aziz",UZB,1,0,0,1,3
+1812,"T De Jonge, Daniel",NED,1,0,0,1,3
+1812,"T Dhokia, Rahul",GBR,1,0,0,1,3
+1812,"T Diaz Jalil, Angel",ECU,1,0,0,1,3
+1812,"T Dudun, Igor",UKR,1,0,0,1,3
+1812,"T Davila, Esteban",BOL,1,0,0,1,3
+1812,"T Dalmasso, Guillaume",FRA,1,0,0,1,3
+1812,"T Friedler, Asaf",ISR,1,0,0,1,3
+1812,"T Frusina, Alexander",USA,1,0,0,1,3
+1812,"T Frawley, James",AUS,1,0,0,1,3
+1812,"T Gomaa, Mohamad",EGY,1,0,0,1,3
+1812,"T Gorzny, Sebastian",USA,1,0,0,1,3
+1812,"T Gray, Timothy",AUS,1,0,0,1,3
+1812,"T Havlicek, Mark",CZE,1,0,0,1,3
+1812,"T Hollender, Nicolas",ARG,1,0,0,1,3
+1812,"T Hansch Mauritzson, Fabian",SWE,1,0,0,1,3
+1812,"T Hrazdil, Jan",CZE,1,0,0,1,3
+1812,"T Ibragimov, Daniel",RUS,1,0,0,1,3
+1812,"T Kasemi, Kiyan Santino",GER,1,0,0,1,3
+1812,"T Kusiewicz, Piotr",POL,1,0,0,1,3
+1812,"T Khosla, Rushil",IND,1,0,0,1,3
+1812,"T Loccisano, Mike",GER,1,0,0,1,3
+1812,"T Marek, Wojciech",POL,1,0,0,1,3
+1812,"T Miklavcic, Luka",SLO,1,0,0,1,3
+1812,"T Michalik, Radovan",SVK,1,0,0,1,3
+1812,"T Milicevic, Lazar",SRB,1,0,0,1,3
+1812,"T Maxted, Lui",GBR,1,0,0,1,3
+1812,"T Mossur, Mykhailo",UKR,1,0,0,1,3
+1812,"T Menichella, Stefan",USA,1,0,0,1,3
+1812,"T Nagel, Arthur",FRA,1,0,0,1,3
+1812,"T Pogosian, Sergei",RUS,1,0,0,1,3
+1812,"T Popovic, Stevan",GER,1,0,0,1,3
+1812,"T Podorozhnyi, Artem",UKR,1,0,0,1,3
+1812,"T Padgham, Eric",AUS,1,0,0,1,3
+1812,"T Protic Zakelj, Jaka",SLO,1,0,0,1,3
+1812,"T Qabazard, Essa",KUW,1,0,0,1,3
+1812,"T Ribero, Franco",ARG,1,0,0,1,3
+1812,"T Raquillet, Leo",FRA,1,0,0,1,3
+1812,"T Radulov, Iliyan",BUL,1,0,0,1,3
+1812,"T Saatela, Leevi",FIN,1,0,0,1,3
+1812,"T Schaefer, Joshua",GER,1,0,0,1,3
+1812,"T Song, MinKyu",KOR,1,0,0,1,3
+1812,"T Stenberg, Jonathan",SWE,1,0,0,1,3
+1812,"T Tosetto, Rafael",BRA,1,0,0,1,3
+1812,"T Van Sambeek, Fons",NED,1,0,0,1,3
+1812,"T Vetrih, Miha",SLO,1,0,0,1,3
+1812,"T Vasser, Oren",USA,1,0,0,1,3
+1812,"T Veremeychuk, Danylo",UKR,1,0,0,1,3
+1812,"T Vilaro, Alejo",ARG,1,0,0,1,3
+1812,"T Woerndle, Matthew",AUS,1,0,0,1,3
+1812,"T Weststrate, Lodewijk",NED,1,0,0,1,3
+1812,"T Wang, Aoran",CHN,1,0,0,1,3
+1871,"T Adachi, Taki",JPN,1,0,0,1,4
+1871,"T Bulus, Christopher",NGR,1,0,0,1,4
+1871,"T Baroni, Niccolo",ITA,1,0,0,1,4
+1871,"T Burdet, Adrien",SUI,1,0,0,1,4
+1871,"T Biagiotti, Richard",DEN,1,0,0,1,4
+1871,"T Bhatnagar, Shivank",IND,1,0,0,1,4
+1871,"T Breazu, Vlad Cristian",ROU,1,0,0,1,4
+1871,"T Chaurasia, Yash",IND,1,0,0,1,4
+1871,"T Coman, Mihai Alexandru",ROU,1,0,0,1,4
+1871,"T Duncan, Scott",GBR,1,0,0,1,4
+1871,"T Donarski, Sid",CAN,1,0,0,1,4
+1871,"T Ernaelsteen, Victor",BEL,1,0,0,1,4
+1871,"T Francisco, Luis",ESP,1,0,0,1,4
+1871,"T Fellin, Manfred",ITA,1,0,0,1,4
+1871,"T Grynkowski, Piotr",POL,1,0,0,1,4
+1871,"T Hodzic, Alen Moritz",GER,1,0,0,1,4
+1871,"T Inoue, Geni",JPN,1,0,0,1,4
+1871,"T Kumar, Pranav",USA,1,0,0,1,4
+1871,"T Kim, Jangjun",KOR,1,0,0,1,4
+1871,"T Karahan, Atakan",TUR,1,0,0,1,4
+1871,"T Karmoussi, Hamza",MAR,1,0,0,1,4
+1871,"T Kiyamov, Timur",RUS,1,0,0,1,4
+1871,"T Lopez Linquet, Leonardo",ARG,1,0,0,1,4
+1871,"T Mehra, Rohan",IND,1,0,0,1,4
+1871,"T Martinez, Mikel",ESP,1,0,0,1,4
+1871,"T Matuszewski, Gabriel",POL,1,0,0,1,4
+1871,"T Mirgone, Federico",ARG,1,0,0,1,4
+1871,"T Moheno, Yahir Emiliano",MEX,1,0,0,1,4
+1871,"T Morandais, Jean-Christian",GUD,1,0,0,1,4
+1871,"T Martinez, Ignacio",USA,1,0,0,1,4
+1871,"T Nguyen, Dac Thien",VIE,1,0,0,1,4
+1871,"T Nad, Peter",SVK,1,0,0,1,4
+1871,"T Onuma, Yujiro",GBR,1,0,0,1,4
+1871,"T Petrovic, Drazen",BIH,1,0,0,1,4
+1871,"T Premzl, Maj",SLO,1,0,0,1,4
+1871,"T Pham, Derek",AUS,1,0,0,1,4
+1871,"T Ruscica, Alexandre",FRA,1,0,0,1,4
+1871,"T Rocens, Martins",LAT,1,0,0,1,4
+1871,"T Rsovac, Dusan",AUS,1,0,0,1,4
+1871,"T Respaut, Cyril",FRA,1,0,0,1,4
+1871,"T Singh, Jagmeet",IND,1,0,0,1,4
+1871,"T Scomparin, Pietro Romeo",ITA,1,0,0,1,4
+1871,"T Savelev, Daniil",RUS,1,0,0,1,4
+1871,"T Simpson, Maceo",GBR,1,0,0,1,4
+1871,"T Spiridon, Denis",ITA,1,0,0,1,4
+1871,"T Smoliner, Tobias",AUT,1,0,0,1,4
+1871,"T Shimanov, Ofek",ISR,1,0,0,1,4
+1871,"T Suarez Berrezueta, Omar",ECU,1,0,0,1,4
+1871,"T Satral, Jan",CZE,1,0,0,1,4
+1871,"T Teodorovic, Petar",SRB,1,0,0,1,4
+1871,"T Vives Marcos, Pedro",ESP,1,0,0,1,4
+1871,"T Vlkovsky, Vojtech",CZE,1,0,0,1,4
+1871,"T Vaitiekunas, Pijus",LTU,1,0,0,1,4
+1871,"T Vakili, Kian",USA,1,0,0,1,4
+1871,"T Yoshimura, Daiki",JPN,1,0,0,1,4
+1871,"T Zemel, Yasha",ISR,1,0,0,1,4
+1927,"T Akay, Cihan",AUS,1,0,0,1,5
+1927,"T Ambarzumjan, Edison",GER,1,0,0,1,5
+1927,"T Bellifemine, Alessandro",ITA,1,0,0,1,5
+1927,"T Buldorini, Peter",ITA,1,0,0,1,5
+1927,"T Cerny, Matyas",CZE,1,0,0,1,5
+1927,"T Cunat, Max",FRA,1,0,0,1,5
+1927,"T Chavez Villalpando, Luis Diego",BOL,1,0,0,1,5
+1927,"T Dell'Elba, Vito",ITA,1,0,0,1,5
+1927,"T Dubinin, Alexey",RUS,1,0,0,1,5
+1927,"T Huens, Harold",BEL,1,0,0,1,5
+1927,"T Hajek, Petr",CZE,1,0,0,1,5
+1927,"T Jovanovic, Petar",MNE,1,0,0,1,5
+1927,"T Katuch, Jakub",SVK,1,0,0,1,5
+1927,"T Piatti, Rocco",MON,1,0,0,1,5
+1927,"T Pohjola, Peetu",FIN,1,0,0,1,5
+1927,"T Prabodh, Suraj R",IND,1,0,0,1,5
+1927,"T Ratniuk, Maxim",RUS,1,0,0,1,5
+1927,"T Sau Franco, Alan Raul",MEX,1,0,0,1,5
+1927,"T Schifris, Jeremy",GER,1,0,0,1,5
+1927,"T Sysoev, Nikolay",RUS,1,0,0,1,5
+1927,"T Salomone, Federico",ITA,1,0,0,1,5
+1927,"T Sanchez, Samuel",MEX,1,0,0,1,5
+1927,"T Searant, Rhys",AUS,1,0,0,1,5
+1927,"T Taddia, Leonardo",ITA,1,0,0,1,5
+1927,"T Tacchi, Luciano",ARG,1,0,0,1,5
+1927,"T Vithoontien, Leo",JPN,1,0,0,1,5
+1927,"T Xilas, Ioannis",GRE,1,0,0,1,5
+1954,"T Duhan, Chirag",IND,1,0,0,1,6
+1954,"T Gao, Xin",CHN,1,0,0,1,6
+1954,"T Hua, Runhao",CHN,1,0,0,1,6
+1954,"T Hannestad, Benjamin",DEN,1,0,0,1,6
+1954,"T Iamachkine, Petr",PER,1,0,0,1,6
+1954,"T Kunsuwan, Natthasith",THA,1,0,0,1,6
+1954,"T Mayo, Keenan",USA,1,0,0,1,6
+1954,"T Minighini, Daniele",ITA,1,0,0,1,6
+1954,"T Micov, Stefan",MKD,1,0,0,1,6
+1954,"T Pierre, Hugo",FRA,1,0,0,1,6
+1954,"T Regas Luis, Nil",ESP,1,0,0,1,6
+1965,"T Bayldon, Blake",AUS,1,0,0,1,7
+1965,"T Fitzgerald, Patrick",AUS,1,0,0,1,7
+1965,"T Kobierski, Jan",AUT,1,0,0,1,7
+1965,"T Malgaroli, Leonardo",ITA,1,0,0,1,7
+1965,"T Ozdemir, S Mert",TUR,1,0,0,1,7
+1965,"T Vujic, Stefan",AUS,1,0,0,1,7
+1965,"T Zusman, Richard",USA,1,0,0,1,7
+1965,"T Zanada, Edoardo",ITA,1,0,0,1,7
+1973,"T Akkoyun, Umut",TUR,1,0,0,1,8
+1973,"T Dumitru, Vlad Andrei",ROU,1,0,0,1,8
+1973,"T De Vincentis, Matteo",ITA,1,0,0,1,8
+1973,"T Ferri, Lorenzo",ITA,1,0,0,1,8
+1973,"T Jovanovski, Nicholas",AUS,1,0,0,1,8
+1973,"T Steinegger, Yannik",SUI,1,0,0,1,8
+1973,"T Sibille, Imran",MAR,1,0,0,1,8
+1973,"T Schaer, Raffael",SUI,1,0,0,1,8
+1973,"T Tsarapkin, Egor",RUS,1,0,0,1,8
+1982,"T Carnevalle, Lucio",ARG,1,0,0,1,9
+1982,"T Gandolfi, Giammarco",ITA,1,0,0,1,9
+1982,"T Rogic-Hadzalic, Alen",CRO,1,0,0,1,9
+1985,"T Goldberg Alviani, Nicolas Rafael",ESP,1,0,0,1,10
+1985,"T Hiramatsu, Shinnosuke",JPN,1,0,0,1,10
+1985,"T Nakamura, Ren",JPN,1,0,0,1,10
+1988,"T Gramaticopolo, Biagio",ITA,1,0,0,1,11
+1988,"T Marino, Pietro",ITA,1,0,0,1,11
+1988,"T Sach, Tai",AUS,1,0,0,1,11
+1991,"Jenicek, Jiri",CZE,1,0,0,1,12
+1992,"El Sallaly, Akram",EGY,1,0,0,1,13
+1993,"Ponchet, Matt",FRA,1,0,0,1,15
+1994,"Karol, Milos",SVK,1,0,0,1,17
