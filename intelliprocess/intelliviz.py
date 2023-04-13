@@ -5,16 +5,16 @@ import seaborn as sns
 import statsmodels.api as sm
 
 
-class IntelliVizError(TypeError):
+class IntelliVizError(Exception):
     pass
-
+Error
 
 class IntelliViz():
     '''
     class for data visualization methods
     :param df: pandas dataframe
     '''
-    def __init__(self, df):
+    def __init__(self, df=None):
         '''
         The constructor for IntelliViz class.
         :param df: pandas dataframe
@@ -75,7 +75,8 @@ class IntelliViz():
         corr_matrix = self.df.corr()
         return corr_matrix
 
-    def correlation_matrix_heatmap(self, colors='coolwarm'):
+
+    def correlation_matrix_heatmap(self, colors='coolwarm',show_values=False):
         '''
         This code creates a heatmap dataset using pandas DataFrame, calculates the
         correlation matrix, and then uses matplotlib to create .
@@ -100,45 +101,21 @@ class IntelliViz():
 
             # Rotate the x-axis labels
             plt.xticks(rotation=45)
-
-            # Add correlation values to each square in the heatmap
-            for i in range(len(corr_matrix.columns)):
-                for j in range(len(corr_matrix.columns)):
-                    text = ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
-                                   ha="center", va="center", color="black", fontsize=12)
+            if show_values is True:
+                # Add correlation values to each square in the heatmap
+                for i in range(len(corr_matrix.columns)):
+                    for j in range(len(corr_matrix.columns)):
+                        ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
+                                       ha="center", va="center", color="black", fontsize=12)
 
             plt.show()
 
         else:
             raise IntelliVizError("No pandas dataframe has been provided.")
 
-
-    def find_multicollinear_pairs(self, threshold=0.8) -> list:
-        '''
-
-        :param threshold:
-        :return: multicollinear_pairs
-        '''
-        # Compute the correlation matrix
-        corr_matrix = self.correlation_matrix()
-
-        # Find pairs of multicollinear variables
-        multicollinear_pairs = []
-
-        for i in range(len(corr_matrix.columns)):
-            for j in range(i + 1, len(corr_matrix.columns)):
-                if abs(corr_matrix.iloc[i, j]) >= threshold:
-                    multicollinear_pairs.append((corr_matrix.columns[i],
-                                                 corr_matrix.columns[j]))
-
-        if len(multicollinear_pairs) > 0:
-            print("Multicollinear variable pairs:")
-            for pair in multicollinear_pairs:
-                print(pair)
-            return multicollinear_pairs
-        else:
-            print("No multicollinear variable pairs detected.")
-
+    """
+    maybe add save correlation_matrix_heatmap function?
+    """
     def columns_scatter(self,target_var=None):
         '''
         This function creates scatter plots of each variable against the target variable.
@@ -207,7 +184,7 @@ class IntelliViz():
         if show is True:
             plt.show()
 
-    def qqplot(self,array=None, line='45',show=True):
+    def qqplot(self,array=None, line_type='45',show=True):
         '''
         This function creates a QQ plot of the data using statsmodels.
         further documentation = https://www.statsmodels.org/stable/api.html
@@ -220,7 +197,51 @@ class IntelliViz():
             print("Please provide an array-like object to be plotted.")
             return
 
-        fig = sm.qqplot(array,line=line)
+        fig = sm.qqplot(array,line=line_type)
         if show is True:
             plt.show()
         return fig
+
+"""
+workshop to see if we want to inclue
+        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
+        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
+
+
+    def find_multicollinear_pairs(self, threshold=0.8) -> list:
+        '''
+        workshop to see if we want to inclue
+        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
+        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
+        :param threshold:
+        :return: multicollinear_pairs
+        '''
+        # Compute the correlation matrix
+        corr_matrix = self.correlation_matrix()
+
+        # Find pairs of multicollinear variables
+        multicollinear_pairs = []
+
+        for i in range(len(corr_matrix.columns)):
+            for j in range(i + 1, len(corr_matrix.columns)):
+                if abs(corr_matrix.iloc[i, j]) >= threshold:
+                    multicollinear_pairs.append((corr_matrix.columns[i],
+                                                 corr_matrix.columns[j]))
+
+        if len(multicollinear_pairs) > 0:
+            print("Multicollinear variable pairs:")
+            for pair in multicollinear_pairs:
+                print(pair)
+            return multicollinear_pairs
+        else:
+            print("No multicollinear variable pairs detected.")
+
+
+
+    def variance_inflation_factors(self):
+        '''
+
+        :return:
+        '''
+"""
+
