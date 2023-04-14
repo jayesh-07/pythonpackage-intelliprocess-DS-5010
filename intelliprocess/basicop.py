@@ -1,9 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df_housing=pd.read_csv('housing.csv')
-df_toy=pd.read_csv('toy.csv')
-df_iris=pd.read_csv('iris.csv')
+df_housing=pd.read_csv('Testing_Datasets\\housing.csv')
+df_toy=pd.read_csv('Testing_Datasets\\toy.csv')
+df_iris=pd.read_csv('Testing_Datasets\\iris.csv')
 
 def datatype_frequency(df):
     """
