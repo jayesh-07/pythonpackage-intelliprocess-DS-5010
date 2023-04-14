@@ -8,7 +8,7 @@ import numpy as np
 
 class IntelliViz_init(unittest.TestCase):
     def test_init_load_df(self):
-        df = pd.read_csv("sonar.csv")
+        df = pd.read_csv("Testing_Datasets\\sonar.csv")
         i = IntelliViz(df)
 
     def test_init_no_df_given(self):
@@ -65,7 +65,7 @@ class IntelliViz_qqplot(unittest.TestCase):
 if __name__ == '__main__':
     #unittest.main(verbosity=3)
 
-    df = pd.read_csv("sonar.csv")
+    df = pd.read_csv("Testing_Datasets\\sonar.csv")
     i = IntelliViz(df)
     columns = i.get_columns()
     print(columns)
