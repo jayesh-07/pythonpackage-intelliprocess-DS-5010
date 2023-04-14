@@ -1,6 +1,8 @@
 import unittest
 import pandas as pd
 from intelliviz import IntelliViz
+import timeit
+import numpy as np
 
 
 
@@ -67,6 +69,41 @@ if __name__ == '__main__':
     i = IntelliViz(df)
     columns = i.get_columns()
     print(columns)
-    i.qqplot(df["attribute_49"],line_type='s')
+    corr = i.pearsons_r(df["attribute_60"],df["attribute_60"])
+    print(corr)
+    corr_matrix = i.pearson_corr_matrix()
+    print(corr_matrix.to_string())
+    fig = i.correlation_matrix_heatmap()
+
+    '''
+    s = """
+import pandas as pd
+from intelliviz import IntelliViz
+df = pd.read_csv("sonar.csv")
+i = IntelliViz(df)
+i.pearson(df["attribute_1"], df["attribute_2"])
+        """
+    # time_r = timeit.timeit(s, number=10000)
+    # print(time_r)
+    s = """
+import pandas as pd
+from intelliviz import IntelliViz
+df = pd.read_csv("sonar.csv")
+i = IntelliViz(df)
+i.pearson_pyarrow(df["attribute_1"], df["attribute_2"])
+        """
+    time_r = timeit.timeit(s, number=10000)
+    print(time_r)
+    s = """
+import pandas as pd
+from intelliviz import IntelliViz
+df = pd.read_csv("sonar.csv")
+i = IntelliViz(df)
+df.corr()
+    """
+    time_pandas = timeit.timeit(s, number=10000)
+    print(time_pandas)
+    '''
+
 
 

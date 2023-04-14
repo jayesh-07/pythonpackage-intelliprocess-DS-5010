@@ -3,11 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
+import pyarrow as pa
 
 
 class IntelliVizError(Exception):
     pass
-Error
+
 
 class IntelliViz():
     '''
@@ -67,13 +68,86 @@ class IntelliViz():
             raise IntelliVizError("No pandas dataframe provided.")
 
 
-    def correlation_matrix(self):
+    def pearsons_r(self,x,y):
         '''
-        This function computes the correlation matrix using the corr() function from pandas
-        :return: pandas dataframe
+        this function calculates the Pearson's correlation coefficient (Pearson's r)
+        r = Σ[(x_i - µx)(y_i - µy)] / √[Σ(x_i - µx)^2 * Σ(y_i - µy)^2]
+        Measures the linear relationship between two continuous variables. It ranges from -1 to 1.
+        :param x:
+        :param y:
+        :return:
         '''
-        corr_matrix = self.df.corr()
-        return corr_matrix
+        # convert to numpy arrays with float type 32 to increase speed
+        x, y = np.array(x, dtype="float32"), np.array(y,dtype="float32")
+
+        # calculate numerator
+        mean_x, mean_y = np.mean(x), np.mean(y)
+        x_deviation_from_mean, y_deviation_from_mean = x - mean_x, y - mean_y
+        numerator = np.sum(x_deviation_from_mean * y_deviation_from_mean)
+
+        # calculate denominator
+        x_deviation_from_mean_sqrd = x_deviation_from_mean ** 2
+        y_deviation_from_mean_sqrd = y_deviation_from_mean ** 2
+        denominator = np.sqrt((np.sum(x_deviation_from_mean_sqrd) *
+                               np.sum(y_deviation_from_mean_sqrd)))
+
+        # calculate Pearson's r
+        r = numerator / denominator
+
+        return r
+
+    """
+    def pearson_pyarrow(self,x,y):
+        '''
+        this is still in testing and not working currently
+        goal is to significantly reduce the time np computations take
+        this function calculates the Pearson's correlation coefficient (Pearson's r)
+        r = Σ[(x_i - µx)(y_i - µy)] / √[Σ(x_i - µx)^2 * Σ(y_i - µy)^2]
+        Measures the linear relationship between two continuous variables. It ranges from -1 to 1.
+        :param x:
+        :param y:
+        :return:
+        '''
+
+        # convert to numpy arrays with float type 32 to increase speed
+        x, y = pa.array(x), pa.array(y)
+
+        # calculate numerator
+        mean_x, mean_y = pa.float64(x.sum()) / len(x), pa.float64(y.sum()) / len(y)
+        x_deviation_from_mean, y_deviation_from_mean =  x.diff(mean_x), y.diff(mean_y)
+        numerator = pa.sum(pa.multiply(x_deviation_from_mean, y_deviation_from_mean))
+
+        # calculate denominator
+        x_deviation_from_mean_sqrd = pa.pow(x_deviation_from_mean, 2)
+        y_deviation_from_mean_sqrd = pa.pow(y_deviation_from_mean, 2)
+        denominator = pa.sqrt(pa.multiply(pa.sum(x_deviation_from_mean_sqrd),
+                               pa.sum(y_deviation_from_mean_sqrd)))
+
+        # calculate Pearson's r
+        rho = pa.divide(numerator, denominator)
+
+        return rho
+    """
+
+    def pearson_corr_matrix(self):
+        '''
+
+        :return:
+        '''
+        df = pd.DataFrame(self.df)
+        # extract only numerical data types into a new dataframe
+        numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+        df2 = df.select_dtypes(include=numerics)
+        # create an empty dataframe for our correlation matrix
+        corr_matrix = pd.DataFrame(columns=df2.columns,index=df2.columns)
+        # iterate over rows
+        for rowIndex, row in corr_matrix.iterrows():
+            for columnIndex, value in row.items():
+                corr_matrix.at[columnIndex, rowIndex] = self.pearsons_r(df2[columnIndex],df2[rowIndex])
+
+        final_df = pd.DataFrame(corr_matrix, dtype="float64")
+        return final_df
+
 
 
     def correlation_matrix_heatmap(self, colors='coolwarm',show_values=False):
@@ -84,9 +158,12 @@ class IntelliViz():
         :raises: IntelliVizError if no pandas dataframe has been provided
         :return: None
         '''
+
+        # should I add a save functionality?
         if self.df is not None:
             # Compute the correlation matrix
-            corr_matrix = self.correlation_matrix()
+            corr_matrix = self.pearson_corr_matrix()
+            corr_matrix.convert_dtypes()
 
             # Create a heatmap of the correlation matrix
             fig, ax = plt.subplots()
