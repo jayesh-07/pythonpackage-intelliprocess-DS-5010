@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
-import pyarrow as pa
+
 
 
 class IntelliVizError(Exception):
@@ -96,38 +96,6 @@ class IntelliViz():
 
         return r
 
-    """
-    def pearson_pyarrow(self,x,y):
-        '''
-        this is still in testing and not working currently
-        goal is to significantly reduce the time np computations take
-        this function calculates the Pearson's correlation coefficient (Pearson's r)
-        r = Σ[(x_i - µx)(y_i - µy)] / √[Σ(x_i - µx)^2 * Σ(y_i - µy)^2]
-        Measures the linear relationship between two continuous variables. It ranges from -1 to 1.
-        :param x:
-        :param y:
-        :return:
-        '''
-
-        # convert to numpy arrays with float type 32 to increase speed
-        x, y = pa.array(x), pa.array(y)
-
-        # calculate numerator
-        mean_x, mean_y = pa.float64(x.sum()) / len(x), pa.float64(y.sum()) / len(y)
-        x_deviation_from_mean, y_deviation_from_mean =  x.diff(mean_x), y.diff(mean_y)
-        numerator = pa.sum(pa.multiply(x_deviation_from_mean, y_deviation_from_mean))
-
-        # calculate denominator
-        x_deviation_from_mean_sqrd = pa.pow(x_deviation_from_mean, 2)
-        y_deviation_from_mean_sqrd = pa.pow(y_deviation_from_mean, 2)
-        denominator = pa.sqrt(pa.multiply(pa.sum(x_deviation_from_mean_sqrd),
-                               pa.sum(y_deviation_from_mean_sqrd)))
-
-        # calculate Pearson's r
-        rho = pa.divide(numerator, denominator)
-
-        return rho
-    """
 
     def pearson_corr_matrix(self):
         '''
@@ -193,6 +161,20 @@ class IntelliViz():
     """
     maybe add save correlation_matrix_heatmap function?
     """
+
+    def coefficient_of_determination(self, x, y):
+        '''
+        This functions calculates the coefficient of determination (R²)
+        specificly for simple linear regressions.
+        :param x:
+        :param y:
+        :return:
+        '''
+
+        r = self.pearsons_r(x, y)
+        r_squared = r ** 2
+        return r_squared
+
     def columns_scatter(self,target_var=None):
         '''
         This function creates scatter plots of each variable against the target variable.
