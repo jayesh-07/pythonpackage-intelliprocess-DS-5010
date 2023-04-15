@@ -67,6 +67,17 @@ class IntelliViz():
         else:
             raise IntelliVizError("No pandas dataframe provided.")
 
+    def get_df_numeric(self):
+        '''
+        function to extract only numerical dtypes from a dataframe (self.df) and
+        returns a dataframe of the extracted series with only numerical dtypes
+        :return: pandas dataframe
+        '''
+        # ensure updated dtypes (redo auto-detect)
+        df = pd.DataFrame(self.df)
+        numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+        df_numeric = df.select_dtypes(include=numerics)
+        return df_numeric
 
     def pearsons_r(self,x,y):
         '''
@@ -99,13 +110,11 @@ class IntelliViz():
 
     def pearson_corr_matrix(self):
         '''
-
-        :return:
+        Calculutes and creates a pearson coorelation matrix
+        :return: pandas dataframe
         '''
-        df = pd.DataFrame(self.df)
-        # extract only numerical data types into a new dataframe
-        numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-        df2 = df.select_dtypes(include=numerics)
+
+        df2 = self.get_df_numeric()
         # create an empty dataframe for our correlation matrix
         corr_matrix = pd.DataFrame(columns=df2.columns,index=df2.columns)
         # iterate over rows
@@ -120,7 +129,7 @@ class IntelliViz():
 
     def correlation_matrix_heatmap(self, colors='coolwarm',
                                    show_values=False,
-                                   save=True,
+                                   save=False,
                                    filename="intelliviz_correlation_matrix_heatmap"):
         '''
         This code creates a heatmap dataset using pandas DataFrame, calculates the
@@ -139,6 +148,8 @@ class IntelliViz():
             # Create a heatmap of the correlation matrix
             num_columns = len(self.df.columns)
             fig_scale_factor = num_columns / 5
+            if fig_scale_factor < 5.0:
+                fig_scale_factor = 5.0
             fig, ax = plt.subplots(figsize=(fig_scale_factor,fig_scale_factor))
             cax = ax.matshow(corr_matrix, cmap=colors)
 
@@ -157,7 +168,7 @@ class IntelliViz():
                     for j in range(len(corr_matrix.columns)):
                         ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
                                        ha="center", va="center", color="black", fontsize=12)
-
+            # save figure to working directory if save is True using timestamp for filename uniqueness
             if save is True:
                 timestamp = str(datetime.datetime.now()).replace(" ", "_")
                 filename = filename + "_" + timestamp + ".png"
@@ -170,9 +181,6 @@ class IntelliViz():
         else:
             raise IntelliVizError("No pandas dataframe has been provided.")
 
-    """
-    maybe add save correlation_matrix_heatmap function?
-    """
 
     def coefficient_of_determination(self, x, y):
         '''
@@ -186,6 +194,46 @@ class IntelliViz():
         r = self.pearsons_r(x, y)
         r_squared = r ** 2
         return r_squared
+
+    def boxplot(self,save=False,
+                filename="intelliviz_boxplot"):
+        '''
+        creates a boxplot of all numerical dtypes in a dataframe (self.df)
+        :param save:
+        :param filename:
+        :return:
+        '''
+
+        # extract only numeric values for inclusion into the boxplot
+        df_numeric = self.get_df_numeric()
+
+        # reverse the order so that columns are in order from top to bottom
+        reversed_columns = df_numeric.columns[::-1]
+        reversed_data = df_numeric[reversed_columns]
+
+        # created scales based on number of columns
+        num_columns = len(reversed_data)
+        fig_scale_factor = num_columns / 10
+        if fig_scale_factor < 5.0:
+            fig_scale_factor = 5.0
+        # create the boxplot
+        # do we want to be able to select columns to include or just include all? git issue #13
+        fig, ax = plt.subplots(figsize=(10,fig_scale_factor))
+        ax.boxplot(reversed_data, labels=reversed_columns, vert=False)
+        plt.title("Boxplot")
+        plt.xlabel("Columns")
+        plt.xticks(rotation=90)
+        plt.ylabel("Values")
+
+
+        if save is True:
+            timestamp = str(datetime.datetime.now()).replace(" ", "_")
+            filename = filename + "_" + timestamp + ".png"
+            plt.savefig(filename, dpi=400)
+
+        plt.show()
+
+        return fig, ax
 
     def columns_scatter(self,target_var=None):
         '''
@@ -202,6 +250,7 @@ class IntelliViz():
                 plt.ylabel(target_var)
                 plt.title(f'Scatter plot of {col} vs {target_var}')
                 plt.show()
+
 
     def violin_plot(self, x=None, y=None,title="Violin Plot",xlabel=None,ylabel=None,show=True):
         '''
