@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
-
+import datetime
 
 
 class IntelliVizError(Exception):
@@ -118,7 +118,10 @@ class IntelliViz():
 
 
 
-    def correlation_matrix_heatmap(self, colors='coolwarm',show_values=False):
+    def correlation_matrix_heatmap(self, colors='coolwarm',
+                                   show_values=False,
+                                   save=True,
+                                   filename="intelliviz_correlation_matrix_heatmap"):
         '''
         This code creates a heatmap dataset using pandas DataFrame, calculates the
         correlation matrix, and then uses matplotlib to create .
@@ -134,7 +137,9 @@ class IntelliViz():
             corr_matrix.convert_dtypes()
 
             # Create a heatmap of the correlation matrix
-            fig, ax = plt.subplots()
+            num_columns = len(self.df.columns)
+            fig_scale_factor = num_columns / 5
+            fig, ax = plt.subplots(figsize=(fig_scale_factor,fig_scale_factor))
             cax = ax.matshow(corr_matrix, cmap=colors)
 
             # Add colorbar and axis labels
@@ -145,7 +150,7 @@ class IntelliViz():
             ax.set_yticklabels(corr_matrix.columns)
 
             # Rotate the x-axis labels
-            plt.xticks(rotation=45)
+            plt.xticks(rotation=90)
             if show_values is True:
                 # Add correlation values to each square in the heatmap
                 for i in range(len(corr_matrix.columns)):
@@ -153,7 +158,14 @@ class IntelliViz():
                         ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
                                        ha="center", va="center", color="black", fontsize=12)
 
+            if save is True:
+                timestamp = str(datetime.datetime.now()).replace(" ", "_")
+                filename = filename + "_" + timestamp + ".png"
+                plt.savefig(filename,dpi=400)
+
             plt.show()
+
+            return fig, ax
 
         else:
             raise IntelliVizError("No pandas dataframe has been provided.")
