@@ -25,8 +25,8 @@ def datatype_frequency(df):
     return result
 
 datatype_frequency(df_housing)
-#datatype_frequency(df_toy)
-#datatype_frequency(df_iris)
+datatype_frequency(df_toy)
+datatype_frequency(df_iris)
 
 def feature_type_frequency(df):
     """
