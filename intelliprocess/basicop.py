@@ -9,7 +9,7 @@ def datatype_frequency(df):
     """
     Finds the frequency of data types in the data set features
     INPUT: Pandas DataFrame Object
-    Returns: A list of lists that has 1st element as data type and 2nd element the count of data type 
+    Returns: A nested list that has 1st element as data type and 2nd element the count of data type 
     """
     dtypes_counts = df.dtypes.value_counts().reset_index()
     dtypes_counts.columns = ['Data Type', 'Count']
@@ -24,9 +24,9 @@ def datatype_frequency(df):
     plt.show()
     return result
 
-datatype_frequency(df_housing)
-datatype_frequency(df_toy)
-datatype_frequency(df_iris)
+#datatype_frequency(df_housing)
+#datatype_frequency(df_toy)
+#datatype_frequency(df_iris)
 
 def feature_type_frequency(df):
     """
@@ -47,32 +47,37 @@ def feature_type_frequency(df):
     plt.title("Feature Type Frequency Plot")
     plt.show()
 
-#feature_type_frequency(df_housing)
-#feature_type_frequency(df_toy)
-#feature_type_frequency(df_iris)
+    return()
+
+feature_type_frequency(df_housing)
+feature_type_frequency(df_toy)
+feature_type_frequency(df_iris)
 
 def nan_frequency(df):
     """
     Finds the frequency of NaN values in the data set.
     INPUT: Pandas DataFrame Object
-    Returns: A list of lists that has 1st element as feature name and 2nd element the count of NaN Values
+    Returns: A nested list that has 1st element as feature name and 2nd element the count of NaN Values
+             If no NaN values present returns an empty list
     """
     nan_counts = df.isna().sum()
     if nan_counts.sum() == 0:
         print("NO NaN VALUES IN DATA SET")
-        return []
+        k=[]
+        return(k)
     else:
         nan_frequency_list = [[col_name, nan_counts[col_name]] for col_name in nan_counts.index]
-
+        
         # Create a horizontal bar chart using Matplotlib
         fig, ax = plt.subplots(figsize=(10,6))
         ax.barh([item[0] for item in nan_frequency_list], [item[1] for item in nan_frequency_list])
         ax.set_xlabel('Frequency of NaN Values')
         ax.set_title('NaN Value Frequency')
         plt.show()
-
+       
+        print(nan_frequency_list)
         return nan_frequency_list
 
-nan_frequency(df_housing)
-nan_frequency(df_toy)
-nan_frequency(df_iris)
+#nan_frequency(df_housing)
+#nan_frequency(df_toy)
+#nan_frequency(df_iris)
