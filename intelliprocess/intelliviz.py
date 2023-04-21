@@ -251,6 +251,23 @@ class IntelliViz():
                 plt.title(f'Scatter plot of {col} vs {target_var}')
                 plt.show()
 
+    def qqplot(self,array=None, line_type='45',show=True):
+        '''
+        This function creates a QQ plot of the data using statsmodels.
+        further documentation = https://www.statsmodels.org/stable/api.html
+        :param array: An array-like object representing the data to be plotted.
+        :param line: A string representing the line to be plotted on the QQ plot.
+        :param show: A boolean representing whether or not to display the plot.
+        :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
+        '''
+        if array is None:
+            print("Please provide an array-like object to be plotted.")
+            return
+
+        fig = sm.qqplot(array,line=line_type)
+        if show is True:
+            plt.show()
+        return fig
 
     def violin_plot(self, x=None, y=None,title="Violin Plot",xlabel=None,ylabel=None,show=True):
         '''
@@ -304,64 +321,6 @@ class IntelliViz():
         if show is True:
             plt.show()
 
-    def qqplot(self,array=None, line_type='45',show=True):
-        '''
-        This function creates a QQ plot of the data using statsmodels.
-        further documentation = https://www.statsmodels.org/stable/api.html
-        :param array: An array-like object representing the data to be plotted.
-        :param line: A string representing the line to be plotted on the QQ plot.
-        :param show: A boolean representing whether or not to display the plot.
-        :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
-        '''
-        if array is None:
-            print("Please provide an array-like object to be plotted.")
-            return
-
-        fig = sm.qqplot(array,line=line_type)
-        if show is True:
-            plt.show()
-        return fig
-
-"""
-workshop to see if we want to inclue
-        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
-        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
 
 
-    def find_multicollinear_pairs(self, threshold=0.8) -> list:
-        '''
-        workshop to see if we want to inclue
-        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
-        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
-        :param threshold:
-        :return: multicollinear_pairs
-        '''
-        # Compute the correlation matrix
-        corr_matrix = self.correlation_matrix()
-
-        # Find pairs of multicollinear variables
-        multicollinear_pairs = []
-
-        for i in range(len(corr_matrix.columns)):
-            for j in range(i + 1, len(corr_matrix.columns)):
-                if abs(corr_matrix.iloc[i, j]) >= threshold:
-                    multicollinear_pairs.append((corr_matrix.columns[i],
-                                                 corr_matrix.columns[j]))
-
-        if len(multicollinear_pairs) > 0:
-            print("Multicollinear variable pairs:")
-            for pair in multicollinear_pairs:
-                print(pair)
-            return multicollinear_pairs
-        else:
-            print("No multicollinear variable pairs detected.")
-
-
-
-    def variance_inflation_factors(self):
-        '''
-
-        :return:
-        '''
-"""
 
