@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import statsmodels.api as sm
-import pyarrow as pa
+import datetime
 
 
 class IntelliVizError(Exception):
@@ -67,6 +67,17 @@ class IntelliViz():
         else:
             raise IntelliVizError("No pandas dataframe provided.")
 
+    def get_df_numeric(self):
+        '''
+        function to extract only numerical dtypes from a dataframe (self.df) and
+        returns a dataframe of the extracted series with only numerical dtypes
+        :return: pandas dataframe
+        '''
+        # ensure updated dtypes (redo auto-detect)
+        df = pd.DataFrame(self.df)
+        numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
+        df_numeric = df.select_dtypes(include=numerics)
+        return df_numeric
 
     def pearsons_r(self,x,y):
         '''
@@ -96,48 +107,14 @@ class IntelliViz():
 
         return r
 
-    """
-    def pearson_pyarrow(self,x,y):
-        '''
-        this is still in testing and not working currently
-        goal is to significantly reduce the time np computations take
-        this function calculates the Pearson's correlation coefficient (Pearson's r)
-        r = Σ[(x_i - µx)(y_i - µy)] / √[Σ(x_i - µx)^2 * Σ(y_i - µy)^2]
-        Measures the linear relationship between two continuous variables. It ranges from -1 to 1.
-        :param x:
-        :param y:
-        :return:
-        '''
-
-        # convert to numpy arrays with float type 32 to increase speed
-        x, y = pa.array(x), pa.array(y)
-
-        # calculate numerator
-        mean_x, mean_y = pa.float64(x.sum()) / len(x), pa.float64(y.sum()) / len(y)
-        x_deviation_from_mean, y_deviation_from_mean =  x.diff(mean_x), y.diff(mean_y)
-        numerator = pa.sum(pa.multiply(x_deviation_from_mean, y_deviation_from_mean))
-
-        # calculate denominator
-        x_deviation_from_mean_sqrd = pa.pow(x_deviation_from_mean, 2)
-        y_deviation_from_mean_sqrd = pa.pow(y_deviation_from_mean, 2)
-        denominator = pa.sqrt(pa.multiply(pa.sum(x_deviation_from_mean_sqrd),
-                               pa.sum(y_deviation_from_mean_sqrd)))
-
-        # calculate Pearson's r
-        rho = pa.divide(numerator, denominator)
-
-        return rho
-    """
 
     def pearson_corr_matrix(self):
         '''
-
-        :return:
+        Calculutes and creates a pearson coorelation matrix
+        :return: pandas dataframe
         '''
-        df = pd.DataFrame(self.df)
-        # extract only numerical data types into a new dataframe
-        numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
-        df2 = df.select_dtypes(include=numerics)
+
+        df2 = self.get_df_numeric()
         # create an empty dataframe for our correlation matrix
         corr_matrix = pd.DataFrame(columns=df2.columns,index=df2.columns)
         # iterate over rows
@@ -150,7 +127,10 @@ class IntelliViz():
 
 
 
-    def correlation_matrix_heatmap(self, colors='coolwarm',show_values=False):
+    def correlation_matrix_heatmap(self, colors='coolwarm',
+                                   show_values=False,
+                                   save=False,
+                                   filename="intelliviz_correlation_matrix_heatmap"):
         '''
         This code creates a heatmap dataset using pandas DataFrame, calculates the
         correlation matrix, and then uses matplotlib to create .
@@ -166,7 +146,11 @@ class IntelliViz():
             corr_matrix.convert_dtypes()
 
             # Create a heatmap of the correlation matrix
-            fig, ax = plt.subplots()
+            num_columns = len(self.df.columns)
+            fig_scale_factor = num_columns / 5
+            if fig_scale_factor < 5.0:
+                fig_scale_factor = 5.0
+            fig, ax = plt.subplots(figsize=(fig_scale_factor,fig_scale_factor))
             cax = ax.matshow(corr_matrix, cmap=colors)
 
             # Add colorbar and axis labels
@@ -177,22 +161,80 @@ class IntelliViz():
             ax.set_yticklabels(corr_matrix.columns)
 
             # Rotate the x-axis labels
-            plt.xticks(rotation=45)
+            plt.xticks(rotation=90)
             if show_values is True:
                 # Add correlation values to each square in the heatmap
                 for i in range(len(corr_matrix.columns)):
                     for j in range(len(corr_matrix.columns)):
                         ax.text(j, i, round(corr_matrix.iloc[i, j], 2),
                                        ha="center", va="center", color="black", fontsize=12)
+            # save figure to working directory if save is True using timestamp for filename uniqueness
+            if save is True:
+                timestamp = str(datetime.datetime.now()).replace(" ", "_")
+                filename = filename + "_" + timestamp + ".png"
+                plt.savefig(filename,dpi=400)
 
             plt.show()
+
+            return fig, ax
 
         else:
             raise IntelliVizError("No pandas dataframe has been provided.")
 
-    """
-    maybe add save correlation_matrix_heatmap function?
-    """
+
+    def coefficient_of_determination(self, x, y):
+        '''
+        This functions calculates the coefficient of determination (R²)
+        specificly for simple linear regressions.
+        :param x:
+        :param y:
+        :return:
+        '''
+
+        r = self.pearsons_r(x, y)
+        r_squared = r ** 2
+        return r_squared
+
+    def boxplot(self,save=False,
+                filename="intelliviz_boxplot"):
+        '''
+        creates a boxplot of all numerical dtypes in a dataframe (self.df)
+        :param save:
+        :param filename:
+        :return:
+        '''
+
+        # extract only numeric values for inclusion into the boxplot
+        df_numeric = self.get_df_numeric()
+
+        # reverse the order so that columns are in order from top to bottom
+        reversed_columns = df_numeric.columns[::-1]
+        reversed_data = df_numeric[reversed_columns]
+
+        # created scales based on number of columns
+        num_columns = len(reversed_data)
+        fig_scale_factor = num_columns / 10
+        if fig_scale_factor < 5.0:
+            fig_scale_factor = 5.0
+        # create the boxplot
+        # do we want to be able to select columns to include or just include all? git issue #13
+        fig, ax = plt.subplots(figsize=(10,fig_scale_factor))
+        ax.boxplot(reversed_data, labels=reversed_columns, vert=False)
+        plt.title("Boxplot")
+        plt.xlabel("Columns")
+        plt.xticks(rotation=90)
+        plt.ylabel("Values")
+
+
+        if save is True:
+            timestamp = str(datetime.datetime.now()).replace(" ", "_")
+            filename = filename + "_" + timestamp + ".png"
+            plt.savefig(filename, dpi=400)
+
+        plt.show()
+
+        return fig, ax
+
     def columns_scatter(self,target_var=None):
         '''
         This function creates scatter plots of each variable against the target variable.
@@ -208,6 +250,24 @@ class IntelliViz():
                 plt.ylabel(target_var)
                 plt.title(f'Scatter plot of {col} vs {target_var}')
                 plt.show()
+
+    def qqplot(self,array=None, line_type='45',show=True):
+        '''
+        This function creates a QQ plot of the data using statsmodels.
+        further documentation = https://www.statsmodels.org/stable/api.html
+        :param array: An array-like object representing the data to be plotted.
+        :param line: A string representing the line to be plotted on the QQ plot.
+        :param show: A boolean representing whether or not to display the plot.
+        :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
+        '''
+        if array is None:
+            print("Please provide an array-like object to be plotted.")
+            return
+
+        fig = sm.qqplot(array,line=line_type)
+        if show is True:
+            plt.show()
+        return fig
 
     def violin_plot(self, x=None, y=None,title="Violin Plot",xlabel=None,ylabel=None,show=True):
         '''
@@ -261,64 +321,6 @@ class IntelliViz():
         if show is True:
             plt.show()
 
-    def qqplot(self,array=None, line_type='45',show=True):
-        '''
-        This function creates a QQ plot of the data using statsmodels.
-        further documentation = https://www.statsmodels.org/stable/api.html
-        :param array: An array-like object representing the data to be plotted.
-        :param line: A string representing the line to be plotted on the QQ plot.
-        :param show: A boolean representing whether or not to display the plot.
-        :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
-        '''
-        if array is None:
-            print("Please provide an array-like object to be plotted.")
-            return
-
-        fig = sm.qqplot(array,line=line_type)
-        if show is True:
-            plt.show()
-        return fig
-
-"""
-workshop to see if we want to inclue
-        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
-        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
 
 
-    def find_multicollinear_pairs(self, threshold=0.8) -> list:
-        '''
-        workshop to see if we want to inclue
-        https://www.geeksforgeeks.org/multicollinearity-in-data/?ref=lbp
-        https://www.geeksforgeeks.org/detecting-multicollinearity-with-vif-python/
-        :param threshold:
-        :return: multicollinear_pairs
-        '''
-        # Compute the correlation matrix
-        corr_matrix = self.correlation_matrix()
-
-        # Find pairs of multicollinear variables
-        multicollinear_pairs = []
-
-        for i in range(len(corr_matrix.columns)):
-            for j in range(i + 1, len(corr_matrix.columns)):
-                if abs(corr_matrix.iloc[i, j]) >= threshold:
-                    multicollinear_pairs.append((corr_matrix.columns[i],
-                                                 corr_matrix.columns[j]))
-
-        if len(multicollinear_pairs) > 0:
-            print("Multicollinear variable pairs:")
-            for pair in multicollinear_pairs:
-                print(pair)
-            return multicollinear_pairs
-        else:
-            print("No multicollinear variable pairs detected.")
-
-
-
-    def variance_inflation_factors(self):
-        '''
-
-        :return:
-        '''
-"""
 

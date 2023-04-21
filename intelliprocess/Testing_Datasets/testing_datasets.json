@@ -1,65 +1,102 @@
 {
 	"data": {
 		"usedcarscatalog": {
-			"datafile": "cars.csv",
+			"datafile": "/Testing_Datasets/cars.csv",
 			"website": "https://www.kaggle.com/datasets/lepchenkov/usedcarscatalog",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"employee_attrition_test": {
-			"datafile": "employee_attrition_test.csv",
+			"datafile": "/Testing_Datasets/employee_attrition_test.csv",
 			"website": "https://www.kaggle.com/datasets/colearninglounge/employee-attrition",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
+		},
+		"sonar": {
+			"datafile": "/Testing_Datasets/sonar.csv",
+			"website": "",
+			"source": "",
+			"otherinfo": "",
+			"description": ""
 		},
 		"migraine-classification": {
-			"datafile": "migraine.csv",
+			"datafile": "/Testing_Datasets/migraine.csv",
 			"website": "https://www.kaggle.com/datasets/weinoose/migraine-classification",
 			"source": "Kaggle",
 			"otherinfo": "https://codeocean.com/capsule/1269964/tree/v1",
 			"description": "Migraine Data Set Description.txt"
 		},
 		"higher-education-predictors-of-student-retention": {
-			"datafile": "higher-education-predictors-of-student-retention.csv",
+			"datafile": "/Testing_Datasets/higher-education-predictors-of-student-retention.csv",
 			"website": "https://www.kaggle.com/datasets/thedevastator/higher-education-predictors-of-student-retention?select=dataset.csv",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"internet-advertisements-data-set": {
-			"datafile": "internet-advertisements-data-set.csv",
+			"datafile": "/Testing_Datasets/internet-advertisements-data-set.csv",
 			"website": "https://www.kaggle.com/datasets/uciml/internet-advertisements-data-set",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"HepatitisCdata": {
-			"datafile": "HepatitisCdata.csv",
+			"datafile": "/Testing_Datasets/HepatitisCdata.csv",
 			"website": "https://www.kaggle.com/datasets/fedesoriano/hepatitis-c-dataset",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"menstennisrankings": {
-			"datafile": "atp_ranking.csv",
+			"datafile": "/Testing_Datasets/atp_ranking.csv",
 			"website": "https://www.kaggle.com/datasets/isaienkov/atp-ranking",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"personal-loan-modeling": {
-			"datafile": "Bank_Personal_Loan_Modelling.csv",
+			"datafile": "/Testing_Datasets/Bank_Personal_Loan_Modelling.csv",
 			"website": "https://www.kaggle.com/datasets/teertha/personal-loan-modeling",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"black-friday-sale": {
-			"datafile": "black-friday-sale.csv",
+			"datafile": "/Testing_Datasets/black-friday-sale.csv",
 			"website": "https://www.kaggle.com/datasets/rajeshrampure/black-friday-sale",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"poker-hand-training": {
-			"datafile": "poker-hand-training.csv",
+			"datafile": "/Testing_Datasets/poker-hand-training.csv",
 			"website": "https://www.kaggle.com/datasets/hosseinah1/poker-game-dataset",
-			"source": "Kaggle"
+			"source": "Kaggle",
+			"otherinfo": "",
+			"description": ""
 		},
 		"housing": {
-			"datafile": "housing.csv"
+			"datafile": "/Testing_Datasets/housing.csv",
+			"website": "",
+			"source": "",
+			"otherinfo": "",
+			"description": ""
 		},
 		"iris": {
-			"datafile": "iris.csv"
+			"datafile": "/Testing_Datasets/iris.csv",
+			"website": "",
+			"source": "",
+			"otherinfo": "",
+			"description": ""
 		},
 		"toy": {
-			"datafile": "toy.csv"
+			"datafile": "/Testing_Datasets/toy.csv",
+			"website": "",
+			"source": "",
+			"otherinfo": "",
+			"description": ""
 		}
 	}
 }
