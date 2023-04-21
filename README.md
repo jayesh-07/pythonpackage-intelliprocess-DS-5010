@@ -24,7 +24,7 @@ Here are just a few of the things that intelliprocess does well:
     - numerical (mean)
     - NaN
   - Encode Categorical data
-    - One-hot encoding, Binary encoding, Label encoding
+    - Provide suggestions and recommends either One-hot encoding, Binary encoding, Label encoding based on the data
   - Scaling Numerical Data
   - Check for skew; apply appropriate transformation (box-cox, log transform, or rank-based methods
     - If normal perform standardization
