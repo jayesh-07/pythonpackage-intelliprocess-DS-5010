@@ -32,7 +32,7 @@ other machine learning techniques.
 Here are just a few of the things that intelliprocess does well:
 
   - Reccomendations to insturct users on Handling missing values in dataset
-    - numerical (mean, median, mode)
+    - numerical (mean)
     - NaN
   - Encode Categorical data
     - One-hot encoding, Binary encoding, Label encoding
