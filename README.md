@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.postimg.cc/FRrgP3R7/logo-color.png"><br>
+  <img src="https://i.postimg.cc/kgLZDncT/Screen-Shot-2023-04-20-at-11-29-48-PM.png"><br>
 </div>
 
 -----------------
