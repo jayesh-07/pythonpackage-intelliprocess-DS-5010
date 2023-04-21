@@ -1,10 +1,10 @@
 <div align="center">
-  <img src="https://pandas.pydata.org/static/img/pandas.svg"><br>
+  <img src="https://imgur.com/a/hN8s9Si"><br>
 </div>
 
 -----------------
 
-# pandas: powerful Python data analysis toolkit
+# intelliprocess: for machine learning data preprocessing
 [![PyPI Latest Release](https://img.shields.io/pypi/v/pandas.svg)](https://pypi.org/project/pandas/)
 [![Conda Latest Release](https://anaconda.org/conda-forge/pandas/badges/version.svg)](https://anaconda.org/anaconda/pandas/)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3509134.svg)](https://doi.org/10.5281/zenodo.3509134)
