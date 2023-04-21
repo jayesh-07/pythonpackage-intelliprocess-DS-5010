@@ -43,6 +43,14 @@ https://github.com/jayesh-07/pythonpackage-intelliprocess-DS-5010
 git clone https://github.com/jayesh-07/pythonpackage-intelliprocess-DS-5010
 ```
 
+```sh
+# import IntelliViz object to handle easy vizualizations! 
+from intelliprocess.intelliviz import IntelliViz
+
+# import a dataframe
+i = IntelliViz(df)
+```
+
 
 ## Dependencies
 
