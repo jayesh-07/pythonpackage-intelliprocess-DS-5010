@@ -6,7 +6,7 @@
 
 # intelliprocess: for machine learning data preprocessing
 
-## What is it?
+## What is intelliprocess?
 
 **intelliprocess** is a comprehensive Python package aimed at providing limited data 
 pre-processing capabilities to industry professionals, researchers, and 
