@@ -30,6 +30,8 @@ Here are just a few of the things that intelliprocess does well:
     - If normal perform standardization
     - Calculate outliers and return df with outliers removed 
   - Data Visualization
+    - Histograms w/ different bin sizes (5,10,15,20)
+    - 
     - Boxplots
     - Correlation matrix heatmap
     - ScatterPlots
