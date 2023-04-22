@@ -29,6 +29,21 @@ class IntelliProcess:
         data_string = self.data.to_string()
         return data_string
 
+    def __setitem__(self, key, value):
+        '''
+
+        :param key:
+        :param value:
+        :return:
+        '''
+        self.data[key] = value
+
+    def __getitem__(self, key):
+        '''
+
+        :return:
+        '''
+        return self.data[key]
 
     def column_list(self):
         """
@@ -69,9 +84,11 @@ class IntelliProcess:
         :return:a pandas data frame containing all columns
         in which numeric values are identified.
         """
+
         data = self.data.copy()
         numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
         data_numeric = data.select_dtypes(include=numerics)
+
         return data_numeric
 
     def run_process(self):

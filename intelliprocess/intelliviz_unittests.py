@@ -1,6 +1,7 @@
 import unittest
 import pandas as pd
 from intelliviz import IntelliViz, IntelliVizError
+from intelliproc import IntelliProcess, IntelliProcessError
 import timeit
 import numpy as np
 import json
@@ -24,6 +25,7 @@ class IntelliViz_init(unittest.TestCase):
                      'B': [4, 5, 6, 7, 8],
                      'C': [7, 8, 9, 10, 11]}
         df = pd.DataFrame(data)
+
 
 
     def test_init_load_df(self):
@@ -193,7 +195,39 @@ class IntelliViz_qqplot(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=3)
+    #unittest.main(verbosity=3)
+
+    df = pd.read_csv(path + str(testing_datasets["data"]["sonar"]["datafile"]))
+    ip = IntelliProcess(df)
+    #check __str__ method()
+    print(ip)
+    #check column_list function
+    print(ip.column_list())
+    # check get_data function
+    print(ip.get_data())
+    # check get_data function
+    print(ip.select_num())
+    # print nan_frequency
+    print(ip.nan_frequency())
+    # test fill_missing_values
+    print(ip.fill_missing_values())
+    # check datatype frequency functin
+    print(ip.datatype_frequency())
+    print(ip.feature_type_frequency())
+    print(ip.suggest_encoding())
+    print(ip.encode_data('label'))
+    print(ip.outlier_removal_IQR_method())
+
+
+
+
+
+
+
+
+
+
+
     """
     df = pd.read_csv("sonar.csv")
     i = IntelliViz(df)
