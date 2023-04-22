@@ -111,10 +111,10 @@ def scaling_box_cox(x_column):
     transformed, fitted_lambda = stats.boxcox(x_column)
     fig, axes = plt.subplots(1, 2)
 
-    sns.histplot(x_column, kde = True, ax = axes[0],
-                    label="Original Data", color="black")
-    sns.histplot(values,kind = "hist", kde = True, ax = axes[1],
-                    label ="Transformed Data", color="black")
+    sns.histplot(x_column, kde=True, ax=axes[0],
+                 label="Original Data", color="black")
+    sns.histplot(transformed, kde=True, ax=axes[1],
+                 label="Transformed Data", color="black")
     print(f"Lambda value used for Transformation: {fitted_lambda}")
     plt.show()
     return transformed
@@ -135,17 +135,17 @@ def scaling_log(x_column):
     data_output = pd.DataFrame(values)
     fig, axes = plt.subplots(1, 2)
 
-    sns.histplot(x_column, kde = True, ax = axes[0],
-                    label="Original Data", color="black")
-    sns.histplot(values,kind = "hist", kde = True, ax = axes[1],
-                    label ="Transformed Data", color="black")
+    sns.histplot(x_column, kde=True, ax=axes[0],
+                 label="Original Data", color="black")
+    sns.histplot(data_output, kde=True, ax=axes[1],
+                 label="Transformed Data", color="black")
     plt.show()
     return data_output
 
 
 # Outlier Detection and Removal
 # Enables IQR method
-def outlier_removal_IQR_method(data_numeric, save = True, filename = "intelliprocess_outliers_iqr_file"):
+def outlier_removal_IQR_method(data_numeric, save=True, filename="intelliprocess_outliers_iqr_file"):
     """
     Removes outliers based on inter quartile range
     and provides a csv file output.
@@ -175,8 +175,8 @@ if __name__ == "__main__":
 
     # Works
     print(scaling_log(select_x('/Users/taylorgoodwin/Documents/GitHub/'
-                          'pythonpackage-intelliprocess-DS-5010/'
-                          'intelliprocess/Testing_Datasets/iris.csv', 'sepal_width')))
+                               'pythonpackage-intelliprocess-DS-5010/'
+                               'intelliprocess/Testing_Datasets/iris.csv', 'sepal_width')))
 
     # Works
     print(skew(select_num('/Users/taylorgoodwin/Documents/GitHub/'
@@ -184,8 +184,8 @@ if __name__ == "__main__":
                           'intelliprocess/Testing_Datasets/iris.csv')))
     # Works
     outlier_removal_IQR_method(select_num('/Users/taylorgoodwin/Documents/GitHub/'
-                                                'pythonpackage-intelliprocess-DS-5010/'
-                                                'intelliprocess/Testing_Datasets/iris.csv'))
+                                          'pythonpackage-intelliprocess-DS-5010/'
+                                          'intelliprocess/Testing_Datasets/iris.csv'))
     # Works
     print(histogram_plots(select_num('/Users/taylorgoodwin/Documents/GitHub/'
                                      'pythonpackage-intelliprocess-DS-5010/'
