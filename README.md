@@ -20,21 +20,26 @@ other machine learning techniques.
 ## Main Features
 Here are just a few of the things that intelliprocess does well:
 
-  - Reccomendations to insturct users on Handling missing values in dataset
-    - numerical (mean)
-    - NaN
+  - Imputing Missing Values
+    - Numerical imputation using the mean.
+    - Categorical imputation using the mode.
+
   - Encode Categorical data
-    - Provide suggestions and recommends either One-hot encoding, Binary encoding, Label encoding based on the data
+    - Provide suggestions and recommends either One-hot encoding, Binary encoding, Label encoding based on the data.
+
+  - Normalization of Data
+    - Skewness number check using Pearson - Fisher method.
+    - Calculate to detect outliers and return a dataframe as a csv file with outliers removed.
+
   - Scaling Numerical Data
-  - Check for skew; apply appropriate transformation (box-cox, log transform, or rank-based methods
-    - If normal perform standardization
-    - Calculate outliers and return df with outliers removed 
+    - Logarithmic transofrmation of individual variables with output plots comparing original to transformed data. 
+    - Box-Cox transofrmation of individual variables with output plots comparing original to transformed data. 
+
   - Data Visualization
     - Histograms w/ different bin sizes (5,10,15,20)
-    - 
     - Boxplots
     - Correlation matrix heatmap
-    - ScatterPlots
+    - Scatter plots
 
 ## Where to get it
 The source code is currently hosted on GitHub at:
