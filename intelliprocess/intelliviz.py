@@ -23,7 +23,7 @@ class IntelliViz():
         '''
 
         if df is not None:
-            self.df = df
+            self.df = pd.DataFrame(df)
         else:
             raise IntelliVizError("No pandas dataframe has been provided.")
 
@@ -269,57 +269,29 @@ class IntelliViz():
             plt.show()
         return fig
 
-    def violin_plot(self, x=None, y=None,title="Violin Plot",xlabel=None,ylabel=None,show=True):
-        '''
 
-        :param x:
-        :param y:
-        :param title:
-        :param xlabel:
-        :param ylabel:
-        :param show:
-        :return:
-        '''
+    def histogram_plots(self):
+        """
+        Creates a 2x2 plot of histograms, each utilizes one of
+        four varied binwidths (5, 10, 15, 20) and contain a
+        different colored histogram  for each of the columns
+        in a given numeric dataset.
+        :param data_numeric:  a dataset of only numerics
+        :return: None
+        """
+        data_numeric = self.get_df_numeric()
+        for i, binswidth in enumerate([5, 10, 15, 20]):
+            axes = plt.subplot(2, 2, i + 1)
+            axes.hist(data_numeric, bins=int(180 / binswidth))
 
-        data = sns.load_dataset("tips")
-        fig = sns.violinplot(x=x, y=y, data=self.df)
-        if x_label is not None:
-            plt.xlabel(xlabel)
-        if y_label is not None:
-            plt.ylabel(ylabel)
+            axes.set_title('Histogram with Binwidth = %d' % binswidth, size=10)
+            axes.set_xlabel('x_axis_label', size=10)
+            axes.set_ylabel('y_axis_label', size=10)
 
-        plt.title(title)
-        if show is True:
-            plt.show()
+        plt.tight_layout()
+        plt.show()
+        return None
 
-        return fig
-
-    def pie_chart(self,labels=None,title="Pie Chart",axis='equal',show=True):
-        '''
-
-        :return:
-        '''
-        # need to handle sizes
-        sizes = [12, 20, 15, 25, 10]
-        plt.pie(sizes, labels=labels, autopct='%1.1f%%')
-        plt.title(title)
-        plt.axis(axis)
-        if show is True:
-            plt.show()
-
-    def histogram(self,bins=10, show=True):
-        '''
-
-        :param bins:
-        :param show:
-        :return:
-        '''
-        plt.hist(self.df, bins=bins)
-        plt.xlabel("Values")
-        plt.ylabel("Frequency")
-        plt.title("Histogram")
-        if show is True:
-            plt.show()
 
 
 
