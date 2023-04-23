@@ -9,5 +9,14 @@ setup(
     install_requires=[
         'numpy>=1.24.1',
         'pandas>=2.0.0',
-        'matplotlib>=3.7.1'
+        'matplotlib>=3.7.1',
+        'seaborn',
+        'scipy',
+        'csv',
+        'timeit',
+        'data_encoder',
+        'unittest',
+        'datetime',
+        'statsmodels.api',
+        'json'
     ])
