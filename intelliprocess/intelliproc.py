@@ -22,27 +22,30 @@ class IntelliProcess:
             raise IntelliProcessError("No pandas dataframe has been provided.")
 
     def __str__(self):
-        '''
-        string method which returns self.df as a string using pandas to_string() function
+        """
+        String method which returns a string version of
+        an instance of self.
         :return: string
-        '''
+        """
         data_string = self.data.to_string()
         return data_string
 
     def __setitem__(self, key, value):
-        '''
-
-        :param key:
-        :param value:
-        :return:
-        '''
+        """
+        Sets the key and value for a given instance of self.
+        :param key: an entry for the key identifier.
+        :param value: an entry for the value of the given key.
+        :return: None
+        """
         self.data[key] = value
+        return None
 
     def __getitem__(self, key):
-        '''
-
-        :return:
-        '''
+        """
+        Returns an instance of self.
+        :param key: the given key value
+        :return: instance of self
+        """
         return self.data[key]
 
     def column_list(self):
@@ -55,23 +58,20 @@ class IntelliProcess:
         column_names_list = columns_names.tolist()
         return column_names_list
 
-
     def get_data(self):
-        '''
-        This function returns the dataframe itself (self.df).
-        :return: pandas dataframe (self.df)
-        '''
+        """
+        Returns an instance of a pandas data frame.
+        :return: instance of a pandas data frame
+        """
         data = self.data
         return data
 
-
     def set_data(self, data=None):
-        '''
-        This function updates the self.df attribute
-        :param df: pandas dataframe
-        :raises IntelliVizError: If df is None.
+        """
+        Updates an instance of self.
+        :param data: pandas data frame
         :return: None
-        '''
+        """
         if data is not None:
             self.data = data
         else:
@@ -84,11 +84,9 @@ class IntelliProcess:
         :return:a pandas data frame containing all columns
         in which numeric values are identified.
         """
-
         data = self.data.copy()
         numerics = ['int16', 'int32', 'int64', 'float16', 'float32', 'float64']
         data_numeric = data.select_dtypes(include=numerics)
-
         return data_numeric
 
     def run_process(self):
@@ -101,10 +99,9 @@ class IntelliProcess:
     def nan_frequency(self):
         """
         Finds the frequency of NaN values in the data set.
-        INPUT: Pandas DataFrame Object.
-        Returns: A nested list that has 1st element as feature name and
-                 2nd element the count of NaN Values.
-                 If no NaN values present returns an empty list.
+        :return: A nested list that has 1st element as feature name and
+        2nd element the count of NaN Values.
+        If no NaN values present returns an empty list.
         """
         df = self.data.copy()
         nan_counts = df.isna().sum()
@@ -126,14 +123,9 @@ class IntelliProcess:
 
     def fill_missing_values(self):
         """
-        Iterates through the columns of a DataFrame, checks for NaN values, and replaces them with the mean of the column.
-        Handles all data types including numeric, boolean, categorical, string, datetime, and timedelta.
-
-        Parameters:
-        df (pandas.DataFrame): The DataFrame to be filled with missing values.
-
-        Returns:
-        pandas.DataFrame: The DataFrame with missing values filled.
+        Checks for NA values and replaces them with imputed
+        values based on the data type of the column.
+        :return: df: data frame with imputed values
         """
         df = self.data.copy()
         # Loop through each column of the DataFrame
@@ -184,9 +176,8 @@ class IntelliProcess:
     def datatype_frequency(self):
         """
         Finds the frequency of data types in the data set features.
-        INPUT: Pandas DataFrame Object.
-        Returns: A nested list that has 1st element as data type
-                 and 2nd element the count of data type.
+        :return: A nested list that has 1st element as data type
+        and 2nd element the count of data type.
         """
         df = self.data.copy()
         dtypes_counts = df.dtypes.value_counts().reset_index()
@@ -205,9 +196,9 @@ class IntelliProcess:
     def feature_type_frequency(self):
         """
         Finds the frequency of categorical or numerical features.
-        INPUT:Pandas DataFrame object.
-        Return:A nested list with 1st element as the type of variable
-               (Categorical/Numerical) and 2nd element as the count of the variable.
+        :return: A nested list with 1st element
+        as the type of variable. (Categorical/Numerical) and 2nd
+        element as the count of the variable.
         """
         df = self.data.copy()
         categorical_count = 0
@@ -228,10 +219,16 @@ class IntelliProcess:
             temp.append(features[i])
             temp.append(values[i])
             result.append(temp)
-
         return (result)
 
     def suggest_encoding(self):
+        """
+        Surveys the data types in a given dataset and
+        provides recommendation as to whether data requires
+        encoding.
+        :return: the suggested encoding type, unless no encoding
+        is suggested, then it returns none.
+        """
         categorical_cols = []
         numeric_cols = []
 
@@ -258,7 +255,14 @@ class IntelliProcess:
                 print("Few categorical columns found. Suggesting Binary Encoding.")
                 return 'binary'
 
-    def encode_data(self, encoding_type):
+    def encode_data(self, encoding_type = "label"):
+        """
+        Encodes data according to a given identified data type.
+        :param encoding_type: users selection of encoding
+        type to be performed on the provided data.Encoding type
+        is label if no other choice is made.
+        :return: an encoded dataset
+        """
         if encoding_type == 'label':
             encoded_data = self.data.copy()
             for col in encoded_data.columns:
@@ -292,7 +296,6 @@ class IntelliProcess:
         """
         Removes outliers based on inter quartile range
         and provides a csv file output.
-        :param data_numeric: data frame of all numeric values.
         :return: updated_data: a new csv file with outlier
         observations removed.
         """
@@ -317,7 +320,6 @@ class IntelliProcess:
         Creates a subset containing a single variable in a
         given dataset, when provided the dataset's
         filepath and column name of the chosen variable.
-        :param data_location: filepath
         :param x_name: string indicating the name of
         the requested column to subset.
         :return:data frame of data subset
@@ -326,15 +328,11 @@ class IntelliProcess:
         df = data[x_name].copy().to_numpy()
         return df
 
-
-    # Skewness and Histogram PLots:
-    # Fisher-Pearson method of Skew Measure
     def skew(self):
         """
         Creates an associative array containing all column
         names of a given dataset and their calculated
         Fisher-Pearson skew value.
-        :param data_numeric: a dataset of only numerics
         :return:skewness: a dictionary containing the
         column names as keys and associated skewness numbers
         as values.
@@ -355,14 +353,14 @@ class IntelliProcess:
                 skewness[data_cols[j]] = skew_list[j]
             return skewness
 
-
-    # Scaling/ Transforming Data:
-    # Progressing - Need to check once 'select_x' fcn is complete
-    def scaling_box_cox(self,x_column):
+    def scaling_box_cox(self, x_column):
         """
-
-        :param x_column:
-        :return: None
+        Transforms a single column of values based on
+        a fitted lambda value and provides two plots, one of the
+        original data and one of the transformed.
+        :param x_column: a subset of a single variable
+        from a given dataset
+        :return: transformed: transformed data
         """
         transformed, fitted_lambda = stats.boxcox(x_column)
         fig, axes = plt.subplots(1, 2)
@@ -382,12 +380,12 @@ class IntelliProcess:
     def scaling_log(self, x_column):
         """
         Transforms a single column of values based on
-        a log base 10 and provides two plots
+        a log base 10 and provides two plots, one of the
+        original data and one of the transformed.
         :param x_column: a subset of a single variable
         from a given dataset.
-        :return: data_output:
+        :return: data_output:data frame of transformed data.
         """
-
         values = np.log10(x_column)
         data_output = pd.DataFrame(values)
         fig, axes = plt.subplots(1, 2)
