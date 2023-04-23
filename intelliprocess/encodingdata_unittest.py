@@ -1,6 +1,20 @@
 import unittest
 import pandas as pd
+import os
 from data_encoder import DataEncoder
+
+
+# Load json file outlining all file paths for datasets in Testing_Datasets directory
+cwd = os.getcwd()
+json_data = '/Testing_Datasets/testing_datasets.json'
+full_path = cwd + json_data
+json_data = open(full_path).read()
+testing_datasets = json.loads(json_data)
+df = pd.read_csv(path + str(testing_datasets["data"]["sonar"]["datafile"]))
+    ip = IntelliProcess(df)
+    print(ip.suggest_encoding())
+    print(ip.encode_data('label'))
+
 
 class TestDataEncoder(unittest.TestCase):
 
