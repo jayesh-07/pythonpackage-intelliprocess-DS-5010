@@ -3,8 +3,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 from scipy import stats
-import csv
-import os
 import datetime
 
 
@@ -104,9 +102,12 @@ def histogram_plots(data_numeric):
 # Progressing - Need to check once 'select_x' fcn is complete
 def scaling_box_cox(x_column):
     """
-
-    :param x_column:
-    :return: None
+    Transforms a single column of values based on
+    a fitted lambda value and provides two plots, one of the
+    original data and one of the transformed.
+    :param x_column: a subset of a single variable
+    from a given dataset.
+    :return: data_output:data frame of transformed data.
     """
     transformed, fitted_lambda = stats.boxcox(x_column)
     fig, axes = plt.subplots(1, 2)
@@ -126,10 +127,11 @@ def scaling_box_cox(x_column):
 def scaling_log(x_column):
     """
     Transforms a single column of values based on
-    a log base 10 and provides two plots
+    a log base 10 and provides two plots, one of the
+    original data and one of the transformed.
     :param x_column: a subset of a single variable
     from a given dataset.
-    :return: data_output:
+    :return: data_output:data frame of transformed data.
     """
     values = np.log10(x_column)
     data_output = pd.DataFrame(values)
