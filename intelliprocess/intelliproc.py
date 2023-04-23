@@ -398,29 +398,3 @@ class IntelliProcess:
         return data_output
 
 
-
-
-if __name__ == "__main__":
-    # Works
-    print(scaling_box_cox(select_x('/Users/taylorgoodwin/Documents/GitHub/'
-                                   'pythonpackage-intelliprocess-DS-5010/'
-                                   'intelliprocess/Testing_Datasets/iris.csv', 'sepal_width')))
-
-    # Works
-    print(scaling_log(select_x('/Users/taylorgoodwin/Documents/GitHub/'
-                               'pythonpackage-intelliprocess-DS-5010/'
-                               'intelliprocess/Testing_Datasets/iris.csv', 'sepal_width')))
-
-    # Works
-    print(skew(select_num('/Users/taylorgoodwin/Documents/GitHub/'
-                          'pythonpackage-intelliprocess-DS-5010/'
-                          'intelliprocess/Testing_Datasets/iris.csv')))
-    # Works
-    outlier_removal_IQR_method(select_num('/Users/taylorgoodwin/Documents/GitHub/'
-                                          'pythonpackage-intelliprocess-DS-5010/'
-                                          'intelliprocess/Testing_Datasets/iris.csv'))
-    # Works
-    print(histogram_plots(select_num('/Users/taylorgoodwin/Documents/GitHub/'
-                                     'pythonpackage-intelliprocess-DS-5010/'
-                                     'intelliprocess/Testing_Datasets/iris.csv')))
-
