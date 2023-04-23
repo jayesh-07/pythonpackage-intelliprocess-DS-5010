@@ -52,6 +52,15 @@ git clone https://github.com/jayesh-07/pythonpackage-intelliprocess-DS-5010
 
 
 ## Dependencies
+  - numpy
+  - pandas  
+  - matplotlib 
+  - seaborn
+  - datetime
+  - scipy
+  - csv
+  - statsmodels
+  - os
 
 
 ## License
