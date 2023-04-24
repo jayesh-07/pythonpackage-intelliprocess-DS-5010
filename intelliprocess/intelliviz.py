@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns
 import statsmodels.api as sm
 import datetime
 
@@ -12,8 +11,7 @@ class IntelliVizError(Exception):
 
 class IntelliViz():
     '''
-    class for data visualization methods
-    :param df: pandas dataframe
+    object for data visualization methods given tabular numerical and categorical data
     '''
     def __init__(self, df=None):
         '''
@@ -67,6 +65,7 @@ class IntelliViz():
         else:
             raise IntelliVizError("No pandas dataframe provided.")
 
+
     def get_df_numeric(self):
         '''
         function to extract only numerical dtypes from a dataframe (self.df) and
@@ -79,14 +78,15 @@ class IntelliViz():
         df_numeric = df.select_dtypes(include=numerics)
         return df_numeric
 
+
     def pearsons_r(self,x,y):
         '''
         this function calculates the Pearson's correlation coefficient (Pearson's r)
         r = Σ[(x_i - µx)(y_i - µy)] / √[Σ(x_i - µx)^2 * Σ(y_i - µy)^2]
         Measures the linear relationship between two continuous variables. It ranges from -1 to 1.
-        :param x:
-        :param y:
-        :return:
+        :param x: array like object (np.array or pd.Series)
+        :param y: array like object (np.array or pd.Series)
+        :return: float - pearson's correlation coefficient
         '''
         # convert to numpy arrays with float type 32 to increase speed
         x, y = np.array(x, dtype="float32"), np.array(y,dtype="float32")
@@ -111,7 +111,7 @@ class IntelliViz():
     def pearson_corr_matrix(self):
         '''
         Calculutes and creates a pearson coorelation matrix
-        :return: pandas dataframe
+        :return: pandas dataframe - correlation matrix
         '''
 
         df2 = self.get_df_numeric()
@@ -126,7 +126,6 @@ class IntelliViz():
         return final_df
 
 
-
     def correlation_matrix_heatmap(self, colors='coolwarm',
                                    show_values=False,
                                    save=False,
@@ -134,9 +133,14 @@ class IntelliViz():
         '''
         This code creates a heatmap dataset using pandas DataFrame, calculates the
         correlation matrix, and then uses matplotlib to create .
-        :param colors:
+        :param colors: matplotlib colormap
+        See https://matplotlib.org/stable/tutorials/colors/colormaps.html
+        :param show_values: bool - True to show correlation coefficients over each box in
+        the heatmap. False- don't show values
+        :param save: bool, choose if you would like to save the file to your working directory
+        :param filename: string of filename to save
         :raises: IntelliVizError if no pandas dataframe has been provided
-        :return: None
+        :return: fig, ax objects from matplotlib.pyplot subplots method
         '''
 
         # should I add a save functionality?
@@ -186,22 +190,23 @@ class IntelliViz():
         '''
         This functions calculates the coefficient of determination (R²)
         specificly for simple linear regressions.
-        :param x:
-        :param y:
-        :return:
+        :param x: array like object (np.array or pd.Series)
+        :param y: array like object (np.array or pd.Series)
+        :return: float - coefficient_of_determination
         '''
 
         r = self.pearsons_r(x, y)
         r_squared = r ** 2
         return r_squared
 
+
     def boxplot(self,save=False,
                 filename="intelliviz_boxplot"):
         '''
         creates a boxplot of all numerical dtypes in a dataframe (self.df)
-        :param save:
-        :param filename:
-        :return:
+        :param save: bool
+        :param filename: string
+        :return: fig, ax objects from matplotlib.pyplot subplots method
         '''
 
         # extract only numeric values for inclusion into the boxplot
@@ -235,14 +240,16 @@ class IntelliViz():
 
         return fig, ax
 
-    def columns_scatter(self,target_var=None):
+
+    def columns_scatter(self,target_var):
         '''
         This function creates scatter plots of each variable against the target variable.
-        :param target_var: A string representing the target variable.
-        :return:
+        :param target_var: A string representing the target variable column name.
+        :return: None
         '''
 
         # Create scatter plots for each variable against the target variable
+        df = self.get_df_numeric()
         for col in df.columns:
             if col != target_var:
                 plt.scatter(df[col], df[target_var])
@@ -251,19 +258,20 @@ class IntelliViz():
                 plt.title(f'Scatter plot of {col} vs {target_var}')
                 plt.show()
 
+
     def qqplot(self,array=None, line_type='45',show=True):
         '''
         This function creates a QQ plot of the data using statsmodels.
         further documentation = https://www.statsmodels.org/stable/api.html
-        :param array: An array-like object representing the data to be plotted.
-        :param line: A string representing the line to be plotted on the QQ plot.
+        :param array: array like object (np.array or pd.Series)
+        :param line_type: A string representing the line to be plotted on the QQ plot.
         :param show: A boolean representing whether or not to display the plot.
         :return: fig (statsmodels QQPlot): The statsmodels QQPlot object representing the plot.
         '''
+
         if array is None:
             print("Please provide an array-like object to be plotted.")
             return
-
         fig = sm.qqplot(array,line=line_type)
         if show is True:
             plt.show()
@@ -276,7 +284,6 @@ class IntelliViz():
         four varied binwidths (5, 10, 15, 20) and contain a
         different colored histogram  for each of the columns
         in a given numeric dataset.
-        :param data_numeric:  a dataset of only numerics
         :return: None
         """
         data_numeric = self.get_df_numeric()
@@ -291,8 +298,4 @@ class IntelliViz():
         plt.tight_layout()
         plt.show()
         return None
-
-
-
-
 
