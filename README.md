@@ -79,5 +79,3 @@ i = IntelliViz(df)
 ```
 
 
-## Getting Help
-
