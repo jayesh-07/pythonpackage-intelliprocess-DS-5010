@@ -89,3 +89,21 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
+## References
+
+[1] Harris, C.R., Millman, K.J., van der Walt, S.J. et al. Array programming with NumPy. Nature 585, 357–362 (2020). https://doi.org/10.1038/s41586-020-2649-2. (https://www.nature.com/articles/s41586-020-2649-2)
+
+[2] J. D. Hunter, "Matplotlib: A 2D Graphics Environment", Computing in Science & Engineering, vol. 9, no. 3, pp. 90-95, 2007.
+
+[3] Waskom, M., Botvinnik, Olga,;O’Kane, Drew, et al.(2017). mwaskom/seaborn: v0.8.1 (September 2017). Zenodo. https://doi.org/10.5281/zenodo.883859
+
+[4] McKinney, W., & others. (2010). Data structures for statistical computing in python. In Proceedings of the 9th Python in Science Conference (Vol. 445, pp. 51–56).
+
+[5] Virtanen, P., Gommers, R., Oliphant, T. E., Haberland, M., Reddy, T., Cournapeau, D., … SciPy 1.0 Contributors. (2020). SciPy 1.0: Fundamental Algorithms for Scientific Computing in Python. Nature Methods, 17, 261–272. https://doi.org/10.1038/s41592-019-0686-2
+
+[6] Seabold, S., & Perktold, J. (2010). statsmodels: Econometric and statistical modeling with python. In 9th Python in Science Conference.
+
+[7] National Institute of Standards and Technology, US Department of Commerce.(2021). Exploratory Data Analysis. https://www.itl.nist.gov/div898/handbook/eda/section3/eda35b.htm
+
+[8] The pandas development team, “pandas-dev/pandas: Pandas”. Zenodo, Apr. 03, 2023. doi: 10.5281/zenodo.7794821.
+
