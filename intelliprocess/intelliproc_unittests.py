@@ -76,7 +76,11 @@ class TestIntelliProcess(unittest.TestCase):
     def test_select_num(self):
         # Test selecting only numeric columns
         expected = pd.DataFrame({"A": [1, 5, 9, 13], "B": [2, 6, 10, 14], "C": [3, 7, 11, 15]})
-        self.assertTrue(self
+        self.assertTrue('col1' in num_df.columns)
+        self.assertTrue('col2' in num_df.columns)
+        self.assertTrue('col4' in num_df.columns)
+        self.assertTrue('col5' not in num_df.columns)
+
 
 
     def test_nan_frequency(self):
@@ -139,4 +143,7 @@ class TestIntelliProcess(unittest.TestCase):
             'C': [0.1, 0.2, 0.3, 0.4, 0.5],
             'D': ['yes', 'no', 'yes', 'no', 'yes'],
             'E': [True, False, True, False, True]
-       
+        })
+    
+if __name__ == '__main__':
+    unittest.main()
