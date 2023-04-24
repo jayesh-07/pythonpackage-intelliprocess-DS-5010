@@ -32,6 +32,26 @@ class IntelliViz():
         '''
         df_string = self.df.to_string()
         return df_string
+    
+
+    def __setitem__(self, key, value):
+        """
+        Sets the key and value for a given instance of self.
+        :param key: an entry for the key identifier.
+        :param value: an entry for the value of the given key.
+        :return: None
+        """
+        self.df[key] = value
+        return None
+
+
+    def __getitem__(self, key):
+        """
+        Returns an instance of self.
+        :param key: the given key value
+        :return: instance of self
+        """
+        return self.df[key]
 
 
     def get_columns(self):
