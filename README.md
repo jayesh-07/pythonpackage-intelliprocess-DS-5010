@@ -46,9 +46,11 @@ The source code is currently hosted on GitHub at:
 https://github.com/jayesh-07/pythonpackage-intelliprocess-DS-5010
 
 ```sh
-# 
 git clone https://github.com/jayesh-07/pythonpackage-intelliprocess-DS-5010
 ```
+
+## Documentation
+For complete documentation and code examples, please see https://docs.google.com/document/d/13324RP0-XKVsjlOo9V-Dvz-BvhilVLXv0XmCQXoc0rU/edit?usp=sharing
 
 
 ## Dependencies
@@ -85,9 +87,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-## Documentation
-For complete documentation and code examples, please see https://docs.google.com/document/d/13324RP0-XKVsjlOo9V-Dvz-BvhilVLXv0XmCQXoc0rU/edit?usp=sharing
-
 
 
