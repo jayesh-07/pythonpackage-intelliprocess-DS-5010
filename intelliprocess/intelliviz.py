@@ -123,9 +123,11 @@ class IntelliViz():
                                np.sum(y_deviation_from_mean_sqrd)))
 
         # calculate Pearson's r
-        r = numerator / denominator
-
-        return r
+        if str(denominator) != 'nan':
+            r = numerator / denominator
+            return r
+        else:
+            return None
 
 
     def pearson_corr_matrix(self):
