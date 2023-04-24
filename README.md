@@ -87,15 +87,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## Documentation
-See https://docs.google.com/document/d/13324RP0-XKVsjlOo9V-Dvz-BvhilVLXv0XmCQXoc0rU/edit?usp=sharing
+For complete documentation and code examples, please see https://docs.google.com/document/d/13324RP0-XKVsjlOo9V-Dvz-BvhilVLXv0XmCQXoc0rU/edit?usp=sharing
 
-
-```sh
-# import IntelliViz object to handle easy vizualizations! 
-from intelliprocess.intelliviz import IntelliViz
-
-# import a dataframe
-i = IntelliViz(df)
-```
 
 
