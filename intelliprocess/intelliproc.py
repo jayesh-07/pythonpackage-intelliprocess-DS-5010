@@ -89,13 +89,6 @@ class IntelliProcess:
         data_numeric = data.select_dtypes(include=numerics)
         return data_numeric
 
-    def run_process(self):
-        '''
-        function that will run all of the code
-        :return:
-        '''
-        pass
-
     def nan_frequency(self):
         """
         Finds the frequency of NaN values in the data set.
