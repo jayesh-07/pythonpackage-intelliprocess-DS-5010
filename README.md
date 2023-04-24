@@ -4,7 +4,7 @@
 
 -----------------
 
-# intelliprocess: for machine learning data preprocessing
+# IntelliProcess: data pre-processing and visualization for machine learning
 
 ## What is intelliprocess?
 
