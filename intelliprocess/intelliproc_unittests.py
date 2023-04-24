@@ -1,12 +1,21 @@
 import unittest
 import pandas as pd
-import numpy as np
-from io import StringIO
-from unittest.mock import patch
 import matplotlib.pyplot as plt
-from intelliproc import IntelliProcess
+from scipy import stats
+from intelliproc import IntelliProcess, IntelliProcessError
+import timeit
+import numpy as np
+import json
+import csv
+import os
+from io import StringIO
+
+
 
 class TestIntelliProcess(unittest.TestCase):
+    '''
+    Unit tests for the Intelliproc class methods
+    '''
     
     def setUp(self):
         # set up a pandas DataFrame
@@ -74,67 +83,152 @@ class TestIntelliProcess(unittest.TestCase):
             self.obj.set_data([])
     
     def test_select_num(self):
-        # Test selecting only numeric columns
-        expected = pd.DataFrame({"A": [1, 5, 9, 13], "B": [2, 6, 10, 14], "C": [3, 7, 11, 15]})
-        self.assertTrue('col1' in num_df.columns)
-        self.assertTrue('col2' in num_df.columns)
-        self.assertTrue('col4' in num_df.columns)
-        self.assertTrue('col5' not in num_df.columns)
-
+        self.data = pd.DataFrame({
+            'a': [1, 2, 3],
+            'b': [4.0, 5.0, 6.0],
+            'c': ['cat', 'dog', 'bird']
+        })
+        intelli_process = IntelliProcess(self.data)
+        result = intelli_process.select_num()
+        expected_result = pd.DataFrame({
+            'a': [1, 2, 3],
+            'b': [4.0, 5.0, 6.0]
+        })
+        pd.testing.assert_frame_equal(result, expected_result)
 
 
     def test_nan_frequency(self):
-        expected_output = {
-            'A': 0,
-            'B': 0,
-            'C': 0,
-            'D': 0,
-            'E': 0
-        }
-        self.assertEqual(self.processor.nan_frequency(), expected_output)
+        # Test that the `nan_frequency` method correctly returns a nested list that has 1st element as feature name and 2nd element the count of NaN Values.
+        data = pd.DataFrame({'A': [1, 2, np.nan], 'B': [4, np.nan, 6], 'C': [7, 8, 9]})
+        process = IntelliProcess(data)
+        nan_frequency_list = process.nan_frequency()
+        assert nan_frequency_list == [['A', 1], ['B', 1], ['C', 0]]
 
     def test_fill_missing_values(self):
-        self.processor.fill_missing_values()
-        self.assertFalse(self.processor.df.isnull().values.any())
+        # create a dataframe with missing values
+        df = pd.DataFrame({
+            'numeric_col': [1, 2, 3, None, 5],
+            'categorical_col': ['a', 'b', None, 'a', 'c'],
+            'string_col': ['foo', 'bar', 'baz', None, 'qux'],
+            'datetime_col': pd.to_datetime(['2021-01-01', '2021-01-02', '2021-01-03', None, '2021-01-05']),
+            'timedelta_col': pd.to_timedelta(['1 days', '2 days', None, '4 days', '5 days'])
+        })
+
+        # create an IntelliProcess object with the dataframe
+        ip = IntelliProcess(data=df)
+
+        # fill missing values
+        filled_df = ip.fill_missing_values()
+
+        # check that there are no missing values in the filled dataframe
+        self.assertFalse(filled_df.isnull().values.any())
 
     def test_datatype_frequency(self):
-        expected_output = {
-            'int64': 1,
-            'object': 2,
-            'float64': 1,
-            'bool': 1
-        }
-        self.assertEqual(self.processor.datatype_frequency(), expected_output)
+        # create test dataframe
+        data = StringIO("name,age,salary\njohn,30,50000\njane,25,60000\nbob,35,70000")
+        df = pd.read_csv(data)
+
+        # create instance of IntelliProcess class
+        ip = IntelliProcess(df)
+
+        # call datatype_frequency method
+        result = ip.datatype_frequency()
+
+        # check if the result is a nested list with the correct elements
+        assert isinstance(result, list)
+        assert len(result) == 3
+        assert all(isinstance(i, list) and len(i) == 2 for i in result)
+
+        # check if the plot is created
+        assert plt.fignum_exists(1)
+
+        # check if the plot has the correct title, x and y labels
+        ax = plt.gca()
+        assert ax.get_title() == 'Data Type Frequency'
+        assert ax.get_xlabel() == 'Data Type'
+        assert ax.get_ylabel() == 'Count'
+
+        # check if the plot bars represent the correct data types and counts
+        assert ax.patches[0].get_height() == 3
+        assert ax.patches[1].get_height() == 3
+
+        # check if the plot x ticks represent the correct data types
+        assert ax.get_xticklabels()[0].get_text() == "int64"
+        assert ax.get_xticklabels()[1].get_text() == "object"
 
     def test_feature_type_frequency(self):
-        expected_output = {
-            'categorical': 2,
-            'numerical': 3
-        }
-        self.assertEqual(self.processor.feature_type_frequency(), expected_output)
+        self.data = pd.DataFrame({
+            'a': ['foo', 'bar', 'foo', 'bar', 'foo', 'foo', 'bar', 'foo'],
+            'b': [1, 2, 3, 4, 5, 6, 7, 8],
+            'c': ['spam', 'ham', 'spam', 'ham', 'spam', 'spam', 'ham', 'spam']
+        })
+        self.processor = IntelliProcess(self.data)
+        expected_result = [['Categorical', 2], ['Numerical', 1]]
+        result = self.processor.feature_type_frequency()
+        self.assertEqual(result, expected_result)
 
     def test_suggest_encoding(self):
-        expected_output = {
-            'B': 'one-hot',
-            'D': 'label',
-            'E': 'label'
-        }
-        self.assertEqual(self.processor.suggest_encoding(), expected_output)
+        self.df_label = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        self.df_onehot = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        self.df_binary = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        ip_label = IntelliProcess(self.df_label)
+        self.assertEqual(ip_label.suggest_encoding(), 'label')
+        ip_one = IntelliProcess(self.df_onehot)
+        self.assertEqual(ip_one.suggest_encoding(), 'one-hot')
+        ip_binary = IntelliProcess(self.df_binary)
+        self.assertEqual(ip_binary.suggest_encoding(), 'binary')
+    
+    def test_encode_data_label(self):
+        # Test label encoding
+        self.df = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        processor = IntelliProcess(self.df)
+        encoded_data = processor.encode_data('label')
+        self.assertIsInstance(encoded_data, pd.DataFrame)
+        self.assertListEqual(list(encoded_data.columns), ['A', 'B', 'C'])
+        self.assertListEqual(list(encoded_data['A']), [0, 1, 2, 1])
 
-    def test_encode_data(self):
-        expected_output = pd.DataFrame({
-            'A': [1, 2, 3, 4, 5],
-            'B_a': [1, 0, 0, 0, 0],
-            'B_b': [0, 1, 0, 0, 0],
-            'B_c': [0, 0, 1, 0, 0],
-            'B_d': [0, 0, 0, 1, 0],
-            'B_e': [0, 0, 0, 0, 1],
-            'C': [0.1, 0.2, 0.3, 0.4, 0.5],
-            'D': [1, 0, 1, 0, 1],
-            'E': [1, 0, 1, 0, 1]
-        })
-        self.processor.encode_data('one-hot')
-        pd.testing.assert_frame_equal(self.processor.df, expected_output)
+    def test_encode_data_one_hot(self):
+        # Test one-hot encoding
+        self.df = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        processor = IntelliProcess(self.df)
+        encoded_data = processor.encode_data('one-hot')
+        self.assertIsInstance(encoded_data, pd.DataFrame)
+        self.assertListEqual(list(encoded_data.columns), ['foo', 'bar', 'baz', 'B', 'C'])
+        self.assertListEqual(list(encoded_data['foo']), [1, 0, 0, 0])
+        self.assertListEqual(list(encoded_data['bar']), [0, 1, 0, 1])
+        self.assertListEqual(list(encoded_data['baz']), [0, 0, 1, 0])
+
+    def test_encode_data_binary(self):
+        # Test binary encoding
+        self.df = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        processor = IntelliProcess(self.df)
+        encoded_data = processor.encode_data('binary')
+        self.assertIsInstance(encoded_data, pd.DataFrame)
+        self.assertListEqual(list(encoded_data.columns), ['A_foo', 'A_bar', 'A_baz', 'B', 'C'])
+        self.assertListEqual(list(encoded_data['A_foo']), [1, 0, 0, 0])
+        self.assertListEqual(list(encoded_data['A_bar']), [0, 1, 0, 1])
+        self.assertListEqual(list(encoded_data['A_baz']), [0, 0, 1, 0])
+
+    def test_encode_data_invalid(self):
+        # Test invalid encoding type
+        self.df = pd.DataFrame({'A': ['foo', 'bar', 'baz', 'bar'], 
+                                'B': [1, 2, 3, 4], 
+                                'C': [0.1, 0.2, 0.3, 0.4]})
+        processor = IntelliProcess(self.df)
+        encoded_data = processor.encode_data('invalid')
+        self.assertIsNone(encoded_data)
 
     def test_outlier_removal_IQR_method(self):
         expected_output = pd.DataFrame({
@@ -144,6 +238,68 @@ class TestIntelliProcess(unittest.TestCase):
             'D': ['yes', 'no', 'yes', 'no', 'yes'],
             'E': [True, False, True, False, True]
         })
+
+    def test_select_x(self):
+        self.df = pd.DataFrame({
+            'x1': [1, 2, 3, 4],
+            'x2': [5, 6, 7, 8],
+            'x3': [9, 10, 11, 12]
+        })
+        self.processor = IntelliProcess(self.df)
+
+        x_name = 'x1'
+        expected_output = np.array([1, 2, 3, 4])
+        np.testing.assert_array_equal(self.processor.select_x(x_name), expected_output)
+
+    def test_skew(self):
+        data = {'A': [1, 2, 3, 4, 5],
+            'B': [6, 7, 8, 9, 10],
+            'C': [11, 12, 13, 14, 15]}
+        df = pd.DataFrame(data)
+        intelli = IntelliProcess(df)
+        skewness = intelli.skew()
+        expected_skewness = {'A': -1.264911064067352,
+                            'B': -1.264911064067352,
+                            'C': -1.264911064067352}
+        self.assertEqual(skewness, expected_skewness)
+
+
+    def test_scaling_box_cox(self):
+        # Create a sample data set
+        data = {'x': np.random.normal(loc=10, scale=2, size=100)}
+        df = pd.DataFrame(data)
+
+        # Create an instance of IntelliProcess and call scaling_box_cox on x
+        processor = IntelliProcess(df)
+        transformed = processor.scaling_box_cox(df['x'])
+
+        # Ensure that transformed has the same length as x
+        assert len(transformed) == len(df['x'])
+
+        # Ensure that the lambda value is not null
+        #assert isinstance(processor.fitted_lambda, float)
+        
+        # Ensure that the transformed data has a normal distribution
+        assert stats.normaltest(transformed).pvalue > 0.05
+
+        # Ensure that the plots are displayed
+        assert plt.gcf()
+
+    def test_scaling_log(self):
+        # create a sample dataframe with positive values
+        data = pd.DataFrame({
+            'A': [1, 2, 3, 4, 5],
+            'B': [6, 7, 8, 9, 10]
+        })
+        intelli_process = IntelliProcess(data)
+        
+        # test on column 'A'
+        x_column = data['A']
+        data_output = intelli_process.scaling_log(x_column)
+        
+        # assert that transformed values are correct
+        assert np.array_equal(data_output, pd.DataFrame(np.log10(x_column)))
+
     
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main(verbosity=3)

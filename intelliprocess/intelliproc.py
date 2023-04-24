@@ -355,7 +355,7 @@ class IntelliProcess:
         """
         data_numeric = self.select_num()
         skewness = dict()
-        data_cols = column_list(data_numeric)
+        data_cols = self.column_list()
         for i in range(len(data_cols)):
             means = data_numeric.mean()
             mean = means.values
@@ -391,8 +391,7 @@ class IntelliProcess:
 
 
     # Log Transformation for a Given Column
-    # Progressing - Incomplete
-    # incorporate with scatterplot fcn (shane)
+   
     def scaling_log(self, x_column):
         """
         Transforms a single column of values based on
