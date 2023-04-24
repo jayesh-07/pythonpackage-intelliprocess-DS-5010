@@ -4,7 +4,7 @@ import numpy as np
 from io import StringIO
 from unittest.mock import patch
 import matplotlib.pyplot as plt
-
+from intelliproc import IntelliProcess
 
 class TestIntelliProcess(unittest.TestCase):
     
